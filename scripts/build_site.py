@@ -14,13 +14,16 @@ from datetime import datetime, timedelta
 from jinja2 import Environment, FileSystemLoader
 from common import (
     BASE_DIR, DATA_DIR, DOCS_DIR, KST,
-    load_categories, load_json, save_json, today_str,
+    load_categories, load_json, save_json, today_str, rank_articles,
 )
 
 TEMPLATES_DIR = os.path.join(BASE_DIR, "templates")
 STATIC_DIR = os.path.join(BASE_DIR, "static")
 
 WEEKDAY_KO = ["월", "화", "수", "목", "금", "토", "일"]
+
+MAX_PER_CATEGORY = 5    # 카테고리별 최대 노출 건수
+MAX_COMPANY_TOTAL = 5   # 관심기업 섹션 전체 최대 노출 건수
 
 
 def label_for(date_str: str) -> str:
@@ -44,6 +47,40 @@ def build_highlight(company_count, cat_counts):
     return " · ".join(parts) if parts else "오늘은 새 소식이 없어요"
 
 
+def pick_company_articles(articles, max_total):
+    """관심기업별로 골고루 섞어서 상위 max_total건만 뽑는다 (특정 기업 뉴스 쏠림 방지)."""
+    by_company = {}
+    for a in articles:
+        companies = a.get("companies") or []
+        if not companies:
+            continue
+        primary = companies[0]  # 여러 기업에 걸치면 첫 번째 기업 소속으로만 카운트
+        by_company.setdefault(primary, []).append(a)
+
+    for company in by_company:
+        by_company[company] = rank_articles(by_company[company])
+
+    picked, seen_links = [], set()
+    idx = 0
+    companies_order = list(by_company.keys())
+    while len(picked) < max_total and companies_order:
+        progressed = False
+        for company in companies_order:
+            bucket = by_company[company]
+            if idx < len(bucket):
+                art = bucket[idx]
+                if art["link"] not in seen_links:
+                    picked.append(art)
+                    seen_links.add(art["link"])
+                    progressed = True
+                if len(picked) >= max_total:
+                    break
+        idx += 1
+        if not progressed:
+            break
+    return picked
+
+
 def main():
     env = Environment(loader=FileSystemLoader(TEMPLATES_DIR))
     categories_conf = load_categories()
@@ -53,11 +90,15 @@ def main():
     label = label_for(date_str)
 
     company_articles = [a for a in articles if a.get("companies")]
+    company_articles = pick_company_articles(company_articles, MAX_COMPANY_TOTAL)
+
     grouped = {cat: [] for cat in categories_conf}
     for a in articles:
         for cat in a.get("categories", []):
             if cat in grouped:
                 grouped[cat].append(a)
+    for cat in grouped:
+        grouped[cat] = rank_articles(grouped[cat])[:MAX_PER_CATEGORY]
 
     # ---- docs 폴더 준비 ----
     os.makedirs(os.path.join(DOCS_DIR, "briefing"), exist_ok=True)
