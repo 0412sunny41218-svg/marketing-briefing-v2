@@ -3,6 +3,7 @@ import json
 import re
 import os
 from datetime import datetime, timezone, timedelta
+from difflib import SequenceMatcher
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONFIG_DIR = os.path.join(BASE_DIR, "config")
@@ -52,6 +53,40 @@ def rank_articles(articles, major_outlets=None):
     sorted_by_recency = sorted(articles, key=lambda a: a.get("pub_iso", ""), reverse=True)
     sorted_by_recency.sort(key=lambda a: 0 if a.get("source") in major_outlets else 1)
     return sorted_by_recency
+
+
+def normalize_title(title: str) -> str:
+    """제목 비교용 정규화: 공백/문장부호 제거"""
+    if not title:
+        return ""
+    t = re.sub(r"[\s·\-–—:,\"'“”‘’…!?\.\(\)\[\]]+", "", title)
+    return t.lower()
+
+
+def _title_similarity(a: str, b: str) -> float:
+    """0~1 사이 유사도 (difflib 기반, AI 미사용)"""
+    if not a or not b:
+        return 0.0
+    return SequenceMatcher(None, a, b).ratio()
+
+
+def dedupe_by_title(articles, similarity_threshold: float = 0.72):
+    """제목이 사실상 동일/유사한 기사는 하나만 남긴다
+    (여러 매체가 같은 소식을 조금씩 다르게 옮겨 쓴 경우 등).
+    articles는 이미 원하는 우선순위로 정렬돼 있다고 가정 (먼저 나온 것을 남김)."""
+    kept_norms = []
+    result = []
+    for a in articles:
+        key = normalize_title(a.get("title", ""))
+        if not key:
+            result.append(a)
+            continue
+        is_dup = any(_title_similarity(key, k) >= similarity_threshold for k in kept_norms)
+        if is_dup:
+            continue
+        kept_norms.append(key)
+        result.append(a)
+    return result
 
 
 def clean_html(raw_html: str) -> str:
