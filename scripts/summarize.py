@@ -1,7 +1,8 @@
 """
 규칙 기반(rule-based) 요약 생성기. 외부 AI 호출 없음, 비용 0원.
 
-- content(무슨 내용인가요): RSS 스니펫에서 의미 있는 문장을 최대한 살려 추출
+- content(무슨 내용인가요): 원문 페이지에서 추출한 본문(body_text)을 최우선으로 사용,
+  본문 추출에 실패한 기사만 RSS 스니펫 -> 그마저도 없으면 제목으로 대체
 """
 import os
 from common import DATA_DIR, load_json, save_json
@@ -18,18 +19,26 @@ def split_sentences(text: str):
 
 
 def build_content(article) -> str:
+    body = article.get("body_text", "")
     raw = article.get("summary_raw", "")
-    if not raw or len(raw) < 5:
+
+    # 1순위: 원문 페이지에서 추출한 실제 본문
+    # 2순위: RSS 스니펫 (본문 추출 실패 시)
+    # 3순위: 제목 (둘 다 없을 때)
+    source_text = body if len(body) >= 40 else raw
+
+    if not source_text or len(source_text) < 5:
         return article["title"]
-    sentences = split_sentences(raw)
+
+    sentences = split_sentences(source_text)
     if not sentences:
-        return raw[:200]
-    # 기사 원문 스니펫을 최대한 살려서 3문장까지, 길이는 넉넉하게 허용
+        return source_text[:200]
+
     picked = sentences[:3]
     text = " ".join(picked)
     if len(text) > 260:
         text = text[:257].rstrip() + "..."
-    # 스니펫이 제목과 거의 같은 경우(요약이 아니라 제목 반복인 경우) 대비
+
     if text.strip() == article["title"].strip():
         return article["title"]
     return text

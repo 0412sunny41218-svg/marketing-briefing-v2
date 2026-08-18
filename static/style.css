@@ -246,7 +246,7 @@ body {
   background: var(--blue-soft);
   border-radius: var(--radius-sm);
   padding: 12px 14px;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 .company-section .info-box { background: rgba(255,255,255,.08); }
 .info-box .label {
