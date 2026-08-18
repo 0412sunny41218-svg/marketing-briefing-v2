@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ date }} 마케팅 브리핑</title>
+<link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <a class="back-link" href="../index.html">← 홈으로</a>
+  </div>
+
+  <div class="briefing-header">
+    <div class="date-eyebrow" style="color:var(--ink-soft);font-size:13px;">TODAY BRIEFING</div>
+    <div class="briefing-date">{{ label }}</div>
+    <div class="window-note">최근 24시간 이내 발행된 기사만 모았어요</div>
+  </div>
+
+  <div class="pill-row">
+    {% if company_articles %}<a class="pill" href="#company" style="background:#12172B;">🎯 관심기업</a>{% endif %}
+    {% for cat, conf in categories.items() %}
+      {% if grouped[cat] %}
+      <a class="pill" href="#{{ cat|urlencode }}" style="background:{{ conf.color }};">{{ conf.emoji }} {{ cat }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  {% if company_articles %}
+  <section class="company-section" id="company">
+    <div class="section-title">🎯 관심기업 뉴스</div>
+    <div class="section-desc">등록해둔 관심기업이 언급된 오늘의 기사예요</div>
+    {% for a in company_articles %}
+    {% include "_article_card.html" %}
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  {% for cat, conf in categories.items() %}
+  <section class="category-block" id="{{ cat|urlencode }}">
+    <div class="category-heading">
+      <span class="dot" style="background:{{ conf.color }};"></span>
+      <h2>{{ conf.emoji }} {{ cat }}</h2>
+      <span class="count">{{ grouped[cat]|length }}건</span>
+    </div>
+    {% if grouped[cat] %}
+      {% for a in grouped[cat] %}
+      {% include "_article_card.html" %}
+      {% endfor %}
+    {% else %}
+      <div class="empty-note">최근 24시간 동안 새 소식이 없어요</div>
+    {% endif %}
+  </section>
+  {% endfor %}
+
+  <footer class="site-footer">
+    마케팅·브랜드·관심기업 뉴스 자동 브리핑 · 매일 자동 생성<br>
+    규칙 기반 요약 (AI 사용 안 함) · 최근 24시간 이내 발행 기사만 수록
+  </footer>
+</div>
+</body>
+</html>

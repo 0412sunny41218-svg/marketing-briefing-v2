@@ -1,0 +1,303 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css');
+
+:root {
+  --bg: #FBF5F8;
+  --card: #FFFFFF;
+  --ink: #1F1420;
+  --ink-soft: #8A6B7C;
+  --line: #F3DCE7;
+  --blue: #E0357F;
+  --blue-dark: #B81F63;
+  --blue-soft: #FDE7F1;
+  --company: #2B0F1F;
+  --company-accent: #FFB6D9;
+  --radius-lg: 20px;
+  --radius-md: 14px;
+  --radius-sm: 10px;
+  --shadow: 0 10px 30px -12px rgba(180, 30, 100, 0.18);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+  line-height: 1.55;
+}
+
+.wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 20px 64px;
+}
+
+/* ---------- 상단 헤더 ---------- */
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 0 18px;
+}
+.topbar .brand {
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+.topbar .brand .badge {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--blue);
+  background: var(--blue-soft);
+  padding: 3px 8px;
+  border-radius: 999px;
+  vertical-align: middle;
+}
+.back-link {
+  font-size: 13px;
+  color: var(--ink-soft);
+  text-decoration: none;
+}
+.back-link:hover { color: var(--blue); }
+
+/* ---------- 홈 히어로 카드 ---------- */
+.hero {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(160deg, #FFFFFF 0%, #F0F5FF 100%);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: 32px 28px 28px;
+  box-shadow: var(--shadow);
+  margin-bottom: 32px;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: -60px; right: -60px;
+  width: 180px; height: 180px;
+  background: var(--blue-soft);
+  border-radius: 50%;
+}
+.hero h1 {
+  position: relative;
+  z-index: 1;
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 0 0 22px;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+.hero .cta {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--blue);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 16px 20px;
+  border-radius: var(--radius-md);
+  transition: background .15s ease;
+}
+.hero .cta:hover { background: var(--blue-dark); }
+.hero .cta .arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px; height: 30px;
+  background: rgba(255,255,255,.22);
+  border-radius: 50%;
+  font-size: 15px;
+}
+
+/* ---------- 최근 업데이트 리스트 ---------- */
+.section-title {
+  font-size: 17px;
+  font-weight: 800;
+  margin: 0 0 12px;
+  letter-spacing: -0.01em;
+}
+.update-list { display: flex; flex-direction: column; gap: 10px; }
+.update-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: 16px 18px;
+  text-decoration: none;
+  color: inherit;
+}
+.update-item:hover { border-color: var(--blue); }
+.update-item .date-eyebrow {
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin-bottom: 4px;
+}
+.update-item .headline { font-weight: 700; font-size: 15px; margin-bottom: 4px; }
+.update-item .sub { font-size: 12.5px; color: var(--ink-soft); }
+.update-item .chev { color: var(--ink-soft); font-size: 18px; }
+
+.more-link {
+  display: block;
+  text-align: center;
+  margin-top: 16px;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--blue);
+  text-decoration: none;
+}
+
+/* ---------- 브리핑 상세 페이지 ---------- */
+.briefing-header { padding: 18px 0 8px; }
+.briefing-date {
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 6px 0 14px;
+}
+.window-note {
+  font-size: 12.5px;
+  color: var(--ink-soft);
+  margin: -6px 0 18px;
+}
+
+.pill-row {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  margin-bottom: 22px;
+}
+.pill {
+  flex: none;
+  font-size: 12.5px;
+  font-weight: 700;
+  padding: 8px 14px;
+  border-radius: 999px;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.company-section {
+  background: linear-gradient(160deg, #2B0F1F 0%, #4A1836 100%);
+  border-radius: var(--radius-lg);
+  padding: 22px 20px;
+  margin-bottom: 28px;
+}
+.company-section .section-title { color: #fff; }
+.company-section .section-desc { color: #E3B9CC; font-size: 13px; margin: -6px 0 16px; }
+
+.category-block { margin-bottom: 30px; }
+.category-heading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+.category-heading .dot {
+  width: 8px; height: 8px; border-radius: 50%;
+}
+.category-heading h2 { font-size: 16px; font-weight: 800; margin: 0; }
+.category-heading .count { font-size: 12.5px; color: var(--ink-soft); font-weight: 600; }
+
+/* ---------- 기사 카드 ---------- */
+.article-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: 18px 18px 16px;
+  margin-bottom: 14px;
+}
+.company-section .article-card { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12); }
+.article-source {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12.5px;
+  color: var(--ink-soft);
+  margin-bottom: 8px;
+}
+.company-section .article-source { color: #D9A6BE; }
+.source-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--blue); }
+.article-title {
+  font-size: 15.5px;
+  font-weight: 800;
+  line-height: 1.4;
+  margin: 0 0 12px;
+  letter-spacing: -0.01em;
+}
+.company-section .article-title { color: #fff; }
+
+.info-box {
+  background: var(--blue-soft);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  margin-bottom: 8px;
+}
+.company-section .info-box { background: rgba(255,255,255,.08); }
+.info-box .label {
+  font-size: 11.5px;
+  font-weight: 800;
+  color: var(--blue-dark);
+  margin-bottom: 4px;
+}
+.company-section .info-box .label { color: #FF8FC4; }
+.info-box .body { font-size: 13.5px; color: var(--ink); }
+.company-section .info-box .body { color: #F5E4EC; }
+
+.tip-box {
+  background: #FFF7E6;
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  margin-bottom: 12px;
+}
+.company-section .tip-box { background: rgba(255,176,32,.14); }
+.tip-box .label { font-size: 11.5px; font-weight: 800; color: #B8790A; margin-bottom: 4px; }
+.company-section .tip-box .label { color: var(--company-accent); }
+.tip-box .body { font-size: 13.5px; color: var(--ink); }
+.company-section .tip-box .body { color: #F5DDE9; }
+
+.original-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--blue);
+  text-decoration: none;
+}
+.company-section .original-link { color: #FF8FC4; }
+
+.empty-note {
+  color: var(--ink-soft);
+  font-size: 13.5px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer.site-footer {
+  text-align: center;
+  color: var(--ink-soft);
+  font-size: 12px;
+  margin-top: 40px;
+  line-height: 1.7;
+}
+
+@media (max-width: 420px) {
+  .hero h1 { font-size: 22px; }
+  .wrap { padding: 0 16px 48px; }
+}

@@ -1,0 +1,65 @@
+"""공통 유틸리티 함수 모음"""
+import json
+import re
+import os
+from datetime import datetime, timezone, timedelta
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+CONFIG_DIR = os.path.join(BASE_DIR, "config")
+DATA_DIR = os.path.join(BASE_DIR, "data")
+DOCS_DIR = os.path.join(BASE_DIR, "docs")
+
+# 최근 몇 시간 이내 기사만 사용할지 (기본 24시간, 실행 스케줄 오차 감안해 여유 30분 정도만 buffer)
+WINDOW_HOURS = int(os.environ.get("BRIEFING_WINDOW_HOURS", "24"))
+
+KST = timezone(timedelta(hours=9))
+
+
+def load_json(path):
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def save_json(path, data):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def load_companies():
+    return load_json(os.path.join(CONFIG_DIR, "companies.json"))
+
+
+def load_categories():
+    return load_json(os.path.join(CONFIG_DIR, "categories.json"))
+
+
+def clean_html(raw_html: str) -> str:
+    """RSS description에 섞인 HTML 태그 제거 + 공백 정리"""
+    if not raw_html:
+        return ""
+    text = re.sub(r"<[^>]+>", " ", raw_html)
+    text = re.sub(r"&nbsp;", " ", text)
+    text = re.sub(r"&amp;", "&", text)
+    text = re.sub(r"&quot;", '"', text)
+    text = re.sub(r"&#39;", "'", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def within_window(pub_dt: datetime, now: datetime = None) -> bool:
+    """기사 발행시각이 최근 WINDOW_HOURS 이내인지 확인"""
+    if now is None:
+        now = datetime.now(timezone.utc)
+    if pub_dt.tzinfo is None:
+        pub_dt = pub_dt.replace(tzinfo=timezone.utc)
+    delta = now - pub_dt
+    return timedelta(0) <= delta <= timedelta(hours=WINDOW_HOURS + 1)  # 1시간 여유버퍼
+
+
+def today_str(now: datetime = None) -> str:
+    if now is None:
+        now = datetime.now(KST)
+    else:
+        now = now.astimezone(KST)
+    return now.strftime("%Y-%m-%d")

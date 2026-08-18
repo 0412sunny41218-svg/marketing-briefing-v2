@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>지난 브리핑 전체보기</title>
+<link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <a class="back-link" href="../index.html">← 홈으로</a>
+  </div>
+  <div class="section-title" style="margin-top:10px;">지난 브리핑 전체보기</div>
+  <div class="update-list">
+    {% for item in history %}
+    <a class="update-item" href="../briefing/{{ item.date }}.html">
+      <div>
+        <div class="date-eyebrow">{{ item.label }}</div>
+        <div class="headline">{{ item.date }} 마케팅 브리핑</div>
+        <div class="sub">{{ item.highlight }}</div>
+      </div>
+      <div class="chev">›</div>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+</body>
+</html>

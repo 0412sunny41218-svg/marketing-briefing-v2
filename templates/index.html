@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>오늘의 마케팅 브리핑</title>
+<link rel="stylesheet" href="./static/style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <div class="brand">오늘의 마케팅 브리핑 <span class="badge">BETA</span></div>
+  </div>
+
+  <div class="hero">
+    <h1>마케팅·브랜드 소식과<br>관심기업 뉴스를 매일 모아드려요</h1>
+    <a class="cta" href="./briefing/{{ today.date }}.html">
+      <span>오늘({{ today.short_label }}) 브리핑 읽기</span>
+      <span class="arrow">→</span>
+    </a>
+  </div>
+
+  <div class="section-title">최근 업데이트</div>
+  <div class="update-list">
+    {% for item in recent %}
+    <a class="update-item" href="./briefing/{{ item.date }}.html">
+      <div>
+        <div class="date-eyebrow">{{ item.label }}</div>
+        <div class="headline">{{ item.date }} 마케팅 브리핑</div>
+        <div class="sub">{{ item.highlight }}</div>
+      </div>
+      <div class="chev">›</div>
+    </a>
+    {% else %}
+    <div class="empty-note">아직 지난 브리핑이 없어요. 내일부터 하나씩 쌓일 거예요!</div>
+    {% endfor %}
+  </div>
+  {% if recent %}<a class="more-link" href="./archive/index.html">더 보기</a>{% endif %}
+
+  <footer class="site-footer">
+    마케팅·브랜드·관심기업 뉴스 자동 브리핑 · 매일 자동 생성<br>
+    규칙 기반 요약 (AI 사용 안 함) · 최근 24시간 이내 발행 기사만 수록
+  </footer>
+</div>
+</body>
+</html>
