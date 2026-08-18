@@ -34,6 +34,26 @@ def load_categories():
     return load_json(os.path.join(CONFIG_DIR, "categories.json"))
 
 
+def load_major_outlets():
+    return set(load_json(os.path.join(CONFIG_DIR, "major_outlets.json")))
+
+
+def rank_articles(articles, major_outlets=None):
+    """
+    중요도순 정렬 (AI 미사용, 규칙 기반):
+    1) 주요 언론사(major_outlets.json) 기사 우선
+    2) 그 안에서는 최신순
+    """
+    if major_outlets is None:
+        major_outlets = load_major_outlets()
+
+    # 안정 정렬(stable sort) 특성을 이용: 최신순으로 먼저 정렬한 뒤,
+    # 주요 언론사 여부로 다시 정렬하면 그룹 내부는 최신순이 유지된다.
+    sorted_by_recency = sorted(articles, key=lambda a: a.get("pub_iso", ""), reverse=True)
+    sorted_by_recency.sort(key=lambda a: 0 if a.get("source") in major_outlets else 1)
+    return sorted_by_recency
+
+
 def clean_html(raw_html: str) -> str:
     """RSS description에 섞인 HTML 태그 제거 + 공백 정리"""
     if not raw_html:
