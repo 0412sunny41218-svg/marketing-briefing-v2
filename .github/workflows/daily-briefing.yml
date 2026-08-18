@@ -2,8 +2,9 @@ name: Daily Marketing Briefing
 
 on:
   schedule:
+    # 매일 한국시간 08:00 (UTC 23:00 전날)에 실행
     - cron: "0 23 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch: {}   # 수동 실행 버튼
 
 permissions:
   contents: write
@@ -26,6 +27,10 @@ jobs:
       - name: 뉴스 수집 (최근 24시간)
         working-directory: scripts
         run: python fetch_news.py
+
+      - name: 원문 본문 추출
+        working-directory: scripts
+        run: python fetch_content.py
 
       - name: 규칙 기반 요약 생성
         working-directory: scripts
