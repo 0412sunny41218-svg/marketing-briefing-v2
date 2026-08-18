@@ -22,8 +22,8 @@ STATIC_DIR = os.path.join(BASE_DIR, "static")
 
 WEEKDAY_KO = ["월", "화", "수", "목", "금", "토", "일"]
 
-MAX_PER_CATEGORY = 5    # 카테고리별 최대 노출 건수
-MAX_COMPANY_TOTAL = 5   # 관심기업 섹션 전체 최대 노출 건수
+MAX_PER_CATEGORY = 3    # 카테고리별 최대 노출 건수
+MAX_COMPANY_TOTAL = 3   # 관심기업 섹션 전체 최대 노출 건수
 
 
 def label_for(date_str: str) -> str:
