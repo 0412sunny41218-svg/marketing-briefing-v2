@@ -1,5 +1,593 @@
 [
   {
+    "title": "네이버·라인 분리하더니…일본, 美클라우드로 방향 틀었다",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBteURwS1F3eDBzWHhnNVZWTDZCYVhnMm9JU0dJekhCSGlieGlwNjhDX3pBNGtFQ1NXeWZ5eFZBUUU3MURNcHVPUWNCcUNxTlU?oc=5",
+    "source": "v.daum.net",
+    "pub_iso": "2026-08-18T01:53:07+00:00",
+    "summary_raw": "네이버·라인 분리하더니…일본, 美클라우드로 방향 틀었다 v.daum.net",
+    "matched_by": [
+      "네이버"
+    ],
+    "categories": [],
+    "companies": [
+      "네이버"
+    ]
+  },
+  {
+    "title": "\"판다 가족 막둥이의 이름은?\" 에버랜드, 아기판다 이름짓기 전국민 투표 이벤트 진행",
+    "link": "https://news.google.com/rss/articles/CBMiuANBVV95cUxQUUFQdXZGWEw4YjBpc1dpTFZqOTZtSWlaaEctR09yVEZyUnRsamJOempDb1JPTHhETWtjajl5cTdlVVo0aHhsWTJOVHVydy1UMzV6MXM3a2xKbUJvNXNmT0R3LVF4cjFLR3oway1wUEc4c2czeTM0cjRKZnNSY0w2Qm9XUXduNmRNbXQ0TzUyQmFUaC02Z012QVU4bDJYQW5BTUQxQ2xLV3pub2Zpc0FsOU9ZdUxXWEdKbGZKREpMbU1uQVI1YW8yZ2RTY0dWeU14NTE5dzZzTmZ3YlprQXlVeGliMW9RanBnaGt2RkM3R2JHOUlYbXR2T0VvcEIzR0JlYjhwdzM2UU5OTFBpdllBZlZzMk5NMjNFbURZWmE1SDdGOUs3cHVYdGE0R0FwNEVfMV85MHVJV1JqYjVRV0UxNFJaMnN3d1AxcllfWWlBN29ra3RwSXZGdm9ZazVTS29sclBMWDJLMUJ6TE1tRjlDOXRkem5uRHNQQXdTUlpFaDdySDNtXzM2Q3FDMldXOU5kdmw2ckozeEJqRTJBSU1kY2xpeGlvM1l6cnRhMjRUVkZBSUFrV0RTQw?oc=5",
+    "source": "삼성물산 뉴스룸",
+    "pub_iso": "2026-08-18T01:48:20+00:00",
+    "summary_raw": "\"판다 가족 막둥이의 이름은?\" 에버랜드, 아기판다 이름짓기 전국민 투표 이벤트 진행 삼성물산 뉴스룸",
+    "matched_by": [
+      "삼성물산"
+    ],
+    "categories": [],
+    "companies": [
+      "삼성물산"
+    ]
+  },
+  {
+    "title": "CJ제일제당 비비고, KCON LA 2026서 글로벌 K-푸드 알렸다",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9UWExKZjVIVmNNMVd4V0pvenQ3YktRUVhjaDlpeC1XX2pEbi1OckNHMW9YR256b09OSkljY28yb0loS3ZPOXlkWXNoeVY0MUdFUDc0ZndVdDN2WHF2MmZCdVA1eGRXMWE2a0NQb294WQ?oc=5",
+    "source": "비즈니스리포트",
+    "pub_iso": "2026-08-18T01:47:26+00:00",
+    "summary_raw": "CJ제일제당 비비고, KCON LA 2026서 글로벌 K-푸드 알렸다 비즈니스리포트",
+    "matched_by": [
+      "CJ제일제당"
+    ],
+    "categories": [],
+    "companies": [
+      "CJ제일제당"
+    ]
+  },
+  {
+    "title": "카카오, 경량 언어모델 'Kanana-2' 안전성 평가서 글로벌 모델 앞서",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9MR1VOVWUzUzR1ZlBOVU0yYXZ4a2tGOThBU3E5cU1WY3gtaTc2UUtwZEQ0dEtHZVFhVjZIMXNIN2xaQ2ROTUpGQ3l4V2g3QTRqcFBV?oc=5",
+    "source": "네이트",
+    "pub_iso": "2026-08-18T01:46:00+00:00",
+    "summary_raw": "카카오, 경량 언어모델 'Kanana-2' 안전성 평가서 글로벌 모델 앞서 네이트",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
+    "title": "카카오, '카나나-2' 안전성 평가에서 긍정적 결과",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE41Y0ZHVXVGSUF0Zm9iYVNCNURzYzNOTHc5WEYtRE9EZUlNZC1VOF91bU9Fb2ctTFFpRlpSbTQ1alhvTUc0VmVVOVBMdFdSSGlCbENTYjhSMUUzNnVFTmVJWEllRjhEZw?oc=5",
+    "source": "디일렉",
+    "pub_iso": "2026-08-18T01:45:43+00:00",
+    "summary_raw": "카카오, '카나나-2' 안전성 평가에서 긍정적 결과 디일렉",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
+    "title": "카카오뱅크, 체크카드 누적 결제 154조원…지급결제 사업 확대",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9acnJqQnVxRW56SmxuaXVSY3pPN0JMRW55X3lIeEdrV3o4dlRPWFJqNHJfaGUtWXlMamE2VWgzYVBaRWJUamo0bGxYMFIzVVpOTXozOFJCcXM4Ml9wVDFtcXhsd3hkMXR2OTlmV3RfRDdQZGs?oc=5",
+    "source": "디지털투데이",
+    "pub_iso": "2026-08-18T01:43:42+00:00",
+    "summary_raw": "카카오뱅크, 체크카드 누적 결제 154조원…지급결제 사업 확대 디지털투데이",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
+    "title": "[AI픽] 카카오 '카나나-2', AI 안전성 평가서 젬마·큐웬 앞섰다",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ORnRDb3VoNGFqdDFYTk5GTHpGREZFalpYLXozcnZ6cF9sOThtcTVXOU51b21oSTFmVjV3MXYyZmcyc2p6cnduYkZ2azJ3aEN1RkVF?oc=5",
+    "source": "네이트",
+    "pub_iso": "2026-08-18T01:43:00+00:00",
+    "summary_raw": "[AI픽] 카카오 '카나나-2', AI 안전성 평가서 젬마·큐웬 앞섰다 네이트",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
+    "title": "카카오, 비수도권 청소년 100명 대상 ‘AI 루키 캠프’ 수료",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE92eTNRUVQtTUN4clZDbFZEN2NwR2x6dzIwX2h0R1NLN2poSVBGcjEzTUhOcU5mQXN5d2syWHhicGJ4MEY3RjIyeDdFUklhTDlhVllOcTVlTW1DU3ZNelVLdURMWmZibjY5TThxbERiTDN4UQ?oc=5",
+    "source": "웹이코노미",
+    "pub_iso": "2026-08-18T01:43:00+00:00",
+    "summary_raw": "카카오, 비수도권 청소년 100명 대상 ‘AI 루키 캠프’ 수료 웹이코노미",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
+    "title": "삼진제약, 상반기 매출 선방…항혈전제 '플래리스' 견인 : 네이버 블로그",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNlJpWkRtekU0dlNaeUtwMDlDdVEtTG45Y2EwTnFGVVJpSDJYNUdaX2drX245dmVvRWo5QUhkRFVsN2l1TUhFY2FHZzNVTjVhOEcxVmNmV0xIc3Rid29aXzlseWxfQi1SX25SRnoxM1JLYWNoSXIxazVaRGs2MjRFM0JHakhnTXh3VzlxeDJ6OA?oc=5",
+    "source": "Naver Blog",
+    "pub_iso": "2026-08-18T01:42:45+00:00",
+    "summary_raw": "삼진제약, 상반기 매출 선방…항혈전제 '플래리스' 견인 : 네이버 블로그 Naver Blog",
+    "matched_by": [
+      "네이버"
+    ],
+    "categories": [],
+    "companies": [
+      "네이버"
+    ]
+  },
+  {
+    "title": "카카오 ‘카나나2’, AI 안전성 평가서 구글·알리바바 앞서",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9qRTlIUC1PVjJoRTRBOVJVTEFyUlpLUFN2RW9GOEc2Snc2X042LUJOSW1MeUsxMXRIeXNWdFhZSVplbmhLQlpVNFBidzV1RU9BZ0F0VXR1dmxJci1BWVpwdTlNTVM?oc=5",
+    "source": "서울경제TV",
+    "pub_iso": "2026-08-18T01:41:46+00:00",
+    "summary_raw": "카카오 ‘카나나2’, AI 안전성 평가서 구글·알리바바 앞서 서울경제TV",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
+    "title": "삼성전자, 광주첨단산단에 정밀냉난방공조 공장 건립…2028년 가동",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4yWXlndDB2VjVadnBIa0VrRzM4SURMUUMxOGk5MWI1aHFaRGJvX2VHa3AwcWtORFplZkdpVW1IbEJuR1Vvcm83cWs2YWNYODFoVTI2Y1hJSGVsWGM1VXpZ0gFkQVVfeXFMTWVpQ3A5XzJmelBBTlozX3dPNnVBdE10SWxlUEVYWUJ6UDY3Tkxld1pVNFZqVWpmeDk4b1lNLTd1em5QZEdIdVJqa1VrTzNlcVJScmRvV0poWWZoem5lWjJmNlZnbw?oc=5",
+    "source": "뉴스1",
+    "pub_iso": "2026-08-18T01:41:43+00:00",
+    "summary_raw": "삼성전자, 광주첨단산단에 정밀냉난방공조 공장 건립…2028년 가동 뉴스1",
+    "matched_by": [
+      "삼성전자"
+    ],
+    "categories": [],
+    "companies": [
+      "삼성전자"
+    ]
+  },
+  {
+    "title": "[카드] 코인원, 2026 브랜드 캠페인 본격화…핵심 서비스 알린다",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zbzFWQUlWVncyeXVoM0FnWmhWRG9VT0Q5Y29KTFVpZlJEN2lmZEdXbVN6cmVWdzFpQ19jcFVaLS1hQzNiRzVGcHotdUNRdzF2RzBjNXljVkxjRGg0YXJndQ?oc=5",
+    "source": "newsprime.co.kr",
+    "pub_iso": "2026-08-18T01:41:24+00:00",
+    "summary_raw": "[카드] 코인원, 2026 브랜드 캠페인 본격화…핵심 서비스 알린다 newsprime.co.kr",
+    "matched_by": [
+      "브랜드 캠페인"
+    ],
+    "categories": [
+      "브랜드·캠페인"
+    ],
+    "companies": []
+  },
+  {
+    "title": "식품업계, 내수 부진 속 해외사업 실적 방어…‘수출=성장·수익성’ 공식 굳어진다",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE93MWJsYmw1U3JXVXJmLTNzbDBSMm5aTUYyb0lxYzVtOUpVYWVmaVlRTDNFNTA0UXhQZGVSMkFIRFNJSU5HU3ZNNDF0cWhYcDR5a1ZiX2xaS1lWZV9MVVIwQXY5UU4wTGM?oc=5",
+    "source": "한국식품의약신문",
+    "pub_iso": "2026-08-18T01:41:06+00:00",
+    "summary_raw": "식품업계, 내수 부진 속 해외사업 실적 방어…‘수출=성장·수익성’ 공식 굳어진다 한국식품의약신문",
+    "matched_by": [
+      "CJ제일제당"
+    ],
+    "categories": [],
+    "companies": [
+      "CJ제일제당"
+    ]
+  },
+  {
+    "title": "카카오 ‘카나나2’, AI 안전성 평가서 Gemma·Qwen 앞섰다",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1jODhCbVRLS2hHUGp6N09yUG5HelJJS2pjcWQ5dWdRc3NTTk9hV2dHLW05Z1duUzNKN0dQTXNaY2xXT0VNWmkyV1JTTFhmaHZLN1g4d190SXF2d3gyMHc0NkRiMA?oc=5",
+    "source": "더테크",
+    "pub_iso": "2026-08-18T01:39:55+00:00",
+    "summary_raw": "카카오 ‘카나나2’, AI 안전성 평가서 Gemma·Qwen 앞섰다 더테크",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
+    "title": "LG전자, 브라질 생산거점 확대…글로벌 사우스 공략 속도",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9FMEdZdHZGRGE5bjVJNDNocUhhdTN4b2xjbHNqZVdkaV9NWnYtNTUyVXhKdUJ6VEI1X1MxZHM0c3dEMnpFa1pfa19OWEk0X0hmREhPcmx5dFNJZjR2RXIwWndnM3oxeGF2?oc=5",
+    "source": "데일리팝",
+    "pub_iso": "2026-08-18T01:39:00+00:00",
+    "summary_raw": "LG전자, 브라질 생산거점 확대…글로벌 사우스 공략 속도 데일리팝",
+    "matched_by": [
+      "LG전자"
+    ],
+    "categories": [],
+    "companies": [
+      "LG전자"
+    ]
+  },
+  {
+    "title": "SK이노-테라파워, 나트륨 SMR 사업협력 합의 : 네이버 블로그",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTnk5QjBSVFA2RFdQTGI5cmRyM04wUGJUd0NmMUwtRkF3S20tRVdGNFJrMzRKbmdoTFYyVGJtbU01RS1ZMml2bFpFSHMwS0ZHRmhXRFRKWG5GQUNjSDBBSlZSQkpBYXp0ZDBMaFJFSGl5WDJudDRNWjVWMlNPMFJ3QWFuZzVjdklHOXNtTFBnNA?oc=5",
+    "source": "Naver Blog",
+    "pub_iso": "2026-08-18T01:37:30+00:00",
+    "summary_raw": "SK이노-테라파워, 나트륨 SMR 사업협력 합의 : 네이버 블로그 Naver Blog",
+    "matched_by": [
+      "네이버"
+    ],
+    "categories": [],
+    "companies": [
+      "네이버"
+    ]
+  },
+  {
+    "title": "카카오 AI 루키 캠프 2기 수료, 비수도권 청소년 100명 품다",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1OQlhSLVdhU3pzRG9uTF9lNGp3QXJWTDB2LUJnZFVFTGdmNnhsanRLNE1BeXowV2hjR3BoRGpobUd5MHlYN3Q1QzdIdktkRW1WTE4tNmVMN1VyaGZPcHFxYW1lbU12eDBNeGlfaQ?oc=5",
+    "source": "ER 이코노믹리뷰",
+    "pub_iso": "2026-08-18T01:37:15+00:00",
+    "summary_raw": "카카오 AI 루키 캠프 2기 수료, 비수도권 청소년 100명 품다 ER 이코노믹리뷰",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
+    "title": "당장은 AIDC… “LG전자, 10월까지 2.5조 추가 수주될 것\"",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9ydFM5THNveHFfT25SODJ0ZXBfdDh4bTFzcGJfWHVxMy1CbHgzU2ZhU3F2d1ktdFhFV3ctZWRQR05SaVl3SFFFZUphb0hicExYa0FzSEo5OHRQZUtUbXc0aUhiN2lqdHUtc21B?oc=5",
+    "source": "디지털포스트(PC사랑)",
+    "pub_iso": "2026-08-18T01:35:36+00:00",
+    "summary_raw": "당장은 AIDC… “LG전자, 10월까지 2.5조 추가 수주될 것\" 디지털포스트(PC사랑)",
+    "matched_by": [
+      "LG전자"
+    ],
+    "categories": [],
+    "companies": [
+      "LG전자"
+    ]
+  },
+  {
+    "title": "남양유업, 성장 포트폴리오 본격화…2Q 매출 11.2%↑ : 네이버 블로그",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbnNILTlveDdVdnZHaXU3QzdMbXlKR1pfSzNZRVlnZ0liU3U2elJscVZjT2VBclI0QjdiRC1VcG54RkJVdnllRjNwQUdZODg5bC1ZY19nMTJkajhudy1feHFJV0w2X010aU1vcVI0V3ZETUVZZk5VUXE0UkE5aGdDYUFIVzVnS1ZVWkFhSFVTRQ?oc=5",
+    "source": "Naver Blog",
+    "pub_iso": "2026-08-18T01:34:52+00:00",
+    "summary_raw": "남양유업, 성장 포트폴리오 본격화…2Q 매출 11.2%↑ : 네이버 블로그 Naver Blog",
+    "matched_by": [
+      "네이버"
+    ],
+    "categories": [],
+    "companies": [
+      "네이버"
+    ]
+  },
+  {
+    "title": "네이버 내친 日, 기밀정보 美클라우드 맡길까…\"정보주권 관건\"",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1FT0xHUVlKS21INGpCRWtJRFJmeXNDNnpuUlVKVzl1T1kxcUhNVTRsanltTFhBeGJtN3JZSFZNQ0FnNDZsSUJ2UlVaUkc1bTQ?oc=5",
+    "source": "v.daum.net",
+    "pub_iso": "2026-08-18T01:33:57+00:00",
+    "summary_raw": "네이버 내친 日, 기밀정보 美클라우드 맡길까…\"정보주권 관건\" v.daum.net",
+    "matched_by": [
+      "네이버"
+    ],
+    "categories": [],
+    "companies": [
+      "네이버"
+    ]
+  },
+  {
+    "title": "삼성전자 '빈 미술사 박물관·콜 오브 듀티 전장을 집으로'",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE81Q1lKY1dFVkc4OVdNaFFBLXRJcG1lNXJYSksyZmZWUmxwMWdhSllKVlpMdkNoM1JNNFpBbkhWTXlIUDVndXZQR25iRm5tejJqRHpVUHNicldHRUhNaFhMNFhrRGZod9IBakFVX3lxTE96OHJHN04xc05uY2VocXN6MVNRekxzNmFzZS1HNXR2Q3Btd2dhMkhBV3Q1c1VmU0drLTU3bnp6ODNyNVFhZkJDWU5uREw2QkJDZHZETHMzT1lGVUFNdW1iT1VuZnZ2V0I3bEE?oc=5",
+    "source": "테크M",
+    "pub_iso": "2026-08-18T01:33:39+00:00",
+    "summary_raw": "삼성전자 '빈 미술사 박물관·콜 오브 듀티 전장을 집으로' 테크M",
+    "matched_by": [
+      "삼성전자"
+    ],
+    "categories": [],
+    "companies": [
+      "삼성전자"
+    ]
+  },
+  {
+    "title": "카카오뱅크, 자사주 절반 소각···27만주 없앤다",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9rczRONW5XcGo4Y3lDYnlscXlHdVpFckFpdWVha2xZUlZKYkVER052WElJcGJMWmRUbWRxenNIeVVzM1pKcEF5R29XZ2JpMkoxOEdub2hJTnRfSHhlaDRyR3ZOVXBVajhVbmhzc3RVOU3SAXRBVV95cUxPNHZ1ZXJwemVwSUZySmpZV3dZUzJ0RWdxUTg1ZjAyYUlBLU5RbnJoaTZwTzNaLXNuVjBnbGdMYVFubXdNR0Z5QWZsY3AyVTJFSnA0YU5jX21YdDVWaTlDbXVIN0VHX3lNVF9weEgzUUpMTHFuYQ?oc=5",
+    "source": "enewstoday.co.kr",
+    "pub_iso": "2026-08-18T01:33:13+00:00",
+    "summary_raw": "카카오뱅크, 자사주 절반 소각···27만주 없앤다 enewstoday.co.kr",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
+    "title": "네이버 내친 日, 기밀정보 美클라우드 맡길까…\"정보주권 관건\"",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAxblNJZkwtdG1oVWFVMllLSlAtRmM0Z0p1dnVnVm5Yc1lqWHdpMkZMV1EyZV9JMnhNUVJzRGwxZ0xvRDBab0VadV9OOHA5Y0xEbHZxRk5DcWV3bm9ZMWZjQQ?oc=5",
+    "source": "네이트",
+    "pub_iso": "2026-08-18T01:32:00+00:00",
+    "summary_raw": "네이버 내친 日, 기밀정보 美클라우드 맡길까…\"정보주권 관건\" 네이트",
+    "matched_by": [
+      "네이버"
+    ],
+    "categories": [],
+    "companies": [
+      "네이버"
+    ]
+  },
+  {
+    "title": "삼성금융 '모니모' MAU 1000만 돌파… 삼전 주식 증정 이벤트 - 머니투데이",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA2NUNXZGt0Zkd5NTZEUTJpblh1dndNZmNkclRWS1FYd3pxSk5aX1VUOC1SdTRTSzlvWEVqZ2hZUEViUEtFbTU3dWZkRWNBTEhSOG1qU1VOMEg0aTVsc25fcTBJSjJuTDdRSzl30gFwQVVfeXFMTzRXb3ZzRi1vZ0k1djVacE15YlI4V2R4N1hOMUJQcDRPTDVvQzc1eVhwdjYwVHh3UndDRVFOQXZ6aVp3N1d4Mngta2ZVek1jcExSRW1CMXpudGQxOUFvS2t0Y0xNUDRwUjZqcy0xcWplWA?oc=5",
+    "source": "mt.co.kr",
+    "pub_iso": "2026-08-18T01:30:35+00:00",
+    "summary_raw": "삼성금융 '모니모' MAU 1000만 돌파… 삼전 주식 증정 이벤트 - 머니투데이 mt.co.kr",
+    "matched_by": [
+      "삼성전자"
+    ],
+    "categories": [],
+    "companies": [
+      "삼성전자"
+    ]
+  },
+  {
+    "title": "카카오페이손보, 보험금 처리 속도 직접 보여주는 '바로지급' 서비스 가동",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjWkd5Tll1c0s4UjlORzBOVjNnRVpacVk2WlEtUUJPRll1SjNFZ29hOTQxaWdLY3ZJTklqaXlqSWtRUDNZRU0wYWQ0Q1ZRNlZFUWJz?oc=5",
+    "source": "네이트",
+    "pub_iso": "2026-08-18T01:30:00+00:00",
+    "summary_raw": "카카오페이손보, 보험금 처리 속도 직접 보여주는 '바로지급' 서비스 가동 네이트",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
+    "title": "한국투자증권, IMA ‘S6’ 2000억원 모집…토스뱅크·카카오뱅크서도 가입",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VVmdwZ18wZmZraHVaX3Y2dVo0LWhZaGZ3VmNMbWFwZTFmVFVic250N3FCNHc1NktRNnBmMkJlWTIyU0MyaVRYanIzYXZCZkxoQURSaXc5a3RuRWV5TFhObDN3eFRXOXc?oc=5",
+    "source": "팍스경제TV",
+    "pub_iso": "2026-08-18T01:29:49+00:00",
+    "summary_raw": "한국투자증권, IMA ‘S6’ 2000억원 모집…토스뱅크·카카오뱅크서도 가입 팍스경제TV",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
+    "title": "카카오 경량 AI '카나나2', 안전성 평가서 구글·알리바바 모델 앞서",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5NTDVmdExldm10djBqeGdVYTN3WU04OXhxd0l6MTN6QWZtcWdaLUotSllPUVUydE5JUkNyVS1rd2Z3a1RrVVNEWEw1UUtfbmM5UkMtNlVZWmpIaS1wOVlEQQ?oc=5",
+    "source": "뉴시스",
+    "pub_iso": "2026-08-18T01:29:36+00:00",
+    "summary_raw": "카카오 경량 AI '카나나2', 안전성 평가서 구글·알리바바 모델 앞서 뉴시스",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
+    "title": "카카오페이손보, 보험금 처리 속도 직접 보여주는 '바로지급' 서비스 가동",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zdE9ock8zOExIWTVuRmwtOE56VE02aURjOEtFb1duOW51N1F4RGpRSV9lLWstcjZSMGYtLTdZRXJiYlhHSDNuU1RvbzJscGlXd3dCWnliNmN5ZUNLX1BqZHR2SWNVbjdueEE?oc=5",
+    "source": "포인트경제",
+    "pub_iso": "2026-08-18T01:29:26+00:00",
+    "summary_raw": "카카오페이손보, 보험금 처리 속도 직접 보여주는 '바로지급' 서비스 가동 포인트경제",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
+    "title": "이재현 CJ 회장, 3개월 만에 美 다시 찾았다…2028년 북미 매출 12조원 목표",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE55Z1hpTS1QRkdqTW9FcjU2OEh3U3ZSMHp1MUlRNFFHQ3ppSzJGSUg5LWdvWHlWaDVCUWhBeWxoTV9zZkR6TmV4RHVkTGk2NDZHNTJXWFZlU05uYnpZT2MxM2dUU3haRjl6S2dWQg?oc=5",
+    "source": "ER 이코노믹리뷰",
+    "pub_iso": "2026-08-18T01:28:17+00:00",
+    "summary_raw": "이재현 CJ 회장, 3개월 만에 美 다시 찾았다…2028년 북미 매출 12조원 목표 ER 이코노믹리뷰",
+    "matched_by": [
+      "CJ제일제당"
+    ],
+    "categories": [],
+    "companies": [
+      "CJ제일제당"
+    ]
+  },
+  {
+    "title": "한국투자증권, 'IMA S6' 출시…토스·카카오뱅크로 가입 채널 확장",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5EWm0wb2lHZTRrald6QS1uY29tSlFVYXZVOWpKeDJrdHg0TFA0alZITDhDd3ZkbTZyMDd0emhuY0tKUmp3YjBoWXBIX0dFSGEwTVdIc0dTWlpxVUlyRk1qaV8yWVlWN0dMdTN5QW92bTVDcmd2bjRzYTJQRzY?oc=5",
+    "source": "비욘드포스트",
+    "pub_iso": "2026-08-18T01:27:58+00:00",
+    "summary_raw": "한국투자증권, 'IMA S6' 출시…토스·카카오뱅크로 가입 채널 확장 비욘드포스트",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
+    "title": "LG전자, 반기보고서 실적 기대감에 상승세…전장 사업 주목 : 기업주식정보",
+    "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9ESDVYTjhvZm95RmpXQ00xU2Y0VVRKSGhEcmhxOFJoNFhBRi1jZFc4Q0lOOHRwZ1lnMFBRY2xKUFNQa3B1UHhyR0Rn?oc=5",
+    "source": "재경일보",
+    "pub_iso": "2026-08-18T01:27:00+00:00",
+    "summary_raw": "LG전자, 반기보고서 실적 기대감에 상승세…전장 사업 주목 : 기업주식정보 재경일보",
+    "matched_by": [
+      "LG전자"
+    ],
+    "categories": [],
+    "companies": [
+      "LG전자"
+    ]
+  },
+  {
+    "title": "카카오 '카나나2', AI 안전성 평가서 구글·알리바바 제쳤다",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE52UjJmQ1owZ2tUNjVDb0hvckE0S0Myc09tbk5GaGFCUWFzdFJDT2tPOXVJSzh3eVZ2MU9JV1djMFlGN0tMZmVfWDU3cjZHTzh0OE44?oc=5",
+    "source": "네이트",
+    "pub_iso": "2026-08-18T01:27:00+00:00",
+    "summary_raw": "카카오 '카나나2', AI 안전성 평가서 구글·알리바바 제쳤다 네이트",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
+    "title": "카카오, 비수도권 청소년 대상 'AI 루키 캠프' 2기 성공적 마무리",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1QTmxFX2t3NDhodlRacEs3Smk3cExhZkwyRExDZXFXa0ZRU2gxaWp2LVVTSzYyZWhuWnFmTXUzeUhHd19pa2ZxbzJnWEpCakdHd1dqaURVdkVNdVluVG83UzFDOUs3V05aWkxN?oc=5",
+    "source": "BBS불교방송",
+    "pub_iso": "2026-08-18T01:25:26+00:00",
+    "summary_raw": "카카오, 비수도권 청소년 대상 'AI 루키 캠프' 2기 성공적 마무리 BBS불교방송",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
+    "title": "삼성 아트스토어, '빈 미술사 박물관' 소장품 43점 공개",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9WRWt2bG9SaVRldnludUlIeHRZclM5aF8ydnpIM0t6M0Y2MGZKYnVoaE9DdVgzUXlZQTYxSlZJSUt5am1IWUdGbDdLdkRlZw?oc=5",
+    "source": "전자신문",
+    "pub_iso": "2026-08-18T01:24:35+00:00",
+    "summary_raw": "삼성 아트스토어, '빈 미술사 박물관' 소장품 43점 공개 전자신문",
+    "matched_by": [
+      "삼성전자"
+    ],
+    "categories": [],
+    "companies": [
+      "삼성전자"
+    ]
+  },
+  {
+    "title": "카카오 카나나2, 구글 젬마·알리바바 큐웬 제쳤다…AI 안전성 ‘1위’",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1qZUZqVkIyYTNCQVNJdFdKRGZHWm1PbnFnVlBOVkZzNldYMGRHeHNRWEktakNwSm9WUUhkS2JVNDNUZ0ZFTDRqQXAwdkdiLWxVaEVKVkVvOWdWWXlyYVhncDQ2WU9wd1p0?oc=5",
+    "source": "키즈맘",
+    "pub_iso": "2026-08-18T01:24:25+00:00",
+    "summary_raw": "카카오 카나나2, 구글 젬마·알리바바 큐웬 제쳤다…AI 안전성 ‘1위’ 키즈맘",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
+    "title": "코인원, 2026 브랜드 캠페인 시작…'한투 주식연결' 전면에",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE03TUkwbndvWmNTRnRkenBrLWtPYjlMR2JEczBsYzB6M2dlZHBkRFgtN25mM29pdF9JeE5GSklfUU9MY2VMbjBWWFRtTmpORnV2WThN?oc=5",
+    "source": "네이트",
+    "pub_iso": "2026-08-18T01:24:00+00:00",
+    "summary_raw": "코인원, 2026 브랜드 캠페인 시작…'한투 주식연결' 전면에 네이트",
+    "matched_by": [
+      "브랜드 캠페인"
+    ],
+    "categories": [
+      "브랜드·캠페인"
+    ],
+    "companies": []
+  },
+  {
+    "title": "카카오페이손보, 보험금 지급 소요 시간 알려주는 '바로지급' 서비스 개시",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUY1p2UnhzLUFrUHlOY3NDWGhWZ04yb1lfWWVXZHRmenQtNktOc3FxU0JFLW1kZURqT252ang4WVkyNGYta1FKczR0NmRLdEpWcDRhNmt1VUNIdUVDLVdNWtIBZkFVX3lxTE9KSE9TTHVPX3FDNVg4U0pidVBudmd2c0JVTW5vWmUtSl9pNU5qenZ3bTQ1MEhVREhEbXNHZ3ZyeEJPaU5KTUR3SWF3Y3BoTF91TnBhOVUtczFsV0lxRXpnU1B2SWhYUQ?oc=5",
+    "source": "뉴스1",
+    "pub_iso": "2026-08-18T01:23:56+00:00",
+    "summary_raw": "카카오페이손보, 보험금 지급 소요 시간 알려주는 '바로지급' 서비스 개시 뉴스1",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
+    "title": "코인원, 2026 브랜드 캠페인 시작…'한투 주식연결' 전면에",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4WThaS00xV09mdi1vMlVIYWtUbnczYmlvam1GMWRGZ2VpTF90aU4weFVESVdMZ1Z1NnozcWpNeG1aOFhUTUJnbHA4SzVvMEJkTWZ5b0R0azdaTzZO?oc=5",
+    "source": "supple.kr",
+    "pub_iso": "2026-08-18T01:23:44+00:00",
+    "summary_raw": "코인원, 2026 브랜드 캠페인 시작…'한투 주식연결' 전면에 supple.kr",
+    "matched_by": [
+      "브랜드 캠페인"
+    ],
+    "categories": [
+      "브랜드·캠페인"
+    ],
+    "companies": []
+  },
+  {
+    "title": "삼성전자, 삼성디스플레이에 빌린 20조 전액 갚고도 현금 64조↑",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA0WXVmWXAtNnF1N2p6QkY1ZHZQZVRPRFJTMnFpazRyZkJfekUtbmJXdnQzMFBDb1R5Z0dzQS1KamVsVGlxX2x5VzhDVGx6SVk?oc=5",
+    "source": "v.daum.net",
+    "pub_iso": "2026-08-18T01:23:27+00:00",
+    "summary_raw": "삼성전자, 삼성디스플레이에 빌린 20조 전액 갚고도 현금 64조↑ v.daum.net",
+    "matched_by": [
+      "삼성전자"
+    ],
+    "categories": [],
+    "companies": [
+      "삼성전자"
+    ]
+  },
+  {
+    "title": "삼성물산, 지배구조 개선 기대감에 장중 38만원 돌파 : 기업주식정보",
+    "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBMZjdQNjNvcTVJMlJTYkNsZnVJNnppbzVGc3RXUkNVckZpbUx5dEJVeW82ZGthY3JnUXdnSFRla1NHeXNuMWJVN21B?oc=5",
+    "source": "재경일보",
+    "pub_iso": "2026-08-18T01:23:00+00:00",
+    "summary_raw": "삼성물산, 지배구조 개선 기대감에 장중 38만원 돌파 : 기업주식정보 재경일보",
+    "matched_by": [
+      "삼성물산"
+    ],
+    "categories": [],
+    "companies": [
+      "삼성물산"
+    ]
+  },
+  {
+    "title": "\"전용 앱 없이 카카오 T로 호출\"…코나투스, 교통약자 이동지원 확대",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB6LUN4MTRyWVZocUFOYklqVV8wamhKVWhPbWFwV3RiZWE5QUQ5dURzejdHQW9GWl9ySjVtbEdCZkFxZlc5MFVoUU5DTVR0UDNlMmtB?oc=5",
+    "source": "네이트",
+    "pub_iso": "2026-08-18T01:22:00+00:00",
+    "summary_raw": "\"전용 앱 없이 카카오 T로 호출\"…코나투스, 교통약자 이동지원 확대 네이트",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
+    "title": "카카오 'AI 루키 캠프' 2기 성료… 비수도권 청소년 100명과 사회 문제 해결",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE13Z1JZdVN4QksyRGhRYjgzWlBjNXllWVRJTU1rR1JWeUNGZmUyelZTUUhvdmlmQVozdVo0VlBTcWt6c0NoWTVLWG9fUFo0WWtCREhZVVczajBQTndSTlBqdGlhc1Z2Y0xUQ1prWFFLc2Nnc2tD?oc=5",
+    "source": "파이낸셜포스트",
+    "pub_iso": "2026-08-18T01:21:53+00:00",
+    "summary_raw": "카카오 'AI 루키 캠프' 2기 성료… 비수도권 청소년 100명과 사회 문제 해결 파이낸셜포스트",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
     "title": "삼성전자, 삼성디스플레이에 빌린 20조 전액 갚고도 현금 64조↑",
     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9hN0dmZ3k3aGtGV3ozTVp3cXZ0UnpxZzVrZGxDcHdpbzN5ZU4zR2VCeVBfUFhPYnlRNDNEUXhXeUhTdWJ0anBJYldrRQ?oc=5",
     "source": "아이뉴스24",
@@ -14,18 +602,18 @@
     ]
   },
   {
-    "title": "삼성전자, '아트 스토어'서 빈 미술사 박물관 소장품 43점 선봬",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE94R2hUNk16X0kzTW1nOHU0V2hRYXZIbUNPVDZuNWppTEUtOVdPTW8yWG9VZHQteDFIOFN1QnBfNFNocWpMX1NFUzFrNA?oc=5",
-    "source": "아이뉴스24",
-    "pub_iso": "2026-08-18T01:20:37+00:00",
-    "summary_raw": "삼성전자, '아트 스토어'서 빈 미술사 박물관 소장품 43점 선봬 아이뉴스24",
+    "title": "\"택배기사님, 샤워티슈 한 장 챙겨가세요!\"",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9lM2xQVnNWXzk3aG9EaWZYdy1VMTA5TFkyZHFEVTFocjA1X2lfVlZaREJYdm1nd00zMGVTMVVoQnBadWp5S0Rqak9pUGZreUNQZ2FKSVpteDI1c1ZteEFRVUxWb2pCOEVhV0xhcG5ZeUU5RWRC?oc=5",
+    "source": "캠페인 인사이트",
+    "pub_iso": "2026-08-18T01:21:03+00:00",
+    "summary_raw": "\"택배기사님, 샤워티슈 한 장 챙겨가세요!\" 캠페인 인사이트",
     "matched_by": [
-      "삼성전자"
+      "브랜드 캠페인"
     ],
-    "categories": [],
-    "companies": [
-      "삼성전자"
-    ]
+    "categories": [
+      "브랜드·캠페인"
+    ],
+    "companies": []
   },
   {
     "title": "CJ제일제당-CJ푸드빌-대상그룹-팔도·hy, 글로벌 소비자 접점 확대...해외 시장 공략 박차",
@@ -56,8 +644,50 @@
     "companies": []
   },
   {
+    "title": "강남구 무역·글로벌 마케팅 인재 양성 지원 사업 추진 > 뉴스",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBHcEdOOFp5NXRkQnlEWGtudkdHQVJMXzR6Z3ZGMTRuaGJKT3A2a3QwZ0hJQ3NJVFJEVV8tdTd4YUp3QUQwcjlmT3ZPeXlER3lMcW9YYTB0c3ZOcmRjaXhBY0F1Z1ZqUlVyZV83MXU2T2Q?oc=5",
+    "source": "더코리아",
+    "pub_iso": "2026-08-18T01:18:00+00:00",
+    "summary_raw": "강남구 무역·글로벌 마케팅 인재 양성 지원 사업 추진 > 뉴스 더코리아",
+    "matched_by": [
+      "디지털 마케팅"
+    ],
+    "categories": [
+      "업계·비즈니스"
+    ],
+    "companies": []
+  },
+  {
+    "title": "'파업 장기화' 카카오뱅크…윤호영 6연임 길목서 리더십 발목",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9LdVlxZlkwcmludzJGSUswUDZ5UGoyXzRJVFUxSUZSUmdXWU5vWWlpcmQ3Y3ZDYjhmMl9ad0RlXzlmQUJPOGY1VDh1U0Q1ZTB1b2tvN0Z3UHN2by1wZDlZaUZzVkRZSHR2ZjdTZFg5NDI?oc=5",
+    "source": "신아일보",
+    "pub_iso": "2026-08-18T01:18:00+00:00",
+    "summary_raw": "'파업 장기화' 카카오뱅크…윤호영 6연임 길목서 리더십 발목 신아일보",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
+    "title": "[장중수급포착] 삼성물산, 외국인 11일 연속 순매수행진... 주가 +3.93%",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE53aE5jRWMzSjVrNkVINEVGcDFpYTBWTjNLTWNrTGVJNXhpUHB5b2U4WlRwVVlDRmU1MkpJUmxoZWdYcnVGbno4Zl9pdzlQN0U0elFJc19RLXI0dXlL?oc=5",
+    "source": "뉴스핌",
+    "pub_iso": "2026-08-18T01:18:00+00:00",
+    "summary_raw": "[장중수급포착] 삼성물산, 외국인 11일 연속 순매수행진... 주가 +3.93% 뉴스핌",
+    "matched_by": [
+      "삼성물산"
+    ],
+    "categories": [],
+    "companies": [
+      "삼성물산"
+    ]
+  },
+  {
     "title": "카카오, ‘카나나-2’ 안정성 평가 결과 공개…글로벌 모델 대비 최고 수준",
-    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5NdFluUnZ5YkxNa29mWXJ3WEtfNWNtWXRlM2Vjd2VtemYtX3lOMHQ4YklpOVJ3M0liXzVtUFNkZzVxYWRBYzdyMVRVcGhydGdkS2NWdU1vVQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5uOEwxRGJXS0hyWUpCZmdOd1ZFRkZrLVJ3LXRJRENUbkNLckNHR2JfOUp4aDRuUW5fRnhhWTZlREhuaUlQZHJYWEQyd3pfR3pVb1Z0STZR?oc=5",
     "source": "헤럴드경제",
     "pub_iso": "2026-08-18T01:17:23+00:00",
     "summary_raw": "카카오, ‘카나나-2’ 안정성 평가 결과 공개…글로벌 모델 대비 최고 수준 헤럴드경제",
@@ -112,6 +742,48 @@
     ]
   },
   {
+    "title": "에버랜드, 생후 77일 아기 판다 이름 투표",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUdzhubGVrVmhBUXVRZkloejBLMGFwMnJWMGN1S0hLcUFVUzcweGxHX2ZsV0hDNlpaVnN5b1pzM1lNY3lTR3MtWnh1am1QNk8wZnF1SzZldnRzU3NRVGtTUWtlSkRtaTlv?oc=5",
+    "source": "강원도민일보",
+    "pub_iso": "2026-08-18T01:14:24+00:00",
+    "summary_raw": "에버랜드, 생후 77일 아기 판다 이름 투표 강원도민일보",
+    "matched_by": [
+      "삼성물산"
+    ],
+    "categories": [],
+    "companies": [
+      "삼성물산"
+    ]
+  },
+  {
+    "title": "'재해석' 트렌드 업은 식음료업계, 조합 스펙트럼 확장한 신메뉴 선봬",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE45Mjl2cE5zd3pMWVl5b0xvbXhnVEpPNWgzTWpYXzhfQTZEU2pQT3BuY3ctaUFZQjZEa1BOeE9Qa2ZyRG52ZXc3cEJ1ZTU0QnJPYk1N?oc=5",
+    "source": "네이트",
+    "pub_iso": "2026-08-18T01:14:00+00:00",
+    "summary_raw": "'재해석' 트렌드 업은 식음료업계, 조합 스펙트럼 확장한 신메뉴 선봬 네이트",
+    "matched_by": [
+      "소비자 트렌드"
+    ],
+    "categories": [
+      "소비자·트렌드"
+    ],
+    "companies": []
+  },
+  {
+    "title": "카카오뱅크, '프렌즈'로 시작한 체크카드…누적 결제액 154조원 돌파",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wdUZiQXBTaFRmRklrSnhqLXVJc1RQbkdDTFRtVnJuNFNtTm5BOExEeFM1OWFoOWI0QUhBM0k0YTA2S21OeGtpbi1Cb09DWGNxbFdB?oc=5",
+    "source": "네이트",
+    "pub_iso": "2026-08-18T01:14:00+00:00",
+    "summary_raw": "카카오뱅크, '프렌즈'로 시작한 체크카드…누적 결제액 154조원 돌파 네이트",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
     "title": "한국투자증권, IMA ‘S6’ 공개…토스·카카오 연계 가입 가능",
     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wdUFPYmdYUFZITkQxU01wRnhvM0Z6WjF0ZThvWjA2V1VNbS1mbjJiRFhsNnpOWUlFY0tNN3RfejIwUjM0dmRqRUpJeXFfUjA?oc=5",
     "source": "v.daum.net",
@@ -156,9 +828,9 @@
   {
     "title": "\"푸바오 동생 이름 골라주세요\"…에버랜드, 전국민 대상 투표",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4cG5HeDNYNWdJMG1EOVJLZWVocEVZd2NYQUJpdlVyZ1VPS1pzTERDS1N1aWpoM0lmSENWbkFEcEptRTgtNGNtQVRyTjAwNWlfMlJB?oc=5",
-    "source": "news.nate.com",
+    "source": "네이트",
     "pub_iso": "2026-08-18T01:11:00+00:00",
-    "summary_raw": "\"푸바오 동생 이름 골라주세요\"…에버랜드, 전국민 대상 투표 news.nate.com",
+    "summary_raw": "\"푸바오 동생 이름 골라주세요\"…에버랜드, 전국민 대상 투표 네이트",
     "matched_by": [
       "삼성물산"
     ],
@@ -222,20 +894,6 @@
       "브랜드·캠페인",
       "소비자·트렌드",
       "업계·비즈니스"
-    ],
-    "companies": []
-  },
-  {
-    "title": "\"AI 영상 콘텐츠로 금상\"…KB證, ICT어워드 수상",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkcVUyQjcxQ2FEcnVTdG1XOTNHSUlieDZwOXpGT1pUeHdlV01MNlBZeVVBUzZkeU5hNjBUYkFRaVhHVS02VDgtUXl2YmlmYllVMGJxZVFUVW9Sd3otXzE5YWlxVG1xRFN6UmN6aEU5ZXh1UQ?oc=5",
-    "source": "중앙이코노미뉴스",
-    "pub_iso": "2026-08-18T01:06:14+00:00",
-    "summary_raw": "\"AI 영상 콘텐츠로 금상\"…KB證, ICT어워드 수상 중앙이코노미뉴스",
-    "matched_by": [
-      "콘텐츠 마케팅"
-    ],
-    "categories": [
-      "콘텐츠·미디어"
     ],
     "companies": []
   },
@@ -340,15 +998,29 @@
   {
     "title": "공효진·정준원 '유부녀 킬러' 인기에…원작 웹툰도 \"조회수 10배\" - 머니투데이",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BZ0tNb0R0akVjYWl0U0g2QUpudXlhMjBRVW91VVVvVWZEM2tVZ2ZxYzk0VEFkZ3Q4OEtzQ3hVWWgzczNKWVlTbHlNdDFVOUFOcHNvRGNsMWdQcEdyQVlfTlctUm1rNmPSAWxBVV95cUxQYVFPZWxuVHB1OXpkdmQ3YzdoZ1BZbmxpY1lDTEgxSkY4VVlnekFjXy1WTkJiRk14Q2ZuS2VoLWlMU01DMUNiN0gxQ1FZWFA0RnV4M1VuZFBNZC1LU2R3Q1FpcWF5QnpHUkpQN0g?oc=5",
-    "source": "머니투데이",
+    "source": "mt.co.kr",
     "pub_iso": "2026-08-18T01:02:22+00:00",
-    "summary_raw": "공효진·정준원 '유부녀 킬러' 인기에…원작 웹툰도 \"조회수 10배\" - 머니투데이 머니투데이",
+    "summary_raw": "공효진·정준원 '유부녀 킬러' 인기에…원작 웹툰도 \"조회수 10배\" - 머니투데이 mt.co.kr",
     "matched_by": [
       "카카오"
     ],
     "categories": [],
     "companies": [
       "카카오"
+    ]
+  },
+  {
+    "title": "삼성전자(005930)",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeXNOQTdMb2lPY2xuU25KdllSbTBIN3h5Smd0THF3alZxTEpFOUNQNmhKNTZ4dVhqZzFvU1N0UWlrMHc2Wmo1SHRfazFDT2I0OFBIUDRPVkUyX3lULVhORXg2SGw3SDVMYjVja2NsaFFEWUZHaHJBWHFtTDZyaXRJX2dsekpHMmttU0xBZHUzdFVNOTBhT09v?oc=5",
+    "source": "매일경제 마켓",
+    "pub_iso": "2026-08-18T01:02:03+00:00",
+    "summary_raw": "삼성전자(005930) 매일경제 마켓",
+    "matched_by": [
+      "삼성전자"
+    ],
+    "categories": [],
+    "companies": [
+      "삼성전자"
     ]
   },
   {
@@ -366,25 +1038,11 @@
     ]
   },
   {
-    "title": "삼성전자, 아트 스토어 통해 오스트리아 ‘빈 미술사 박물관’ 대표 소장품 선보여",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE44YnR4VGZSTFA1YUU5VFJ0QUZQTDVXUGhJMDRBSEJoVTNHbFR1ZzIzbHltQnlxRWtWTkUxMXF3WEcwSnVUVkJoNTZLbHdGdUFQcW9aQmZmdWpKVTNuc2pMT2xXLXo4MEdRckxGQk1sRQ?oc=5",
-    "source": "kihoilbo.co.kr",
-    "pub_iso": "2026-08-18T01:01:10+00:00",
-    "summary_raw": "삼성전자, 아트 스토어 통해 오스트리아 ‘빈 미술사 박물관’ 대표 소장품 선보여 kihoilbo.co.kr",
-    "matched_by": [
-      "삼성전자"
-    ],
-    "categories": [],
-    "companies": [
-      "삼성전자"
-    ]
-  },
-  {
     "title": "카카오, 'AI 루키 캠프' 2기 성료…실전 프로젝트 중심 교육 강화",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5GZzkyekRucVpyN2s5NU5tNG0xaWNkckFMNGYxQmJZRXBfaERTVDFCOVRNZmJscWVXSzZkUGpWMEgwODVHWUFZbVRVUnBsZ2Z0ZjUw?oc=5",
-    "source": "news.nate.com",
+    "source": "네이트",
     "pub_iso": "2026-08-18T01:01:00+00:00",
-    "summary_raw": "카카오, 'AI 루키 캠프' 2기 성료…실전 프로젝트 중심 교육 강화 news.nate.com",
+    "summary_raw": "카카오, 'AI 루키 캠프' 2기 성료…실전 프로젝트 중심 교육 강화 네이트",
     "matched_by": [
       "카카오"
     ],
@@ -438,9 +1096,9 @@
   {
     "title": "공효진X정준원으로 난리 난 '유부녀 킬러'→원작 카카오웹툰 조회수 10배 올랐다",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAyeUUzd1hIQUVJZ215cGpDMXU2RlROamgtZG5scDVDNUFCeGd1UkxwUFV2bUlNQkxRTjk1U2RnaEYxUmhjNTZYYW1YTER1SWlFV0tJ?oc=5",
-    "source": "news.nate.com",
+    "source": "네이트",
     "pub_iso": "2026-08-18T00:59:00+00:00",
-    "summary_raw": "공효진X정준원으로 난리 난 '유부녀 킬러'→원작 카카오웹툰 조회수 10배 올랐다 news.nate.com",
+    "summary_raw": "공효진X정준원으로 난리 난 '유부녀 킬러'→원작 카카오웹툰 조회수 10배 올랐다 네이트",
     "matched_by": [
       "카카오"
     ],
@@ -451,7 +1109,7 @@
   },
   {
     "title": "SK하이닉스·삼성전자 장 초반 급등…코스피 7100대로 회복",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBDX3hxRDNGY0tialdLS3JkVXAzY3EtSzBITmlFTVJ4eEMxZERGdklnaFpidnQtT1V0LW9Sc0RxY0RianlCYVo1bnptTXVEUmhNT2o5aEtNb1MxYUFqMmNWVV9lTUo4WnFtSW9GWXNJS3J2ZVd4?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE16QjZWOHMtblNOQlZvczkzbWlscG50OXpzMEdQVU9zbUFfaS12bzVkMlZra0tkYXZ2MGpaajNOc3NCbjZOTzVzTUN4T0tMcUNkaU5fNGdTbXlWWDUtRFRMTUU4YVJfX3ZxRDZSNFdiakJKNWo4cnBycGRZT00?oc=5",
     "source": "부산일보",
     "pub_iso": "2026-08-18T00:57:53+00:00",
     "summary_raw": "SK하이닉스·삼성전자 장 초반 급등…코스피 7100대로 회복 부산일보",
@@ -466,9 +1124,9 @@
   {
     "title": "한류 열풍 이제는 K푸드로…CJ제일제당 비비고, 美LA서 1만명 홀렸다",
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBDbjRiUy1UV0RxbUFxSmlMdEVyOWh5ZGhZYTFCVWotWmszTUwzQnBoeVIzb21LUHpaQzJ1ZGFqR2YzZXp0UGZYNTZYd0tjMTZfNWRZcDZ6RGhoQmZyNlFTZl9HZHdObjQ5a091ZG9BRQ?oc=5",
-    "source": "위키리크스한국",
+    "source": "wikileaks-kr.org",
     "pub_iso": "2026-08-18T00:57:21+00:00",
-    "summary_raw": "한류 열풍 이제는 K푸드로…CJ제일제당 비비고, 美LA서 1만명 홀렸다 위키리크스한국",
+    "summary_raw": "한류 열풍 이제는 K푸드로…CJ제일제당 비비고, 美LA서 1만명 홀렸다 wikileaks-kr.org",
     "matched_by": [
       "CJ제일제당"
     ],
@@ -494,9 +1152,9 @@
   {
     "title": "코인원, ‘주식투자 연결’ 브랜드 캠페인 공개",
     "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPazdjM2RUSTdhR0tGNEJwaUhCblpvVlBLblJRMkFiM1ZmaHA2RWVpWmVyUlFLQlh1S1RMY3p0YTRsdWxWbE9vbm81Q0ZwWG5SYzNmcGtpam03SThJNzd5ZmhWSzJibDZJampxVGpSVU9YR1JmeFFLaFctbHJjX2hhby04SHRXMXJTQlB1YlJBSEZaSW01NlgwX2tBNjVpeXR2bU54bEh3bU9MUHVGU0taS2xTTEdGaGJwY2VPME13OEJfdjAxcmEwaS1xNXpxdHJraml6NU1tbjdMaGloeXZISkxpdmliUXpwZU80NnFMQVhYeXhnRFNwTkQ3MGNPSmlJb0Y2UW1NX2dCaFFSWTA4akNQeUZBOFhsaG8zcFhxRlRocmM?oc=5",
-    "source": "dailian.co.kr",
+    "source": "데일리안",
     "pub_iso": "2026-08-18T00:57:00+00:00",
-    "summary_raw": "코인원, ‘주식투자 연결’ 브랜드 캠페인 공개 dailian.co.kr",
+    "summary_raw": "코인원, ‘주식투자 연결’ 브랜드 캠페인 공개 데일리안",
     "matched_by": [
       "브랜드 캠페인"
     ],
@@ -504,20 +1162,6 @@
       "브랜드·캠페인"
     ],
     "companies": []
-  },
-  {
-    "title": "카카오, 청소년 대상 'AI 루키 캠프' 2기 종료",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5JLTZIZHdzWVEyUlhnY0E4djdIc2pYVkZ6QmZmUUpQMk9iVXJDdTNpX2xGWXY0LU5Cdi1KZWN0dW5vOFlUSjVPbUVGUFdOVHhDZ3dJ?oc=5",
-    "source": "news.nate.com",
-    "pub_iso": "2026-08-18T00:57:00+00:00",
-    "summary_raw": "카카오, 청소년 대상 'AI 루키 캠프' 2기 종료 news.nate.com",
-    "matched_by": [
-      "카카오"
-    ],
-    "categories": [],
-    "companies": [
-      "카카오"
-    ]
   },
   {
     "title": "\"보험금 받는데 걸리는 시간은?\"…카카오페이손보, '바로지급' 서비스 시작",
@@ -548,11 +1192,25 @@
     ]
   },
   {
+    "title": "카카오, 청소년 대상 'AI 루키 캠프' 2기 종료",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBNMTNRbzVMS1VaOEIxaDhTTnNzRnFuNVZndmZyeTVWa3dKd0tBTHNCZFRkcTFVd0hxaXJaN0VBVGFkMnc4U3MyS242Zy1IOWQ4SGp2VWVxSTFJX0RvZEt5cjBLLXpmZ0tRcEdySkNBZ3p6eVE?oc=5",
+    "source": "디지털투데이",
+    "pub_iso": "2026-08-18T00:56:00+00:00",
+    "summary_raw": "카카오, 청소년 대상 'AI 루키 캠프' 2기 종료 디지털투데이",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
     "title": "에버랜드, 아기판다 이름짓기 전국민 투표 이벤트",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBYbjhIcU9kdVlPM3IzRlVEV1pHci1OVjMtbFRQeFVkRnRoWm9JTGdmZGMtUnE5eGM4WE5lUDlmdnlDWDZBc1ZTVGExMm5EVEd6VmdN?oc=5",
-    "source": "news.nate.com",
+    "source": "네이트",
     "pub_iso": "2026-08-18T00:56:00+00:00",
-    "summary_raw": "에버랜드, 아기판다 이름짓기 전국민 투표 이벤트 news.nate.com",
+    "summary_raw": "에버랜드, 아기판다 이름짓기 전국민 투표 이벤트 네이트",
     "matched_by": [
       "삼성물산"
     ],
@@ -576,6 +1234,20 @@
     "companies": []
   },
   {
+    "title": "삼성 아트스토어에 ‘빈 미술사 박물관’ 소장품 공개",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBpQ1d1S2h5bVVJMUJhalpnaG1MeVh0MmtyMUNhSHBzTng0bGd5TGR6YUM4NlR4dWtYZ3FDLXNzdEZUbkJEQjU4aDJxWm9lVE9ZSHpLZGxobFdyWThyTGVRRGpRTkVjTHN5VzFaWUcyZHPSAXRBVV95cUxOemQwTk1FMmRmRW5YcVlvZXV1RHBhOTdtM2lUdUFwS1FESFVjbHFaUTVFbENpandRb1VjaHlackJaNjN6TGw1RnhaRWpaRDROZ2lMY2kzaFFpOTJBeDJxdi04YTVSek0zTWxJNmRoTWxDbTNSMA?oc=5",
+    "source": "IT조선",
+    "pub_iso": "2026-08-18T00:55:36+00:00",
+    "summary_raw": "삼성 아트스토어에 ‘빈 미술사 박물관’ 소장품 공개 IT조선",
+    "matched_by": [
+      "삼성전자"
+    ],
+    "categories": [],
+    "companies": [
+      "삼성전자"
+    ]
+  },
+  {
     "title": "[잘먹잘살+]하이트진로·CJ제일제당·hy·제너시스BBQ·동서식품·대상그룹·롯데잇츠",
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9fOTJKOGpHdlJhRzdmUnoxRWd1WklyeVYxQk9VZXI0UzExMmdXd3FXS0NfSFhtd19rX0t2dGpKbzVjbHhtQUpNYW1fTEU3UVJfQVdGc1JldFMzWXZJc1l2bW9LZFdMZTI4akNTNDZn?oc=5",
     "source": "비즈니스플러스",
@@ -588,20 +1260,6 @@
     "companies": [
       "CJ제일제당"
     ]
-  },
-  {
-    "title": "“카누와 함께 완벽한 커피 한 잔”…동서식품, ‘2026 카누 바리스타 챔피언십’ 브랜드 캠페인",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1qUUF0NjNId294YTFIbHlCQ05rRHNGX3ZpWWlJSWZLSS1zZTdKdnBDcjMzZGRRYlc1ZmtRb19HcF9vZlpfaExtN2YzYXEyUVBhRkxyU2NHZFpDeEloOEQzNg?oc=5",
-    "source": "뉴스스페이스",
-    "pub_iso": "2026-08-18T00:55:18+00:00",
-    "summary_raw": "“카누와 함께 완벽한 커피 한 잔”…동서식품, ‘2026 카누 바리스타 챔피언십’ 브랜드 캠페인 뉴스스페이스",
-    "matched_by": [
-      "브랜드 캠페인"
-    ],
-    "categories": [
-      "브랜드·캠페인"
-    ],
-    "companies": []
   },
   {
     "title": "KB증권, AI 영상으로 ICT어워드 금상…자산관리 콘텐츠 경쟁력 인정",
@@ -685,6 +1343,20 @@
     "categories": [],
     "companies": [
       "LG전자"
+    ]
+  },
+  {
+    "title": "카카오페이손보, 보험금 지급 속도 확인하는 '바로지급' 서비스 개시",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE94V2U0YXR0NGNhSThMN2ZObUZNRm9ETGxxRHhvcWptZnQxTEVMQ2dlVy04MXBsbUQ2R2Y0TllIS1lvUXptLWVTT2RFc1dic0xocFNZ?oc=5",
+    "source": "네이트",
+    "pub_iso": "2026-08-18T00:53:00+00:00",
+    "summary_raw": "카카오페이손보, 보험금 지급 속도 확인하는 '바로지급' 서비스 개시 네이트",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
     ]
   },
   {
@@ -800,6 +1472,34 @@
     ]
   },
   {
+    "title": "디밀, K뷰티 브랜드 북미 진출 위한 크리에이터 매칭 체계 운영",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9kODRuRkZVTWV2ek9kNHR5RnBNS2daMFR6cU96a3h3cG1ObG1fSnRlQzQ2U0JzY0s4YzdIeFRRVnQ4bndPMVpaYzlfNmJUaVNEMDFr?oc=5",
+    "source": "네이트",
+    "pub_iso": "2026-08-18T00:47:00+00:00",
+    "summary_raw": "디밀, K뷰티 브랜드 북미 진출 위한 크리에이터 매칭 체계 운영 네이트",
+    "matched_by": [
+      "브랜드 캠페인"
+    ],
+    "categories": [
+      "브랜드·캠페인"
+    ],
+    "companies": []
+  },
+  {
+    "title": "“모니모 뽑기로 삼전 주식 받아가세요”…‘1000만’ 돌파 기념",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNWhlVnZNSjFqV2JWVDJFS1p2YmFEd1ZGX2hGWnV6S3YxaHNubGpCbHRINjdlMWF5T2RGR0lBWDdtLWs2dHBwWkRDckczSFlqc1prZDJQSFJvVUZGU3AwQjE1bU1PS2FKemFVaGk5TW1fTGhtWXhoM2ZZbWxCZEJiY1NqMkk?oc=5",
+    "source": "글로벌이코노믹",
+    "pub_iso": "2026-08-18T00:45:40+00:00",
+    "summary_raw": "“모니모 뽑기로 삼전 주식 받아가세요”…‘1000만’ 돌파 기념 글로벌이코노믹",
+    "matched_by": [
+      "삼성전자"
+    ],
+    "categories": [],
+    "companies": [
+      "삼성전자"
+    ]
+  },
+  {
     "title": "CJ제일제당 비비고, 미국 LA 케이콘서 K-푸드로 K-팝 팬심 공략",
     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBwa3dsNmZLXzBxVWtZQnRJUTFTQjRveXcyc21NelpZT21uX2pnSEdxQlp1cDlBMGVrcm14bEc2azFzSWktQUFfYTB0a2ZEdi1XUFBpd0loVk9zcF9hLVpXWTZrcw?oc=5",
     "source": "시사뉴스",
@@ -811,6 +1511,20 @@
     "categories": [],
     "companies": [
       "CJ제일제당"
+    ]
+  },
+  {
+    "title": "LG-엔비디아, '로봇 동맹' 다음 수혜주는 LG이노텍?",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiRjdaSW1MZmV6R3pSdjNEV2J1YlBpVDh4Rmg0dGFDd1hPeHRoVWtFMFVTRnNlSkdNYXRlYnI0NnBQQklvWFE1Zmo1QW1HaU92aUVZb2haZm85WDF6RjhteGZRd2R3V2xXNmppSkZxdFVqOVHSAXdBVV95cUxQSTJGUmxEdnpqYmxBRGk4elhvUFR3dXZreThJbFExSEhIU21XR1N5d1pKX1dhY09MMEJSNVR3bVE5RXFqNS14clhrbE5hTXdTX05FRmhwVE9QSUpkbFZUUGFBVHNPUGszY19qTGtEemgxUmpiSUkwUQ?oc=5",
+    "source": "핀포인트뉴스",
+    "pub_iso": "2026-08-18T00:45:31+00:00",
+    "summary_raw": "LG-엔비디아, '로봇 동맹' 다음 수혜주는 LG이노텍? 핀포인트뉴스",
+    "matched_by": [
+      "LG전자"
+    ],
+    "categories": [],
+    "companies": [
+      "LG전자"
     ]
   },
   {
@@ -872,9 +1586,9 @@
   {
     "title": "카카오, 비수도권 청소년 100명에 '피지컬 AI' 교육…AI 인재 저변 넓힌다",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wNzBqS0lNWFZwMUxLYWoyRXBQNkhHbnJmcHlsX2ZtQjk4cVdCNDdhd1RYQnhyUUtoY0o0MXZmY1BITGFXWk5SNWZueWF1Q3FOWDVZ?oc=5",
-    "source": "news.nate.com",
+    "source": "네이트",
     "pub_iso": "2026-08-18T00:42:00+00:00",
-    "summary_raw": "카카오, 비수도권 청소년 100명에 '피지컬 AI' 교육…AI 인재 저변 넓힌다 news.nate.com",
+    "summary_raw": "카카오, 비수도권 청소년 100명에 '피지컬 AI' 교육…AI 인재 저변 넓힌다 네이트",
     "matched_by": [
       "카카오"
     ],
@@ -895,6 +1609,20 @@
     "categories": [],
     "companies": [
       "카카오"
+    ]
+  },
+  {
+    "title": "[속보] 삼성전자·SK하이닉스 장 초반 급등…외국인 반도체주 집중 매수",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJdVUxZjlsRXdmNkIxem9NQzI0QVZsZjN1eXhSY3I0UkoxRDZxa1FiMG1WdGlxbmx2Y3h2ZVdwU1FZcm5ZeDYyTGNGck5EV00?oc=5",
+    "source": "v.daum.net",
+    "pub_iso": "2026-08-18T00:39:43+00:00",
+    "summary_raw": "[속보] 삼성전자·SK하이닉스 장 초반 급등…외국인 반도체주 집중 매수 v.daum.net ‘반도체 랠리’ 다시 시작될까…삼성전자·SK하이닉스, 연일 동반 상승세 매일경제 마켓 [특징주] 삼성전자, 3% 올라 '28만전자'…하닉도 5%대 급등 v.daum.net",
+    "matched_by": [
+      "삼성전자"
+    ],
+    "categories": [],
+    "companies": [
+      "삼성전자"
     ]
   },
   {
@@ -926,20 +1654,6 @@
     ]
   },
   {
-    "title": "[속보] 삼성전자·SK하이닉스 장 초반 급등…외국인 반도체주 집중 매수",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9DMGFOdlUzS1hQcktoTW9nWTk1cHJiOEE4dnp3WnBsSlJvZ3hhUEV2aVJ1eGM3aUhqSjdISTZ2SGlrSG5WR0xXZF90azNtb0gtWnhhalM2R2FveUhNYnhzWm90T0d4LTZH?oc=5",
-    "source": "강원도민일보",
-    "pub_iso": "2026-08-18T00:37:49+00:00",
-    "summary_raw": "[속보] 삼성전자·SK하이닉스 장 초반 급등…외국인 반도체주 집중 매수 강원도민일보",
-    "matched_by": [
-      "삼성전자"
-    ],
-    "categories": [],
-    "companies": [
-      "삼성전자"
-    ]
-  },
-  {
     "title": "CJ제일제당 비비고, 美 LA 케이콘서 K-푸드로 K-팝 팬심 공략",
     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PbDBmYTZ1QkdDX2lLMXYwcnRHbnpzeGRGOGZnTzYwMkJ2VVQ1VHEwUVBnQlo5UHN2R0lERzlMSVpGcmFGQXZZZUJmWTYyM2Q4bld0Vm1aQzVjckE0Zl9ULdIBeEFVX3lxTE9odVpCVzN5VUdDdFRRSkhJbF85WTlxcl90U08tUm9jUkdtOU5VUUhfVXZDVm0wMHZGRDJ3WHRwWTlNeFBpbHo4V3V1NFBENnBEcHVldmRNN1ZOLUQ4d1dzQk01aEFaaVhmcjhsWVphMWNSc2U2MDFNcw?oc=5",
     "source": "뉴시스",
@@ -956,9 +1670,9 @@
   {
     "title": "[AI픽] 카카오, 지역 청소년 100명과 AI 서비스 개발 도전",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3Y1ZVTFlvaWRYUUNpQ3RxVHJHbmpRcG9mY0NkN2lJeUs5X25XWEVWVWFwTTF0WnB1em8tODFNTUlBUFRtbTBQeHdteXZEdWJBelZV?oc=5",
-    "source": "news.nate.com",
+    "source": "네이트",
     "pub_iso": "2026-08-18T00:37:00+00:00",
-    "summary_raw": "[AI픽] 카카오, 지역 청소년 100명과 AI 서비스 개발 도전 news.nate.com",
+    "summary_raw": "[AI픽] 카카오, 지역 청소년 100명과 AI 서비스 개발 도전 네이트",
     "matched_by": [
       "카카오"
     ],
@@ -970,9 +1684,9 @@
   {
     "title": "카카오, 비수도권 청소년 대상 'AI 루키 캠프' 2기 마쳐",
     "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQNUpPZV9xc2sya3pGTDFkRUdheDBYamlsb0VidElsNTUxdWxuUmstUllkU3hLSEJvUVZkQlRrM0VoOHBOdnZCTGd6c051djhXdHU5UkNwRURRTl9fcGstS18tdDh6UVVkNVlrUFNpUEE2UWdFVmRHN3lCbjR4OEF1T3hSSGRsQlpJR2QxRUlkY2xCazlXOW55LVU1NXh5ZG4wQUd6QUVsM1U0RDBzMDNrUnpKSkRoU3plMER1cl9yelhIbzZRZHFBNTdzVHdlNHpaNUJMNVJSbEM3RHFzNE1vZnZiOVNJLXJrWGQxLU9QLWtzdFctSWhqOWNwYm5fTzM4azFB?oc=5",
-    "source": "dailian.co.kr",
+    "source": "데일리안",
     "pub_iso": "2026-08-18T00:35:00+00:00",
-    "summary_raw": "카카오, 비수도권 청소년 대상 'AI 루키 캠프' 2기 마쳐 dailian.co.kr",
+    "summary_raw": "카카오, 비수도권 청소년 대상 'AI 루키 캠프' 2기 마쳐 데일리안",
     "matched_by": [
       "카카오"
     ],
@@ -996,20 +1710,6 @@
     ]
   },
   {
-    "title": "젠슨 황 장녀, LG전자 데이터 팩토리 방문…LG·엔비디아 로봇 협력 논의",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBpWWRxT3htTmhwR3hiNXp5OFFsN2pmZG5kZkdfVEhQa0dtZEVYUFRpZkJudjJvdHVlTGxyQmhrclU5c09FZmlFdjJ5aDZqTC1mQnByWDZEMW9rdDRfT256alhpaldXa2lVYkppclU2MXY?oc=5",
-    "source": "연합인포맥스",
-    "pub_iso": "2026-08-18T00:33:38+00:00",
-    "summary_raw": "젠슨 황 장녀, LG전자 데이터 팩토리 방문…LG·엔비디아 로봇 협력 논의 연합인포맥스",
-    "matched_by": [
-      "LG전자"
-    ],
-    "categories": [],
-    "companies": [
-      "LG전자"
-    ]
-  },
-  {
     "title": "디밀, K뷰티 브랜드와 글로벌 크리에이터 1200명 매칭 나선다… 북미 진출 지원",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBBVkRmdEs0WXNmeTFvdkdZekRzOFU2OW1TLTZ5U0xwdm43UWsxZnVjb0RrYms2MDhqOE92MWd5MUM4eGxXS1FMckJyaDhWQTlBMDlBVDhvWWR4bjhWMmc?oc=5",
     "source": "투데이안",
@@ -1022,20 +1722,6 @@
       "브랜드·캠페인"
     ],
     "companies": []
-  },
-  {
-    "title": "카카오 주가 하락 중",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5YeE5PZHBYaVNDSkJmQTNKVVNoRTVhMnlYMlF4UkdrY2lITmY0a2JBV3ZkczJ6Z3FEQTN6N3lEdWhmdWRvOElROTNhSkdibGRWeXdfZHB4TjRlNmx3?oc=5",
-    "source": "아시아뉴스통신",
-    "pub_iso": "2026-08-18T00:30:37+00:00",
-    "summary_raw": "카카오 주가 하락 중 아시아뉴스통신",
-    "matched_by": [
-      "카카오"
-    ],
-    "categories": [],
-    "companies": [
-      "카카오"
-    ]
   },
   {
     "title": "[묘청의 차이나로그] ‘올리브영’은 어떻게 새로운 필수 방문지가 됐을까",
@@ -1138,9 +1824,9 @@
   {
     "title": "이재현 회장 직접 챙긴 CJ제일제당 비비고, KCON LA에 1만명 몰렸다",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5sSHRDSHU4ZUxsd1Z6V3dSRUVFU1pzSkhlLTFqbE1IWUVxWS1GN0VfR2pMQk5FeFV4b0twRWpmcU1ialhIaTAwQzhqOG52by1lNlJN?oc=5",
-    "source": "news.nate.com",
+    "source": "네이트",
     "pub_iso": "2026-08-18T00:27:00+00:00",
-    "summary_raw": "이재현 회장 직접 챙긴 CJ제일제당 비비고, KCON LA에 1만명 몰렸다 news.nate.com",
+    "summary_raw": "이재현 회장 직접 챙긴 CJ제일제당 비비고, KCON LA에 1만명 몰렸다 네이트",
     "matched_by": [
       "CJ제일제당"
     ],
@@ -1164,17 +1850,17 @@
     ]
   },
   {
-    "title": "카카오페이 주가 하락 중",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1TaG1Zc1Z6MVR6VU94ZXotX0FFX0Z6MzVtNVJBZWJpQnM5WWZwTmFZb1d5LVdMT0lNZ2FWTWJTcWRVVHV5b2VZRVdYNzFzUkYxS25TWEx2U0hZYXU0?oc=5",
-    "source": "아시아뉴스통신",
-    "pub_iso": "2026-08-18T00:26:19+00:00",
-    "summary_raw": "카카오페이 주가 하락 중 아시아뉴스통신",
+    "title": "[특징주] 삼성전자·SK하이닉스, 메모리 수요 확대 기대…동반 강세",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5LVTdxdnE1V1lrV09JNENqXzhaZVJMLUk2Y1RiT0JvN2xEMFk2M2VmN3dhcW9zV3JhMEpCa1p1aHRaRWI0SzFETEZad0NqRTN0QVVOWnVsU3JWeFVJa2gzWFJOcw?oc=5",
+    "source": "에너지경제신문",
+    "pub_iso": "2026-08-18T00:26:41+00:00",
+    "summary_raw": "[특징주] 삼성전자·SK하이닉스, 메모리 수요 확대 기대…동반 강세 에너지경제신문",
     "matched_by": [
-      "카카오"
+      "삼성전자"
     ],
     "categories": [],
     "companies": [
-      "카카오"
+      "삼성전자"
     ]
   },
   {
@@ -1209,9 +1895,9 @@
   {
     "title": "삼성전자, 루브르·프라도 이어 빈 미술사 박물관 작품 담는다",
     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1JU1AxV3hHWV9zYnQySkRQVjc4Z1VITnU0Mk9GbzM0Rmlpc29RcTRDcUxtNHljVEktd0RPT1l0SzJuRnBTazNsdFZCMnd4Rm54eGhvb3dUQ1Q?oc=5",
-    "source": "더트래커",
+    "source": "thetracker.co.kr",
     "pub_iso": "2026-08-18T00:24:38+00:00",
-    "summary_raw": "삼성전자, 루브르·프라도 이어 빈 미술사 박물관 작품 담는다 더트래커",
+    "summary_raw": "삼성전자, 루브르·프라도 이어 빈 미술사 박물관 작품 담는다 thetracker.co.kr",
     "matched_by": [
       "삼성전자"
     ],
@@ -1275,6 +1961,20 @@
     "companies": [
       "LG전자"
     ]
+  },
+  {
+    "title": "코인원, ‘2026 브랜드 캠페인’ 메인 영상 시리즈 공개… “핵심 서비스 알린다”",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9MaTVtelV4Q0FtQ1BPdWU0TWRWNXlSYy14T2xxVU4xOHJpZ1hfYm5vdW1RbHFrS0d0MFNPdDh1aGNjQ2h3dzJiMDRzb1VxMHlJZmlxUzRWV1p6QQ?oc=5",
+    "source": "브릿지경제",
+    "pub_iso": "2026-08-18T00:22:00+00:00",
+    "summary_raw": "코인원, ‘2026 브랜드 캠페인’ 메인 영상 시리즈 공개… “핵심 서비스 알린다” 브릿지경제",
+    "matched_by": [
+      "브랜드 캠페인"
+    ],
+    "categories": [
+      "브랜드·캠페인"
+    ],
+    "companies": []
   },
   {
     "title": "삼성 아트 스토어, ‘빈 미술사 박물관’ 명작 43점 선보인다 - 조선비즈",
@@ -1349,9 +2049,9 @@
   {
     "title": "삼성전자 사내 ‘익명 소통’ 끝낸다…10년 만에 실명제 전환",
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tX2FhMW9NR01Ob0FkU2dhRnVZV1dnZUoweXY2aENHSnRfejR3WWdMX3VJc0o4R2QtWk9wZGpNdlBXV0NVSEpjWkZodkk4RGlnbU1LVDJ3?oc=5",
-    "source": "joongang.co.kr",
+    "source": "중앙일보",
     "pub_iso": "2026-08-18T00:18:21+00:00",
-    "summary_raw": "삼성전자 사내 ‘익명 소통’ 끝낸다…10년 만에 실명제 전환 joongang.co.kr",
+    "summary_raw": "삼성전자 사내 ‘익명 소통’ 끝낸다…10년 만에 실명제 전환 중앙일보",
     "matched_by": [
       "삼성전자"
     ],
@@ -1363,9 +2063,9 @@
   {
     "title": "[특징주] 삼성전자, 3% 올라 '28만전자'…하닉도 5%대 급등",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KVmlWMmNWY0hPXzZrXzB2Q2JFUTh4RV9HNTAzRTRwYTZjNTNBTFB2RkhMTEZnV3RpTE9MSEx4SGFEQy1udGxMLXhOd2xmMUlBbV9GeGdQOEdCME3SAWBBVV95cUxPV2hDT29KbFJaVGZEVE01Y0JXZDB5UG5IMGs2MUZUc0NCN1I4YlFReFpMb2s4ek92WmNGQk1VZzhSNFFOS3hMLVlVeGZmN0hGT2huR0g5dV9ZajNRQlI5M0I?oc=5",
-    "source": "연합뉴스",
+    "source": "yna.co.kr",
     "pub_iso": "2026-08-18T00:18:14+00:00",
-    "summary_raw": "[특징주] 삼성전자, 3% 올라 '28만전자'…하닉도 5%대 급등 연합뉴스",
+    "summary_raw": "[특징주] 삼성전자, 3% 올라 '28만전자'…하닉도 5%대 급등 yna.co.kr",
     "matched_by": [
       "삼성전자"
     ],
@@ -1417,11 +2117,25 @@
     ]
   },
   {
+    "title": "코인원, 브랜드 캠페인 영상 공개",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4wTHo2OTR2dGlnOGVsNWx0T19KdERiT1JadWdWX092TVBYRml3X2IzN0RlM0tpSnlSVVBYLS10VXF0eUdkcDNCUjliM1VvT2c?oc=5",
+    "source": "v.daum.net",
+    "pub_iso": "2026-08-18T00:16:40+00:00",
+    "summary_raw": "코인원, 브랜드 캠페인 영상 공개 v.daum.net",
+    "matched_by": [
+      "브랜드 캠페인"
+    ],
+    "categories": [
+      "브랜드·캠페인"
+    ],
+    "companies": []
+  },
+  {
     "title": "[게시판] 코인원, 브랜드 캠페인 영상 시리즈 공개",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1sV1dsQy1lY1BOcmFsakQ2Zl9qVlkwV1VyRTVBZFRNcW03emMyY2xiUWdjU1RaZEIycWN6c1hvX2pZSGNsWU9RRFJ6XzNqV1FjVldB?oc=5",
-    "source": "news.nate.com",
+    "source": "네이트",
     "pub_iso": "2026-08-18T00:16:00+00:00",
-    "summary_raw": "[게시판] 코인원, 브랜드 캠페인 영상 시리즈 공개 news.nate.com",
+    "summary_raw": "[게시판] 코인원, 브랜드 캠페인 영상 시리즈 공개 네이트",
     "matched_by": [
       "브랜드 캠페인"
     ],
@@ -1433,9 +2147,9 @@
   {
     "title": "[게시판] 코인원, 브랜드 캠페인 영상 시리즈 공개",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCdlJ3XzdWeUdEX0V4ZzBoN3NZdS1TUjFKV0FQelgwNmRsVk1pZnhYWExfVU1XWHNKNWdEV1NDOElLbHE5VXd2clVZbHdoaWdxWVNXRzlUTVFWZnfSAWBBVV95cUxQOVRsRHpHZm9zUTlVRWNHdnRtSnJCQUZINjdqdU9Jbi01ZGZwYmhqYnZ6WEZYOTNKU2E3QVhzZWxfck9JNXFlbExRN2JjdVpkNUliQXZ6S3BmcElRa05wclQ?oc=5",
-    "source": "연합뉴스",
+    "source": "yna.co.kr",
     "pub_iso": "2026-08-18T00:15:52+00:00",
-    "summary_raw": "[게시판] 코인원, 브랜드 캠페인 영상 시리즈 공개 연합뉴스",
+    "summary_raw": "[게시판] 코인원, 브랜드 캠페인 영상 시리즈 공개 yna.co.kr",
     "matched_by": [
       "브랜드 캠페인"
     ],
@@ -1487,11 +2201,25 @@
     ]
   },
   {
+    "title": "LG전자 주가 상승 중",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBMYmpVV1RUeEV6QmN3MGtqa00wbnlGSm9oOTE2bGhBYmlRTHlDX1dKSFQwSVo3UDBlTGFBN3VpdnhZVTlOMjNVZFBGcUxRUWFSQlNwVVJrR3FGWEVR?oc=5",
+    "source": "아시아뉴스통신",
+    "pub_iso": "2026-08-18T00:14:05+00:00",
+    "summary_raw": "LG전자 주가 상승 중 아시아뉴스통신",
+    "matched_by": [
+      "LG전자"
+    ],
+    "categories": [],
+    "companies": [
+      "LG전자"
+    ]
+  },
+  {
     "title": "코인원, 브랜드 캠페인 영상 공개",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TNkNSeTRfa0xPb3gzZWNITE9oUkR3Q3ZPZFdmQ2hzLXd0TV8wTlZjYkJKb2I5czBZMFRTYzNRV2VDcWVEXzR1bkhrSno1bUphSjZJ?oc=5",
-    "source": "news.nate.com",
+    "source": "네이트",
     "pub_iso": "2026-08-18T00:14:00+00:00",
-    "summary_raw": "코인원, 브랜드 캠페인 영상 공개 news.nate.com",
+    "summary_raw": "코인원, 브랜드 캠페인 영상 공개 네이트",
     "matched_by": [
       "브랜드 캠페인"
     ],
@@ -1573,9 +2301,23 @@
   {
     "title": "카카오뱅크, 자사주 27만주 소각 추진…주주가치 제고·임직원 보상 강화",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA5Q05JVlRRZW5abHBEMTFFak9IakNveTgyUGdEQ2FyQVpoNE9vei1ha1R4dy1YbG01WmZtWUo1VS1pSUdHOWg2RHpiUUtGelNVcnUw?oc=5",
-    "source": "news.nate.com",
+    "source": "네이트",
     "pub_iso": "2026-08-18T00:11:00+00:00",
-    "summary_raw": "카카오뱅크, 자사주 27만주 소각 추진…주주가치 제고·임직원 보상 강화 news.nate.com",
+    "summary_raw": "카카오뱅크, 자사주 27만주 소각 추진…주주가치 제고·임직원 보상 강화 네이트",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
+    "title": "카카오뱅크, 자사주 27만주 소각 추진…주주가치 제고·임직원 보상 강화",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRc1E5UlBIZElFYUZpZ0t3cjhETmVjNjFlZlhVdlQwRGxKRUlva1BSZERVVW9EQVppdmdOYU1SRUpqaktBM0FWMFlEbW80VUdxZFBOUjNDZnQtX1hMb3ZZREQ5cW1rdVVrTnZleERjWdIBc0FVX3lxTE52SDI3UDJNdnVqMEhEVjRCSGplQndxdlp6Sk9NaFBwN0tDVS1TTWRCcmg2aUVBRTJaLW5nVkw4a19TUy1XODNaM0diNUdqbWwtYWZKTUFUZURfc080azlNYUdjZkFyWE9EM29PeVB5LTZxNEE?oc=5",
+    "source": "데일리한국",
+    "pub_iso": "2026-08-18T00:10:29+00:00",
+    "summary_raw": "카카오뱅크, 자사주 27만주 소각 추진…주주가치 제고·임직원 보상 강화 데일리한국",
     "matched_by": [
       "카카오"
     ],
@@ -1643,9 +2385,9 @@
   {
     "title": "\"시식 메뉴 순식간에 동났다\"…美 LA서 1만명 홀린 CJ 비비고",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9uOWt3S25UVXhHYjVMWU5kdzBUZGFEZVFWN182VGF5WkhEbUF2Y19xOEZQd005SlVEYWRQMXZtbmFiQnVEaGdzTGs1YWlteTlyYVNF?oc=5",
-    "source": "news.nate.com",
+    "source": "네이트",
     "pub_iso": "2026-08-18T00:09:00+00:00",
-    "summary_raw": "\"시식 메뉴 순식간에 동났다\"…美 LA서 1만명 홀린 CJ 비비고 news.nate.com",
+    "summary_raw": "\"시식 메뉴 순식간에 동났다\"…美 LA서 1만명 홀린 CJ 비비고 네이트",
     "matched_by": [
       "CJ제일제당"
     ],
@@ -1671,9 +2413,9 @@
   {
     "title": "동원F&B, 두 번째 '동원참치' 광고 온에어",
     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBURHJTNnZ2S2NBcHRoQ0ZtVE1HYnY5Y0x6X1hOLWgyNmpuUjlSbHFXOWJ0VUdmaUg5TDRFR3lIZ0dHTGl4d3NIeDM2U01MNzF5VGg2TThfUU5zRXUzX0ZBLWF2VQ?oc=5",
-    "source": "보건신문",
+    "source": "bokuennews.com",
     "pub_iso": "2026-08-18T00:06:27+00:00",
-    "summary_raw": "동원F&B, 두 번째 '동원참치' 광고 온에어 보건신문",
+    "summary_raw": "동원F&B, 두 번째 '동원참치' 광고 온에어 bokuennews.com",
     "matched_by": [
       "브랜드 캠페인"
     ],
@@ -1699,9 +2441,9 @@
   {
     "title": "에버랜드, 아기판다 이름짓기 전국민 투표 이벤트 진행",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1KOVpfSEktMjlfWEtVZENrb3NEYS14NDNYYzdlcDhTMFBmVVRTLUh1enpWYkJKcUVyS3hIZG5GM0FUZmlyaHQ1NS1vM29Db01xWlRR?oc=5",
-    "source": "news.nate.com",
+    "source": "네이트",
     "pub_iso": "2026-08-18T00:05:00+00:00",
-    "summary_raw": "에버랜드, 아기판다 이름짓기 전국민 투표 이벤트 진행 news.nate.com",
+    "summary_raw": "에버랜드, 아기판다 이름짓기 전국민 투표 이벤트 진행 네이트",
     "matched_by": [
       "삼성물산"
     ],
@@ -1713,9 +2455,9 @@
   {
     "title": "충무아트센터, 카카오톡 공식 채널 오픈… 중구민 맞춤형 문화 혜택 강화",
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9tQkNnN1NXOFhDOGpNc01yQVk5SnVHdlNYcmxUUmp2a2k4WjJKMV9fbWs1M05NYS1hSE1kSjJGTUNFX0RGUlNZX1NvVnFwd2hmenRDZk10VEtFSmJFbENvcl9fQ3VTOUxWelpV?oc=5",
-    "source": "시정일보",
+    "source": "sijung.co.kr",
     "pub_iso": "2026-08-18T00:04:04+00:00",
-    "summary_raw": "충무아트센터, 카카오톡 공식 채널 오픈… 중구민 맞춤형 문화 혜택 강화 시정일보",
+    "summary_raw": "충무아트센터, 카카오톡 공식 채널 오픈… 중구민 맞춤형 문화 혜택 강화 sijung.co.kr",
     "matched_by": [
       "카카오"
     ],
@@ -1742,29 +2484,15 @@
   {
     "title": "비비고, ‘KCON LA 2026’서 K-푸드 알렸다…1만명 방문",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWTRBeHRyS2M3TVg5QzdTeXJhSEZiWjVxRjdnekZZR29zNXRaNGlFc0VDV0w1UUxldm84YnlaUGpINVVsdGhDS2gtSHJEbG9ZOW94UkIyRDhRSi1jLWVfTmRjSzdfa1d6R1BqaVhDWmZDalpOSXBHUVp5eUpUaHh4bUR6Z3hLVG12aER5TE44b0ZJallHM2FBSms0czNFZFlTU2VoblVVV0xkM2k4eGxhdU44SkVRRlE?oc=5",
-    "source": "dailian.co.kr",
+    "source": "데일리안",
     "pub_iso": "2026-08-18T00:03:00+00:00",
-    "summary_raw": "비비고, ‘KCON LA 2026’서 K-푸드 알렸다…1만명 방문 dailian.co.kr",
+    "summary_raw": "비비고, ‘KCON LA 2026’서 K-푸드 알렸다…1만명 방문 데일리안",
     "matched_by": [
       "CJ제일제당"
     ],
     "categories": [],
     "companies": [
       "CJ제일제당"
-    ]
-  },
-  {
-    "title": "코나투스, 교통약자 호출 서비스 영천 오픈…경남·수도권 확대",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkaEViMjJ1SnVtdUdoamJvRXFfeXdsM1BEZm9yemdLTkVxZERQbVg1a3FQNlJheGVPb29qSjV4cUM2QW5SSGhIWlNTOVNWQjltd2sw?oc=5",
-    "source": "news.nate.com",
-    "pub_iso": "2026-08-18T00:03:00+00:00",
-    "summary_raw": "코나투스, 교통약자 호출 서비스 영천 오픈…경남·수도권 확대 news.nate.com",
-    "matched_by": [
-      "카카오"
-    ],
-    "categories": [],
-    "companies": [
-      "카카오"
     ]
   },
   {
@@ -1896,9 +2624,9 @@
   {
     "title": "빈 미술사 박물관 대표 소장품 43점 삼성전자 TV로 감상",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWVkpuczBPWWJVMlRzRTVJeW9FWVN0eHBLVEZXWXBLVUE0NjVjTjl3elF6N1k3a05adzBJUHZoV0hSVkNnSnpKbnlUTlVpUUhyLVVkMU1lUkRfaUXSAWBBVV95cUxQd1h3NEEyV3pEbWVvaWZQNmZjSHoxUGtYc2xqY2pXWXVQU1kyZzZKXzZ4emZrbVY2bTBMbWhmUlIxVVdyRHNycUtUZU5CbkMzc3diRzVfdHI1VmxncU5YOUk?oc=5",
-    "source": "연합뉴스",
+    "source": "yna.co.kr",
     "pub_iso": "2026-08-17T23:54:34+00:00",
-    "summary_raw": "빈 미술사 박물관 대표 소장품 43점 삼성전자 TV로 감상 연합뉴스",
+    "summary_raw": "빈 미술사 박물관 대표 소장품 43점 삼성전자 TV로 감상 yna.co.kr",
     "matched_by": [
       "삼성전자"
     ],
@@ -1966,9 +2694,9 @@
   {
     "title": "비수기 뚫은 패션업계…상반기 수익성 '껑충'",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9DOFdGY1ZFUk1jZVFpYmI4RFdfUHR5U21YNGs4MzYxT2JVUEZfQXdsYjZYd3N5S3JYQ3FMRU1YcExFUUFRVTVqdVZ2ZThTR25Jc3g0Z3N0RHlIZWZ2ZkY4?oc=5",
-    "source": "데이터뉴스",
+    "source": "datanews.co.kr",
     "pub_iso": "2026-08-17T23:45:42+00:00",
-    "summary_raw": "비수기 뚫은 패션업계…상반기 수익성 '껑충' 데이터뉴스",
+    "summary_raw": "비수기 뚫은 패션업계…상반기 수익성 '껑충' datanews.co.kr",
     "matched_by": [
       "삼성물산"
     ],
@@ -2022,9 +2750,9 @@
   {
     "title": "삼성전자, 액티비전 블리자드와 '콜 오브 듀티: 모던 워페어 4' 파트너십",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JQ3JSM2pYdFlINWlrbnZQNk9XM2RYMnJwVDN2RkJmUml2eWpsblh1Y3VRMnFnMkxSOXZ5Z0RvY0pfQ0tKejJ1SlhnbmRtdmh3blNRZ0Z5ZTdnSXB3ZjVVUWhjQ3lFcEhTRFBTMDhYOV8?oc=5",
-    "source": "비즈트리뷴",
+    "source": "biztribune.co.kr",
     "pub_iso": "2026-08-17T23:37:11+00:00",
-    "summary_raw": "삼성전자, 액티비전 블리자드와 '콜 오브 듀티: 모던 워페어 4' 파트너십 비즈트리뷴",
+    "summary_raw": "삼성전자, 액티비전 블리자드와 '콜 오브 듀티: 모던 워페어 4' 파트너십 biztribune.co.kr",
     "matched_by": [
       "삼성전자"
     ],
@@ -2032,20 +2760,6 @@
     "companies": [
       "삼성전자"
     ]
-  },
-  {
-    "title": "코인원, '주식투자 바로가기' 서비스 알린다…브랜드 캠페인 시리즈 공개",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE13TzVyNG5qWVdLbDhQZ1VLN3ZoYnJkQ2s5TnJsRE52THA0UmR4dnFTdlo3RXBhbnA4ajNYSEJ2YzNTMGdXaE1zbllmcEZCT1VtbmhN0gFYQVVfeXFMTnFkMy05R0pRUkVEVnN4VnZlMzdGWkpiaVQtVnZzbmhna0NCU1NQdHVRbkdaX25WLWJLM1dPYzJHSGRPSmd4NjdCVlIzUjhPVHppOVJJQWtEUw?oc=5",
-    "source": "SBS Biz",
-    "pub_iso": "2026-08-17T23:37:00+00:00",
-    "summary_raw": "코인원, '주식투자 바로가기' 서비스 알린다…브랜드 캠페인 시리즈 공개 SBS Biz",
-    "matched_by": [
-      "브랜드 캠페인"
-    ],
-    "categories": [
-      "브랜드·캠페인"
-    ],
-    "companies": []
   },
   {
     "title": "김해시 '농업인 디지털 역량 강화 교육' 추진",
@@ -2120,9 +2834,9 @@
   {
     "title": "거장의 숨결을 안방에서…삼성전자, 빈 미술사 박물관 명작 43점 아트 스토어 공개",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5tYmQ3N01SV201aWJtODloeVVRZ1g2TWtHVWFZdkJSQ1hYNWpXTnhJRFdYM1RUR3p2eGdqbVJXU3FCbVk4eFdLWWRkOEI0OU0xbFRJ?oc=5",
-    "source": "news.nate.com",
+    "source": "네이트",
     "pub_iso": "2026-08-17T23:31:00+00:00",
-    "summary_raw": "거장의 숨결을 안방에서…삼성전자, 빈 미술사 박물관 명작 43점 아트 스토어 공개 news.nate.com",
+    "summary_raw": "거장의 숨결을 안방에서…삼성전자, 빈 미술사 박물관 명작 43점 아트 스토어 공개 네이트",
     "matched_by": [
       "삼성전자"
     ],
@@ -2134,9 +2848,9 @@
   {
     "title": "거장의 숨결을 안방에서… 삼성전자, 빈 미술사 박물관 명작 43점 아트 스토어 공개",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fb0x6THRvTVVhZUZlY2JjazZVZi1jV1R1TmRkalJ0UnZORlFRV0dGQm80bXcwQWh5NFJlSlpYZlhoNy1taWtnRU9hdHhqU2s4dDlwNmR1eHJkV0h0MHRzRkdkZndhYVprelE?oc=5",
-    "source": "pointe.co.kr",
+    "source": "포인트경제",
     "pub_iso": "2026-08-17T23:30:23+00:00",
-    "summary_raw": "거장의 숨결을 안방에서… 삼성전자, 빈 미술사 박물관 명작 43점 아트 스토어 공개 pointe.co.kr",
+    "summary_raw": "거장의 숨결을 안방에서… 삼성전자, 빈 미술사 박물관 명작 43점 아트 스토어 공개 포인트경제",
     "matched_by": [
       "삼성전자"
     ],
@@ -2148,9 +2862,9 @@
   {
     "title": "삼성전자, 아트 스토어에 ‘빈 미술사 박물관’ 대표 소장품 43점 공개",
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9aN0VCTHFiNFk0MmppTzZSRkI2ZWx2YXA2MW85YVNGT3U3OG5TcFNsSnFoVXBrOTZSSXRBM2g0U2I4cUNLZWcyc0U2ZGVLNUhGOUFzQmx4UmpFSmRsYkI3Wi1rS0ZSajVXbGFXUTlB?oc=5",
-    "source": "econonews.co.kr",
+    "source": "이코노뉴스",
     "pub_iso": "2026-08-17T23:30:00+00:00",
-    "summary_raw": "삼성전자, 아트 스토어에 ‘빈 미술사 박물관’ 대표 소장품 43점 공개 econonews.co.kr",
+    "summary_raw": "삼성전자, 아트 스토어에 ‘빈 미술사 박물관’ 대표 소장품 43점 공개 이코노뉴스",
     "matched_by": [
       "삼성전자"
     ],
@@ -2316,9 +3030,9 @@
   {
     "title": "오브젠, 네이버클라우드 플랫폼 마켓플레이스에 'Strategy' 등록…AI 협력 확대",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ocnM3c1lSMTJ1dG41elkzQ1pDd1V4RXgtdGd1U0VvUnZKelJITXU2eEZVNF9hWU9LSUJhdXA4c3hZSjYyaWE4MDNnaXgwSXB3YUE4?oc=5",
-    "source": "news.nate.com",
+    "source": "네이트",
     "pub_iso": "2026-08-17T23:12:00+00:00",
-    "summary_raw": "오브젠, 네이버클라우드 플랫폼 마켓플레이스에 'Strategy' 등록…AI 협력 확대 news.nate.com",
+    "summary_raw": "오브젠, 네이버클라우드 플랫폼 마켓플레이스에 'Strategy' 등록…AI 협력 확대 네이트",
     "matched_by": [
       "네이버"
     ],
@@ -2400,9 +3114,9 @@
   {
     "title": "[카드뉴스] 얼음, 다 같은 얼음이 아니다? 삼성 제빙 기술이 만드는 얼음의 차이",
     "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxPZnZ3Ymd5a2pYUW5QQXdudHNOZDdDM1JxMHpoNVlOTVQ2Nzc4TWNwelU0aVplZmwyN0lyeVExSU13R3UzRmhEQmVRaU1XOHBVWXEzdHZMTFp0MG5nV3BuajVfb3M3QVcwdWVlRy1iSlRwTmJiQjIzcXFBQmpwSTVzeFpNMWlPcDV4ck0tMnZGLWRPVHZsZTdnM1hnZGh4eEpTam45YjhpazJjeEVGcXgwMGk2VG02T2dFV1BRWGdmTXlsS2F6N0pGRV9RTVRDMU1Hd2VpeEx0V1ZGbWlUcU4zRThqSGstWW5mOHlRX3NjZ2R6NXJSdDUwMkpQQmp2bjJlY1hheDJodFdGdTNUeEJoZEVCOWhmUm9RTUtlUGZYMkNoZTIzY1lUbWJmSjBMNHdKVHEtVkZpWXQ1NVJP?oc=5",
-    "source": "news.samsung.com",
+    "source": "samsung.com",
     "pub_iso": "2026-08-17T23:00:00+00:00",
-    "summary_raw": "[카드뉴스] 얼음, 다 같은 얼음이 아니다? 삼성 제빙 기술이 만드는 얼음의 차이 news.samsung.com",
+    "summary_raw": "[카드뉴스] 얼음, 다 같은 얼음이 아니다? 삼성 제빙 기술이 만드는 얼음의 차이 samsung.com",
     "matched_by": [
       "삼성전자"
     ],
@@ -2414,15 +3128,29 @@
   {
     "title": "새로운 폴더블에서 기기 관리를 더 쉽게, 보증 및 케어(Warranty and care)",
     "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQVnlIZk44N3FzMV9sWWhlUktaTWxEOE4ycDJkNzdVS3BNbGktWmtCaVFiTDBEbVFYUnFhYzdyV0kyd2N5Mmg3LTlUSHNDZWNhT1JzdnlGZzc0aDlJOXFlZ04wU1Q0VnV0ODAyYlRiUTR6N2tMVElVM0YwbWdydGl6YUotVm9Fa2ppTGdxel9SNXhOMzZ6RkFyQTh4RVdOalliWnc0UHdhcEFncGl2NGllWlMzd2ZESl9BWUVYU2dad1lJdkpoQWFxRGtsSnVVSUl1REdBQUttT3VvenpTeTBROEE3bnRlXzZiOUFDdWdpOW9CMkFtTVFWN2xOa1g2Q2hLaFU1X3FjeWNTQXZGY00zUE1KWk5UWHN2UXYxR3FvYXJUY3c1aEJZSW9uNjdkRHhETWl1NEdHUkcza2dmMC1ZVk5QdDJUeWxzSUE?oc=5",
-    "source": "news.samsung.com",
+    "source": "samsung.com",
     "pub_iso": "2026-08-17T23:00:00+00:00",
-    "summary_raw": "새로운 폴더블에서 기기 관리를 더 쉽게, 보증 및 케어(Warranty and care) news.samsung.com",
+    "summary_raw": "새로운 폴더블에서 기기 관리를 더 쉽게, 보증 및 케어(Warranty and care) samsung.com",
     "matched_by": [
       "삼성전자"
     ],
     "categories": [],
     "companies": [
       "삼성전자"
+    ]
+  },
+  {
+    "title": "교보證 “LG전자, 10월 AIDC 2조5000억원 수주 전망…AI 인프라가 새 성장축”",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1wNm9UWlRnY0x6UEp2OXlQeV81eV83YUVsbkZ3aGtpX0YwaVNTRWh4XzJGeEZPOHEyaEpIanZ6RmtTSlItUnc4WExlWVY2V1U?oc=5",
+    "source": "v.daum.net",
+    "pub_iso": "2026-08-17T22:54:04+00:00",
+    "summary_raw": "교보證 “LG전자, 10월 AIDC 2조5000억원 수주 전망…AI 인프라가 새 성장축” v.daum.net",
+    "matched_by": [
+      "LG전자"
+    ],
+    "categories": [],
+    "companies": [
+      "LG전자"
     ]
   },
   {
@@ -2553,6 +3281,20 @@
     ]
   },
   {
+    "title": "카카오뱅크, 자사주 27만주 소각…잔여분은 임직원 보상",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFbEVGQWwtemtGb1pKWjdXRWQzRU1Jc1NmRGljNk1YbXZkWlZTTThiQ1kybF9SVlZ1ZTJGaE1yMkRQMU4tVmFjbXNKem9SSVo0dExQdF90MV9KNHctQ0ktRm8zb1lucEJmTm4xZw?oc=5",
+    "source": "ER 이코노믹리뷰",
+    "pub_iso": "2026-08-17T22:23:24+00:00",
+    "summary_raw": "카카오뱅크, 자사주 27만주 소각…잔여분은 임직원 보상 ER 이코노믹리뷰",
+    "matched_by": [
+      "카카오"
+    ],
+    "categories": [],
+    "companies": [
+      "카카오"
+    ]
+  },
+  {
     "title": "LG 구광모, 영업익 2배 '껑충'…전자계열 호성적, 하반기 AX 고도화",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAtcDNZM3RkZ0FHY1ZPUjV6RkFxWXkyQmJEMU51cWNXZDVWazVUcWdsUDd4cGdfSjNOTGRIbUpWZGZVb2tCYlBaOUs5OXE5RUNQVWtFWXNpd1puX2VQMzNiYUlWN3pxUE5fMXlzNUd4ODU?oc=5",
     "source": "신아일보",
@@ -2569,9 +3311,9 @@
   {
     "title": "[단독]삼성전자, 美 기업용 AI 플랫폼 '엑스팬더'에 투자",
     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE52aWZxTDdsQUc3S1FnSXJ3MlhjSU01OEhCOUJIT3I1eTZuQTRpMGw3S0ZYS0RGMmpERGJVRDNrdDM3MFh5Nm1rS1VJblJTRkw0NlhGMnV4SGY?oc=5",
-    "source": "더트래커",
+    "source": "thetracker.co.kr",
     "pub_iso": "2026-08-17T22:14:42+00:00",
-    "summary_raw": "[단독]삼성전자, 美 기업용 AI 플랫폼 '엑스팬더'에 투자 더트래커",
+    "summary_raw": "[단독]삼성전자, 美 기업용 AI 플랫폼 '엑스팬더'에 투자 thetracker.co.kr",
     "matched_by": [
       "삼성전자"
     ],
@@ -2595,11 +3337,11 @@
     ]
   },
   {
-    "title": "[비즈톡]DS·DX 성과급 불만, 임원 LTI로 불똥? 주식 보유액 추적 사이트 등장",
+    "title": "삼전 임원 주식 수익률 낱낱이… 추적 사이트, 성과급 불만 때문?",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPckQ1ckNKdUUzeXRFRU1yTEFlUnB6TFJ1TTNrX0FRTjFwLV9ieDg3bkhla3NwVjV4bUFGeThkdmRfOVhDb0FlV0czaXN1TEV4bkp5Z2RybjIwZVA0OXZ2R2xkNjQwTGVLRzY4MjFJQzJpbWZXYWY4WG02aXg5bWMzNlNuTQ?oc=5",
     "source": "조선일보",
     "pub_iso": "2026-08-17T22:04:04+00:00",
-    "summary_raw": "[비즈톡]DS·DX 성과급 불만, 임원 LTI로 불똥? 주식 보유액 추적 사이트 등장 조선일보",
+    "summary_raw": "삼전 임원 주식 수익률 낱낱이… 추적 사이트, 성과급 불만 때문? 조선일보",
     "matched_by": [
       "삼성전자"
     ],
@@ -2611,9 +3353,9 @@
   {
     "title": "[기업家] 삼성전자 ⑰ㅣ 반도체 수출·점유율 '쑥'…역대급 투자부터 게임·조직문화 혁신까지",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tb2lMQlY2RFVOQzZmNFNzSXJIUkRMc3F0LWxBODg2b004ei12UVFpeGFFR0JkSVdMZHlETkRzNEpsRm95VHZpdWh3X3lRM0dCV3hV?oc=5",
-    "source": "news.nate.com",
+    "source": "네이트",
     "pub_iso": "2026-08-17T22:01:00+00:00",
-    "summary_raw": "[기업家] 삼성전자 ⑰ㅣ 반도체 수출·점유율 '쑥'…역대급 투자부터 게임·조직문화 혁신까지 news.nate.com",
+    "summary_raw": "[기업家] 삼성전자 ⑰ㅣ 반도체 수출·점유율 '쑥'…역대급 투자부터 게임·조직문화 혁신까지 네이트",
     "matched_by": [
       "삼성전자"
     ],
@@ -2625,9 +3367,9 @@
   {
     "title": "CJ, 2028년 북미 매출 12조원 겨냥…“K-라이프스타일 일상화로 승부”",
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE56cjczV1hERWp4U054WlBIRkV2WFA3T2ZmOGJPWHdCamV1RkZsTXNEblVCcHRlWlZTNFE1d3FCSy14TlpWLUJZN2JPWTlqdENqb21sSWIyLVBGRl9jUDlvcHdHV1Voc2pxSFhz0gFvQVVfeXFMUGprNjI4VEJTeEhDUmlnNFk2dTk4eGprdEg5ZC0ySGtFcnJ0Qm9FNDY4ZFI2WWtvU2F5cnBVNVdJSlZvMHFyWVdnM0NBc1FYSlhKWEJzM0xvdnNqYm1wMjZVdU1oT3FfRHdpSW1zZ3BV?oc=5",
-    "source": "newsroad.co.kr",
+    "source": "뉴스로드",
     "pub_iso": "2026-08-17T22:00:00+00:00",
-    "summary_raw": "CJ, 2028년 북미 매출 12조원 겨냥…“K-라이프스타일 일상화로 승부” newsroad.co.kr",
+    "summary_raw": "CJ, 2028년 북미 매출 12조원 겨냥…“K-라이프스타일 일상화로 승부” 뉴스로드",
     "matched_by": [
       "브랜드 전략"
     ],
@@ -2655,9 +3397,9 @@
   {
     "title": "[기업家] 삼성전자 ⑰ㅣ 반도체 수출·점유율 ‘쑥’…역대급 투자부터 게임·조직문화 혁신까지",
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ISGozNnpXOEJQLVpLbUdhR1JJUFJfQVZJMkMtb2JZZ3g4aThTUjVzVkcyTWFKRms1ZWFYeC00dDJYSE1nei0xaFVBNzlickNmYUt4Z25xVVhrYk1rUm9Hb2gxd3lpNTlr?oc=5",
-    "source": "cbci.co.kr",
+    "source": "CBC뉴스",
     "pub_iso": "2026-08-17T22:00:00+00:00",
-    "summary_raw": "[기업家] 삼성전자 ⑰ㅣ 반도체 수출·점유율 ‘쑥’…역대급 투자부터 게임·조직문화 혁신까지 cbci.co.kr",
+    "summary_raw": "[기업家] 삼성전자 ⑰ㅣ 반도체 수출·점유율 ‘쑥’…역대급 투자부터 게임·조직문화 혁신까지 CBC뉴스",
     "matched_by": [
       "삼성전자"
     ],
@@ -2767,9 +3509,9 @@
   {
     "title": "에르먼, 네이버 브랜드스토어 판매자 최고 등급 ‘플래티넘’ 달성",
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE90THdPc0hjUkI1SlNDSzVfeXB1TjRueGVKZElSbkhGZlpEajNGY1lFcFh4UVZGNVU2eExPXzd3cHBBRnBZZm10WE9udENneWxXRUxhWVVaTE1YQUpjNHUxWlRaMGZTUQ?oc=5",
-    "source": "비건뉴스",
+    "source": "vegannews.co.kr",
     "pub_iso": "2026-08-17T20:54:16+00:00",
-    "summary_raw": "에르먼, 네이버 브랜드스토어 판매자 최고 등급 ‘플래티넘’ 달성 비건뉴스",
+    "summary_raw": "에르먼, 네이버 브랜드스토어 판매자 최고 등급 ‘플래티넘’ 달성 vegannews.co.kr",
     "matched_by": [
       "네이버"
     ],
@@ -2781,9 +3523,23 @@
   {
     "title": "엔비디아 젠슨 황 장녀, LG전자 로보틱스 거점 방문",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xTnYxeHpBN2ZmWkdvVVNJSVFGamVuOVlSRF9ZMFl0Tk9UNDZzc0VLSDhJNWhMYWVPZDRBYjJtUGpLaTlNMWlqM2U2czdLYkFPeXk0?oc=5",
-    "source": "news.nate.com",
+    "source": "네이트",
     "pub_iso": "2026-08-17T20:50:00+00:00",
-    "summary_raw": "엔비디아 젠슨 황 장녀, LG전자 로보틱스 거점 방문 news.nate.com",
+    "summary_raw": "엔비디아 젠슨 황 장녀, LG전자 로보틱스 거점 방문 네이트",
+    "matched_by": [
+      "LG전자"
+    ],
+    "categories": [],
+    "companies": [
+      "LG전자"
+    ]
+  },
+  {
+    "title": "엔비디아 젠슨 황 장녀, LG전자 로보틱스 거점 방문",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1qV1FQd01HNDc3RGhVTG5xN2lXME9zb0xVcVlrdjM1VUo3VkJydWM4V0Z4WHN4WkJrU29iUGswcGJnVkRUNlhYOTdZLUNnNk1qeW9YcXZ4Q0hweHpvamM4eNIBYEFVX3lxTE1qV1FQd01HNDc3RGhVTG5xN2lXME9zb0xVcVlrdjM1VUo3VkJydWM4V0Z4WHN4WkJrU29iUGswcGJnVkRUNlhYOTdZLUNnNk1qeW9YcXZ4Q0hweHpvamM4eA?oc=5",
+    "source": "yna.co.kr",
+    "pub_iso": "2026-08-17T20:48:58+00:00",
+    "summary_raw": "엔비디아 젠슨 황 장녀, LG전자 로보틱스 거점 방문 yna.co.kr",
     "matched_by": [
       "LG전자"
     ],
@@ -2824,9 +3580,9 @@
   {
     "title": "매디슨 황 엔비디아 수석이사, LG R&D 거점 찾아 로봇 사업 구체화...구광모-젠슨 황 CEO 만난 지 5일 만",
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA1V0FUZGVKenMwUDFDcFlTWDNGZGtNZGlKUTlyQm1FX1ZkOXE2bEhCX1pFc2RqZHZ4TzBhWXVVOTNOSlBEWFF5a3lNU0gxSTRGZ1pQVVMzZW5vNjFjeXYwdW90aHFORWhK?oc=5",
-    "source": "greened.kr",
+    "source": "녹색경제신문",
     "pub_iso": "2026-08-17T20:33:47+00:00",
-    "summary_raw": "매디슨 황 엔비디아 수석이사, LG R&D 거점 찾아 로봇 사업 구체화...구광모-젠슨 황 CEO 만난 지 5일 만 greened.kr",
+    "summary_raw": "매디슨 황 엔비디아 수석이사, LG R&D 거점 찾아 로봇 사업 구체화...구광모-젠슨 황 CEO 만난 지 5일 만 녹색경제신문",
     "matched_by": [
       "LG전자"
     ],
@@ -2852,9 +3608,9 @@
   {
     "title": "AI가 구글·하닉 ‘문송’ 없앴다… 카카오 뚫은 문과생의 채용팁",
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsY0RtMEdjblh3QXlmN3BOS2otdE1mOFdXdnFwMndZMkNWc05DbHZBUlQzZk5LaE9sUm81MzVPQ0lNdndmcjlXU0oyaUQ4ek5TYVFqdTFR?oc=5",
-    "source": "joongang.co.kr",
+    "source": "중앙일보",
     "pub_iso": "2026-08-17T20:05:01+00:00",
-    "summary_raw": "AI가 구글·하닉 ‘문송’ 없앴다… 카카오 뚫은 문과생의 채용팁 joongang.co.kr",
+    "summary_raw": "AI가 구글·하닉 ‘문송’ 없앴다… 카카오 뚫은 문과생의 채용팁 중앙일보",
     "matched_by": [
       "카카오"
     ],
@@ -2906,20 +3662,6 @@
     ]
   },
   {
-    "title": "이브이첨단소재, 실적 반등…고부가가치 중심 수주 전략 결실 : 네이버 블로그",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObjFIbGM3LVdGQTVRWXgzOHZybDg0Y0NpbW9YT3p3ODZpRHUtem1UaFdiVmc0WGxPVV9GRUs0Q3FBT2tEejYtR2FxNXVGbzMydjU1MW9wMnpmRmJMWXpSeGhCRmNfYlhyOFJmbEtRNnRHeTRVWjJPMGhoeU50YW9fOWNSWkVCdHFjLUJ5dGVENA?oc=5",
-    "source": "Naver Blog",
-    "pub_iso": "2026-08-17T19:44:29+00:00",
-    "summary_raw": "이브이첨단소재, 실적 반등…고부가가치 중심 수주 전략 결실 : 네이버 블로그 Naver Blog",
-    "matched_by": [
-      "네이버"
-    ],
-    "categories": [],
-    "companies": [
-      "네이버"
-    ]
-  },
-  {
     "title": "카카오, ‘AI 루키 캠프’ 2기 성료… 실전 프로젝트 중심 AI 교육 강화",
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PdmlDdUkxSEIxWDRXdmFKN2ZqemswMTBMWnJ6LXBiaVMyVFo5Wkx3dVVOSTR6UDVEc1pDaDVzWmM4RGJsOUtOSmtKVFdRbmpCc3QxZHBR?oc=5",
     "source": "카카오",
@@ -2931,48 +3673,6 @@
     "categories": [],
     "companies": [
       "카카오"
-    ]
-  },
-  {
-    "title": "SK이노-테라파워, 나트륨 SMR 사업협력 합의 : 네이버 블로그",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTnk5QjBSVFA2RFdQTGI5cmRyM04wUGJUd0NmMUwtRkF3S20tRVdGNFJrMzRKbmdoTFYyVGJtbU01RS1ZMml2bFpFSHMwS0ZHRmhXRFRKWG5GQUNjSDBBSlZSQkpBYXp0ZDBMaFJFSGl5WDJudDRNWjVWMlNPMFJ3QWFuZzVjdklHOXNtTFBnNA?oc=5",
-    "source": "Naver Blog",
-    "pub_iso": "2026-08-17T19:37:30+00:00",
-    "summary_raw": "SK이노-테라파워, 나트륨 SMR 사업협력 합의 : 네이버 블로그 Naver Blog",
-    "matched_by": [
-      "네이버"
-    ],
-    "categories": [],
-    "companies": [
-      "네이버"
-    ]
-  },
-  {
-    "title": "남양유업, 성장 포트폴리오 본격화…2Q 매출 11.2%↑ : 네이버 블로그",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbnNILTlveDdVdnZHaXU3QzdMbXlKR1pfSzNZRVlnZ0liU3U2elJscVZjT2VBclI0QjdiRC1VcG54RkJVdnllRjNwQUdZODg5bC1ZY19nMTJkajhudy1feHFJV0w2X010aU1vcVI0V3ZETUVZZk5VUXE0UkE5aGdDYUFIVzVnS1ZVWkFhSFVTRQ?oc=5",
-    "source": "Naver Blog",
-    "pub_iso": "2026-08-17T19:34:52+00:00",
-    "summary_raw": "남양유업, 성장 포트폴리오 본격화…2Q 매출 11.2%↑ : 네이버 블로그 Naver Blog",
-    "matched_by": [
-      "네이버"
-    ],
-    "categories": [],
-    "companies": [
-      "네이버"
-    ]
-  },
-  {
-    "title": "HD현대, 테라파워·현대건설과 美 SMR 시장 선점 박차 : 네이버 블로그",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUG5YaDlpdGx6TjBNeGRGeDE5SHpiR2pYanQ0MU12LXpyVXJHY0NZTnpJVU4ydnFVV1BHc1ctTHE3YTlRWW91WENEeDRmWXdBOGpRYU96YzM5NzJ2TUltc2h5Y0xhRnRtMEdNX1lUOUVSS2w2Tk4yT09JZGZRVGk0cE9sT3JhMVhBYXM0blZmTQ?oc=5",
-    "source": "Naver Blog",
-    "pub_iso": "2026-08-17T19:32:50+00:00",
-    "summary_raw": "HD현대, 테라파워·현대건설과 美 SMR 시장 선점 박차 : 네이버 블로그 Naver Blog",
-    "matched_by": [
-      "네이버"
-    ],
-    "categories": [],
-    "companies": [
-      "네이버"
     ]
   },
   {
@@ -3090,9 +3790,9 @@
   {
     "title": "삼성전자 사내 커뮤니티 ‘나우톡’ 실명제 전환",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9nSktIbkxSTl9Td1VFN3NMdV92SWJnV0FrdFprcDVaYW5hcDgyRlh3b0ZEVjBDbDNKN3NuMzcxNXhRU1J5Vnc2bllIMlZUcFZuZF9xcUx6MHRtMDlETHpCQU5pMDR4S3c5WGlTN0t6SHMxd0t1OFHSAWZBVV95cUxOSGdfWlRMQjBlU0V6UTJRaGRGTzRlTEZ1M3pmb3l3d1V2cGM5bEtUN0t4dC0zVDRDeDJHYV9uZEZSZWZWMkQ4QVo5M2gzekZYTkNBb2gxTnFNSFNBWndISldwYmktOFE?oc=5",
-    "source": "동아일보",
+    "source": "donga.com",
     "pub_iso": "2026-08-17T15:30:00+00:00",
-    "summary_raw": "삼성전자 사내 커뮤니티 ‘나우톡’ 실명제 전환 동아일보",
+    "summary_raw": "삼성전자 사내 커뮤니티 ‘나우톡’ 실명제 전환 donga.com",
     "matched_by": [
       "삼성전자"
     ],
@@ -3244,9 +3944,9 @@
   {
     "title": "삼성물산 독주 속 순위 요동…대우건설 0원 ‘직격탄ʼ [2026 시평-경영평가]",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5uU01wUWJaQnltLThuR081dmxkby1XRFBxbDJCaGhvSlRpaExqWlRvRG91dlU3UUpqSFpVYlRRUXdxZTUzTUZJWGN0ZEpVYzRicm1CN3VQNVVsQkNZZlFLZ19EcHVubmwwZ09PWXY3elVua0N4dWZfdUptYw?oc=5",
-    "source": "fntimes.com",
+    "source": "한국금융신문",
     "pub_iso": "2026-08-17T15:00:00+00:00",
-    "summary_raw": "삼성물산 독주 속 순위 요동…대우건설 0원 ‘직격탄ʼ [2026 시평-경영평가] fntimes.com",
+    "summary_raw": "삼성물산 독주 속 순위 요동…대우건설 0원 ‘직격탄ʼ [2026 시평-경영평가] 한국금융신문",
     "matched_by": [
       "삼성물산"
     ],
@@ -3326,6 +4026,20 @@
     ]
   },
   {
+    "title": "이브이첨단소재, 실적 반등…고부가가치 중심 수주 전략 결실 : 네이버 블로그",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObjFIbGM3LVdGQTVRWXgzOHZybDg0Y0NpbW9YT3p3ODZpRHUtem1UaFdiVmc0WGxPVV9GRUs0Q3FBT2tEejYtR2FxNXVGbzMydjU1MW9wMnpmRmJMWXpSeGhCRmNfYlhyOFJmbEtRNnRHeTRVWjJPMGhoeU50YW9fOWNSWkVCdHFjLUJ5dGVENA?oc=5",
+    "source": "Naver Blog",
+    "pub_iso": "2026-08-17T13:51:29+00:00",
+    "summary_raw": "이브이첨단소재, 실적 반등…고부가가치 중심 수주 전략 결실 : 네이버 블로그 Naver Blog",
+    "matched_by": [
+      "네이버"
+    ],
+    "categories": [],
+    "companies": [
+      "네이버"
+    ]
+  },
+  {
     "title": "삼성전자, 사내게시판 '나우톡' 전면 실명제 전환",
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IMmRud0pBUFlCbUZtcHNlWFpZNVZjR1ZBSGMtaEVXMVQxN2dXVHUwRTBDYm16NFE1WmxpcUdVQjBEbEhBRW14MmtrMjc2V205TEFtc0xWWXp1RDMzMnpNMmhvSm8?oc=5",
     "source": "서울경제TV",
@@ -3337,20 +4051,6 @@
     "categories": [],
     "companies": [
       "삼성전자"
-    ]
-  },
-  {
-    "title": "삼진제약, 상반기 매출 선방…항혈전제 '플래리스' 견인 : 네이버 블로그",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNlJpWkRtekU0dlNaeUtwMDlDdVEtTG45Y2EwTnFGVVJpSDJYNUdaX2drX245dmVvRWo5QUhkRFVsN2l1TUhFY2FHZzNVTjVhOEcxVmNmV0xIc3Rid29aXzlseWxfQi1SX25SRnoxM1JLYWNoSXIxazVaRGs2MjRFM0JHakhnTXh3VzlxeDJ6OA?oc=5",
-    "source": "Naver Blog",
-    "pub_iso": "2026-08-17T13:45:45+00:00",
-    "summary_raw": "삼진제약, 상반기 매출 선방…항혈전제 '플래리스' 견인 : 네이버 블로그 Naver Blog",
-    "matched_by": [
-      "네이버"
-    ],
-    "categories": [],
-    "companies": [
-      "네이버"
     ]
   },
   {
@@ -3368,18 +4068,18 @@
     "companies": []
   },
   {
-    "title": "브랜드 검색 결과 관리란? 내 브랜드를 검색했을 때 나오는 모든 것 - 마케팅 - 정보공유",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4teHRsN3Y2QXluWHpWNzdQc0JILVlKelhxdDBGc2pIN2Z5R0RfeXJXYi1yRm5FVno3bEdlN0k0aHZ3LUdkT1dzUVRWRTUtQ0E?oc=5",
-    "source": "아이보스",
-    "pub_iso": "2026-08-17T13:34:15+00:00",
-    "summary_raw": "브랜드 검색 결과 관리란? 내 브랜드를 검색했을 때 나오는 모든 것 - 마케팅 - 정보공유 아이보스",
+    "title": "HD현대, 테라파워·현대건설과 美 SMR 시장 선점 박차 : 네이버 블로그",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUG5YaDlpdGx6TjBNeGRGeDE5SHpiR2pYanQ0MU12LXpyVXJHY0NZTnpJVU4ydnFVV1BHc1ctTHE3YTlRWW91WENEeDRmWXdBOGpRYU96YzM5NzJ2TUltc2h5Y0xhRnRtMEdNX1lUOUVSS2w2Tk4yT09JZGZRVGk0cE9sT3JhMVhBYXM0blZmTQ?oc=5",
+    "source": "Naver Blog",
+    "pub_iso": "2026-08-17T13:35:50+00:00",
+    "summary_raw": "HD현대, 테라파워·현대건설과 美 SMR 시장 선점 박차 : 네이버 블로그 Naver Blog",
     "matched_by": [
-      "콘텐츠 마케팅"
+      "네이버"
     ],
-    "categories": [
-      "콘텐츠·미디어"
-    ],
-    "companies": []
+    "categories": [],
+    "companies": [
+      "네이버"
+    ]
   },
   {
     "title": "충주시 연수동 지사협,‘세대공감 프로그램’ 성황리 마무리 : 네이버 블로그",
@@ -3387,34 +4087,6 @@
     "source": "Naver Blog",
     "pub_iso": "2026-08-17T13:10:42+00:00",
     "summary_raw": "충주시 연수동 지사협,‘세대공감 프로그램’ 성황리 마무리 : 네이버 블로그 Naver Blog",
-    "matched_by": [
-      "네이버"
-    ],
-    "categories": [],
-    "companies": [
-      "네이버"
-    ]
-  },
-  {
-    "title": "카카오 블록 체인 플랫폼 포스트 코로나 시대 디자인 패턴: 핵심 개념과 실제 응용",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBIaldwb2hfdzJWaUVjQk1QOFdDTTdYanpPY1NEOXprWW40b2NTeFlKNUdValVuVDFzNDNLWGF5a0pqUXpmV3NrQko2ZXN0MzAyT3V5bHRYZU1ieGY1NllwSXBaM3U5aWI3dGlYM3N1UE1iQjZzUFBMenBOYw?oc=5",
-    "source": "GPS Audiovisual",
-    "pub_iso": "2026-08-17T13:09:47+00:00",
-    "summary_raw": "카카오 블록 체인 플랫폼 포스트 코로나 시대 디자인 패턴: 핵심 개념과 실제 응용 GPS Audiovisual",
-    "matched_by": [
-      "카카오"
-    ],
-    "categories": [],
-    "companies": [
-      "카카오"
-    ]
-  },
-  {
-    "title": "네이버 '네플스 앱', 출시 1년 만에 쇼핑앱 2위",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE90M3VOdWE4ZVdhVmljZ3BoeFpOTnRJdkdRN0pudWtlMWhfbGs0WVVjVTBCY2dOSU9LM29IZ2pTMTVpRld4YWxfNkhKOU5mMmJ3TWwxQlBYbnFWVmdoaDlJbDdPYXpzNGRQUlIzMGtUek1NNW5z?oc=5",
-    "source": "어패럴뉴스",
-    "pub_iso": "2026-08-17T13:00:00+00:00",
-    "summary_raw": "네이버 '네플스 앱', 출시 1년 만에 쇼핑앱 2위 어패럴뉴스",
     "matched_by": [
       "네이버"
     ],
@@ -3480,20 +4152,6 @@
     ]
   },
   {
-    "title": "LG–엔비디아 로봇 동맹, 실무 협력 나서...매디슨 황, 데이터팩토리 방문",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5vZnJsUUVGOWFERVlQSXBrU1Baa0NoOTlMcXRjTWczSlVld0lVMXpod0xpNkl0c3pBakdsWU8xY2hHS0RLc2N1cWUzMjJYbXZHU1FKY0pfUDN4eU4xU1JuekRMaGRleEU?oc=5",
-    "source": "M이코노미뉴스",
-    "pub_iso": "2026-08-17T11:31:45+00:00",
-    "summary_raw": "LG–엔비디아 로봇 동맹, 실무 협력 나서...매디슨 황, 데이터팩토리 방문 M이코노미뉴스",
-    "matched_by": [
-      "LG전자"
-    ],
-    "categories": [],
-    "companies": [
-      "LG전자"
-    ]
-  },
-  {
     "title": "네이버 게임 라운지 탈퇴 투자 재테크로 보는 권위 있는 해석: 기초, 심화 및 마스터",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2NTBrR3lNMy1obHp2Ym54ZkliSEhPdzRfcU1CQ1NhM0FnVFdMc2ZLcjNFRnZmeHRQaFhHTk9EdF9TdEtVUjQ1bFpiZHZDc2RFTlk0cXhxMkVIVVhZVkRON1JUb1hMWWZGdjVWVnhLRFI?oc=5",
     "source": "GPS Audiovisual",
@@ -3536,20 +4194,6 @@
     ]
   },
   {
-    "title": "[게임 브리핑] 카카오게임즈 ‘도깨비의세계’ 20일 사전등록...박지훈 티저 공개",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9SOWJpdDV1UlRla1QtSWYxc2w4YnExT0pJNU5SZTVVMl9tM0FNdVNUdERVdlRpMnRXUHNWSDlNakV4czRBUlYzUURNMWZ5ZF82TlBEemdrYmxaNW9UdTNOTmhJY0RzZGVUR24tcA?oc=5",
-    "source": "워크투데이",
-    "pub_iso": "2026-08-17T11:10:26+00:00",
-    "summary_raw": "[게임 브리핑] 카카오게임즈 ‘도깨비의세계’ 20일 사전등록...박지훈 티저 공개 워크투데이",
-    "matched_by": [
-      "카카오"
-    ],
-    "categories": [],
-    "companies": [
-      "카카오"
-    ]
-  },
-  {
     "title": "삼성전자, 개정 정통망법 따라 익명 사내 커뮤니티 ‘나우톡’ 실명제 전환",
     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1KVS00RzB4T3pHR2NBbEtWM0xqZVFHWU5rX1h6TFRzUXRiVFI5MTFCbl9iMHM5VVM1V1lfOXpqbGoxMU5MUER6aC1aMzJZVEotem9jZy1QSzBnX19hZXd3aVI1Zw?oc=5",
     "source": "조세금융신문",
@@ -3589,20 +4233,6 @@
     "categories": [],
     "companies": [
       "네이버"
-    ]
-  },
-  {
-    "title": "삼성전자, 액티비전 블리자드와 '콜 오브 듀티: 모던 워페어 4' 파트너십",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB0SmIzX2tUUXY2M2QwdEpkZFppR1c1VDZ2a0stcDR2ZjVkYllJSUtNWmFHQ29Wcy1RN0pacHlZOE5KM1p5R1gxM1FUbw?oc=5",
-    "source": "아이뉴스24",
-    "pub_iso": "2026-08-17T10:30:40+00:00",
-    "summary_raw": "삼성전자, 액티비전 블리자드와 '콜 오브 듀티: 모던 워페어 4' 파트너십 아이뉴스24",
-    "matched_by": [
-      "삼성전자"
-    ],
-    "categories": [],
-    "companies": [
-      "삼성전자"
     ]
   },
   {
@@ -3680,7 +4310,7 @@
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sY2pLMUxXb3ZxUEd4dXc3blJFTmY1Z2dBMGp4M01ONnpzX2hiRy1LMTVoQ1RCUldYcU02cDBsN1RDYXpxLVUtMFdIbzY0MHZIN2tyZjFUbWJ1UQ?oc=5",
     "source": "한국경제",
     "pub_iso": "2026-08-17T09:25:13+00:00",
-    "summary_raw": "젠슨 황 장녀, 18일 방한…LG와 로봇 협력 속도낸다 한국경제",
+    "summary_raw": "젠슨 황 장녀, 18일 방한…LG와 로봇 협력 속도낸다 한국경제 젠슨 황 장녀 내일 LG전자 ‘로봇 훈련소’ 방문…협력 구체화 주목 KBS 뉴스 젠슨 황 장녀, LG전자 데이터 팩토리 방문…LG·엔비디아 로봇 협력 논의 연합인포맥스",
     "matched_by": [
       "LG전자"
     ],
@@ -3692,9 +4322,9 @@
   {
     "title": "네이버 추월한 구글?…매일 이용은 네이버가 '1위'",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE52X0lmdmg1QkNsbzY5VG0xM0VEMFhqRTI0RHNBOEtwRk9rMGc3V21wRkVwbE9JQkhsdEVwS0lGVjhZM2w4c1kxMlVDUmxxSzZXcmVR?oc=5",
-    "source": "news.nate.com",
+    "source": "네이트",
     "pub_iso": "2026-08-17T09:21:00+00:00",
-    "summary_raw": "네이버 추월한 구글?…매일 이용은 네이버가 '1위' news.nate.com",
+    "summary_raw": "네이버 추월한 구글?…매일 이용은 네이버가 '1위' 네이트",
     "matched_by": [
       "네이버"
     ],
@@ -3715,20 +4345,6 @@
     "categories": [],
     "companies": [
       "네이버"
-    ]
-  },
-  {
-    "title": "\"저 희망퇴직할게요\" 수억 챙기고 짐 싸는 삼성 90년대생들",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxb19ocGl2RkdKTEhIbERHeVM2QzBTMVVNUEl5NnBrOWJwam93aWU2QVBFcG1rOG1RaDlHRkY5aU53cm5KTWo1UEs5cW9aZGRVS1M0?oc=5",
-    "source": "news.nate.com",
-    "pub_iso": "2026-08-17T09:13:00+00:00",
-    "summary_raw": "\"저 희망퇴직할게요\" 수억 챙기고 짐 싸는 삼성 90년대생들 news.nate.com",
-    "matched_by": [
-      "삼성전자"
-    ],
-    "categories": [],
-    "companies": [
-      "삼성전자"
     ]
   },
   {
@@ -3900,25 +4516,11 @@
     ]
   },
   {
-    "title": "[전망] 파업 노동자 외면하고 ‘나 홀로 81억 돈잔치’… 윤호영 카카오뱅크 대표, 좁히기 힘든 노사 간극",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5UdGp1QW5sRkZPV3VYT2FpM0FQWTMyWHRFX0F3TVAwSlpQTzh1alBNOEd5Sk11dmFUa1hoZUplNXhBZmVQLUZPNnktRkc5NjBfcHU1NXNud2lQUXp6YnhlV2VXMm1NT0xQVGtZanNR?oc=5",
-    "source": "알파경제",
-    "pub_iso": "2026-08-17T08:18:27+00:00",
-    "summary_raw": "[전망] 파업 노동자 외면하고 ‘나 홀로 81억 돈잔치’… 윤호영 카카오뱅크 대표, 좁히기 힘든 노사 간극 알파경제",
-    "matched_by": [
-      "카카오"
-    ],
-    "categories": [],
-    "companies": [
-      "카카오"
-    ]
-  },
-  {
     "title": "삼성전자, 개정 정통망법 따라 사내게시판 실명제 전환",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8teG1mNW5TSTV0OUxTZi1iTk10NlFNVFJmcE55OFc4TWwxU0JxVlk2Y1BTQkVMYTlvWW9XcXE4eHdabEJTeWF6djhrQTlHdkIwWVdZcGlsSVFuVUXSAWBBVV95cUxQODFyclBfQ3I1MTlwTUc3dmgyaUc0VEJvWl9lTjV3NjdLaTg2SGFPeGdLdXVMV1ZmbzNpb2w1QWJIOVZEMFZrT0tVMU1Tb0NlSHFEZW0zckxyOGRFdkswSDQ?oc=5",
-    "source": "연합뉴스",
+    "source": "yna.co.kr",
     "pub_iso": "2026-08-17T08:13:04+00:00",
-    "summary_raw": "삼성전자, 개정 정통망법 따라 사내게시판 실명제 전환 연합뉴스",
+    "summary_raw": "삼성전자, 개정 정통망법 따라 사내게시판 실명제 전환 yna.co.kr",
     "matched_by": [
       "삼성전자"
     ],
@@ -3996,20 +4598,6 @@
       "브랜드·캠페인"
     ],
     "companies": []
-  },
-  {
-    "title": "젠슨 황 장녀, LG 로봇 핵심기지로⋯엔비디아 협력 속도",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9oZ1pYN0pRNWZZeUI1LXZraU5GZmVKNkJYNklTQU55Y21nQUpUUEMtMVh1X0Ywa3FOOXhmaUhVREFFYURZY1A0OUtyX1lhTU0?oc=5",
-    "source": "v.daum.net",
-    "pub_iso": "2026-08-17T07:09:07+00:00",
-    "summary_raw": "젠슨 황 장녀, LG 로봇 핵심기지로⋯엔비디아 협력 속도 v.daum.net",
-    "matched_by": [
-      "LG전자"
-    ],
-    "categories": [],
-    "companies": [
-      "LG전자"
-    ]
   },
   {
     "title": "SK하이닉스, 상반기 직원 1601명 급증… 삼성전자 5배",
@@ -4098,29 +4686,15 @@
   {
     "title": "카카오뱅크, 보유 자사주 절반 없앤다…27만주 소각 결정",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QbjNmWm8xVkd3ZThSQlkzMTZMTlZBNFRWZzgzQnk0LXFYd0Rlem9ISDJ0NW9tMmkzbGRyWlFzRnNZS0JmbXlINWFjOHYzcTg3a0JoQjN0NkF2d0loUHUtYWdUMlgyTkZhazFPbWpnLUTSAXRBVV95cUxOaVg5Q0lySVMySDgzZTdZUE44RGJmMktud2Z4U25oaW5yRnhQeEJsLTN0dVYxcnVHb19PeWVxZE8zb3hiSjVRaEZUbEoyV19nOXNOU3JqOWdCLU5NR1E1VUdzQVFDX28tS2RTTWd1RmdkYmRhdw?oc=5",
-    "source": "산경투데이",
+    "source": "sankyungtoday.com",
     "pub_iso": "2026-08-17T06:42:45+00:00",
-    "summary_raw": "카카오뱅크, 보유 자사주 절반 없앤다…27만주 소각 결정 산경투데이",
+    "summary_raw": "카카오뱅크, 보유 자사주 절반 없앤다…27만주 소각 결정 sankyungtoday.com",
     "matched_by": [
       "카카오"
     ],
     "categories": [],
     "companies": [
       "카카오"
-    ]
-  },
-  {
-    "title": "삼성전자, '콜 오브 듀티' 신작 개발부터 협업…디스플레이 최적화",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PcXpoMTQtTzdZMW5BbWpCaGVQWXRfeFVaRkpQUXBDd000ZVNDbFVKTlRCNGV4SHlyYURZVDVfSzAyZl9rMVBJelFrUG5sZGtWSlR5VnRLYnNKZUFkcDhzU0Z0S01zRlYtRTV2bVpEcG0?oc=5",
-    "source": "신아일보",
-    "pub_iso": "2026-08-17T06:40:29+00:00",
-    "summary_raw": "삼성전자, '콜 오브 듀티' 신작 개발부터 협업…디스플레이 최적화 신아일보",
-    "matched_by": [
-      "삼성전자"
-    ],
-    "categories": [],
-    "companies": [
-      "삼성전자"
     ]
   },
   {
@@ -4210,9 +4784,9 @@
   {
     "title": "높아진 유튜브 문턱…신규 창작자, 네이버로 눈 돌릴까",
     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB1N0FwbmlrN0NFclR5cUoyd3gteThVMzh3WGtBdWN4dG5uNTZ6bGx5SjA3Z0NJT2JpWngtQ3BpdVBvbHZaQzhoQnlpWFpKSnBMaFZLUkt1V0RNRHZpMmo0dHpR?oc=5",
-    "source": "디지털데일리",
+    "source": "ddaily.co.kr",
     "pub_iso": "2026-08-17T06:13:04+00:00",
-    "summary_raw": "높아진 유튜브 문턱…신규 창작자, 네이버로 눈 돌릴까 디지털데일리",
+    "summary_raw": "높아진 유튜브 문턱…신규 창작자, 네이버로 눈 돌릴까 ddaily.co.kr",
     "matched_by": [
       "네이버"
     ],
@@ -4247,20 +4821,6 @@
     "categories": [],
     "companies": [
       "삼성전자"
-    ]
-  },
-  {
-    "title": "카카오뱅크, 자사주 27만주 소각 추진...주주환원 강화",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9kaGxnY2JPZzFfZFBPRkdhZ1FzTDM2eF9EaGswT3VidlphUTFMaHdJbFZjYkdacDZJYXB2ZjN5djg5UGludkVHLTQwNUVybW93bXFxOWE0SHZ2SDJmc01TWXpNODN3ekk?oc=5",
-    "source": "청년일보",
-    "pub_iso": "2026-08-17T06:05:27+00:00",
-    "summary_raw": "카카오뱅크, 자사주 27만주 소각 추진...주주환원 강화 청년일보",
-    "matched_by": [
-      "카카오"
-    ],
-    "categories": [],
-    "companies": [
-      "카카오"
     ]
   },
   {
@@ -4308,9 +4868,9 @@
   {
     "title": "숨기던 발가락 드러낸다…'발꾸'가 바꾼 여름 패션 [트렌드]",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE53dHY5LWExM004WFY2NzA5M2plbldTa1ZGdThHRmxOY2FIMXYzZW9vck9aZ1B6ZlB6bVNJdzk2MDg0bklrVEFWbFFuQWY5S1ktZVpn?oc=5",
-    "source": "news.nate.com",
+    "source": "네이트",
     "pub_iso": "2026-08-17T05:51:00+00:00",
-    "summary_raw": "숨기던 발가락 드러낸다…'발꾸'가 바꾼 여름 패션 [트렌드] news.nate.com",
+    "summary_raw": "숨기던 발가락 드러낸다…'발꾸'가 바꾼 여름 패션 [트렌드] 네이트",
     "matched_by": [
       "소비자 트렌드"
     ],
@@ -4318,20 +4878,6 @@
       "소비자·트렌드"
     ],
     "companies": []
-  },
-  {
-    "title": "카카오뱅크 자사주 27만주 소각 \"잔여분은 임직원 보상\"",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBZMEpneEtuX0RCaHluMC0wYjM0cnphYTVtN19Temk3NW1IamJrSFlHZUs4Mk1QOXlJeU9qMFEwRVRGUXZLang3Skp6TmpJc242TnZuc25oSm5OZw?oc=5",
-    "source": "파이낸셜뉴스",
-    "pub_iso": "2026-08-17T05:40:50+00:00",
-    "summary_raw": "카카오뱅크 자사주 27만주 소각 \"잔여분은 임직원 보상\" 파이낸셜뉴스",
-    "matched_by": [
-      "카카오"
-    ],
-    "categories": [],
-    "companies": [
-      "카카오"
-    ]
   },
   {
     "title": "삼성전자, 액티비전 블리자드와 ‘콜 오브 듀티’ 협업",
@@ -4387,20 +4933,6 @@
     "categories": [],
     "companies": [
       "삼성전자"
-    ]
-  },
-  {
-    "title": "카카오톡에 AI 에이전트 탑재…카카오 주가 다시 뛸까",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1lXzB0U3o0dnM1MXQ4cjdodGR1bGFmN3N3RHg4a3NhOXVkeE4wdE9LUmNjenJOem5EamVFcC1ocUFvOFZGeksyMmk0b1NpcGw4a2pPeTR5QmR4d2FRVUk3VGk3M1Q0S2FHeVB1ZzFqMnFPZlHSAXdBVV95cUxPZTVFMGg2S0xwZnBMQ2FyRTdQVEdaajQzcENJX2xHd0NRbDdTOVZvLVhhSzgzYm5ZNTNoOUI1ZHBYQklBLUgzTEFRZm5rT1lfZXpxbHhEX2RtUjRwaHB0d0h6UlkzOXAyU0JqU0h0QVo3QjhteVBOUQ?oc=5",
-    "source": "핀포인트뉴스",
-    "pub_iso": "2026-08-17T05:32:42+00:00",
-    "summary_raw": "카카오톡에 AI 에이전트 탑재…카카오 주가 다시 뛸까 핀포인트뉴스",
-    "matched_by": [
-      "카카오"
-    ],
-    "categories": [],
-    "companies": [
-      "카카오"
     ]
   },
   {
@@ -4489,20 +5021,6 @@
     ]
   },
   {
-    "title": "카카오뱅크, 자사주 27만주 소각 추진…주주가치 제고",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5BdHk4SUd3ZTFtQ2VvUGo1TjhMOHlsWjZsWlczNWlRSHpKSDA1bl9zY3NOUDBuNEpFZzg0VHVDV1ZYQ3BfZkFvZmFUVUd0UFN5TnppM1FiUnIyZ9IBVEFVX3lxTFBibzdweXFBTHdjYjFoWGl4Wm1hZjFZRnVvT3lvUkNxX3dyeS11dmVmczQ5aGZETHh5RER1QzJmOWh2OXp2Rmc2WjRLUUxUN2piV2lyMA?oc=5",
-    "source": "더팩트",
-    "pub_iso": "2026-08-17T05:10:44+00:00",
-    "summary_raw": "카카오뱅크, 자사주 27만주 소각 추진…주주가치 제고 더팩트",
-    "matched_by": [
-      "카카오"
-    ],
-    "categories": [],
-    "companies": [
-      "카카오"
-    ]
-  },
-  {
     "title": "경산·안동도 되는데…대구시 ‘초정밀 버스정보’ 카카오맵 연계 언제되나",
     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE54TVFlWVBzWVJyaWozNmlUZElncElVblh5NVdIZFJWQnY2NXVhdkRxZVpWLUw2enJ6NDVkNEREZ0xRazI2YnBNNFJ6cUxMd3M?oc=5",
     "source": "v.daum.net",
@@ -4519,9 +5037,9 @@
   {
     "title": "카카오뱅크, 자사주 27만주 소각…주주가치 제고",
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9NQWxHcTJ6TWdXdnBJcTNjZDY4QmxqYUN4ckZFYVMyNEJsZjRMeEhBV2JfNDY0T1NaWktidHFkZ1VoVE1GNnFOZUx2X2g5MXdMczJBamJhdGIxNEdQWjRNcXVCT1lIS1lyRW92T2MtMA?oc=5",
-    "source": "진일보",
+    "source": "jnilbo.com",
     "pub_iso": "2026-08-17T05:09:47+00:00",
-    "summary_raw": "카카오뱅크, 자사주 27만주 소각…주주가치 제고 진일보",
+    "summary_raw": "카카오뱅크, 자사주 27만주 소각…주주가치 제고 jnilbo.com",
     "matched_by": [
       "카카오"
     ],
@@ -4542,34 +5060,6 @@
     "categories": [],
     "companies": [
       "삼성전자"
-    ]
-  },
-  {
-    "title": "카카오뱅크, 3년 묵힌 자사주 중 절반 '27만주' 소각 … 주주가치 제고",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8wZ29DekNzVHdsckVKVjhNaEdJTzZTOW1zbXFDdEtwMGNhUWdUWGNMRGdWMnYyS016cEpTV1JLeDZqZFREckVsQ0QzSnlBdEMwX1pXTkR1QjRuQmRtb0RFUV9zSEZGVEZjbHNUSTBURmFZd0JBbDBXS3c1a9IBgAFBVV95cUxPM09Yb1NSN2ktU3ZLQWdPSXc2ZTBRa1pabTJ0NDVGX0ctY3owblhlTnFIRzN2TlpKc3NQdlhHZlpVOUF6VzIwUlpFNDc0bEloaHJ0WXduRndwejR4eUJLT2dSbUxKUjlSOW5oM3N0QUhUeTdFRmdVYmdyYUJNV3hOSQ?oc=5",
-    "source": "뉴데일리",
-    "pub_iso": "2026-08-17T05:06:32+00:00",
-    "summary_raw": "카카오뱅크, 3년 묵힌 자사주 중 절반 '27만주' 소각 … 주주가치 제고 뉴데일리",
-    "matched_by": [
-      "카카오"
-    ],
-    "categories": [],
-    "companies": [
-      "카카오"
-    ]
-  },
-  {
-    "title": "젠슨 황 장녀 내일 LG전자 ‘로봇 훈련소’ 방문…협력 구체화 주목",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9neG1mTkRVREFQNmlNSWtVcnNmMWhoYWF5SEhGc3djMWFRXzktODZMUWxKdTRQSkEwSDhHYXotZEhsaVktSXNMZWlWTHJENUh3WUFOYm1UUTR6bGc?oc=5",
-    "source": "KBS 뉴스",
-    "pub_iso": "2026-08-17T05:03:00+00:00",
-    "summary_raw": "젠슨 황 장녀 내일 LG전자 ‘로봇 훈련소’ 방문…협력 구체화 주목 KBS 뉴스",
-    "matched_by": [
-      "LG전자"
-    ],
-    "categories": [],
-    "companies": [
-      "LG전자"
     ]
   },
   {
@@ -4629,34 +5119,6 @@
     ]
   },
   {
-    "title": "카카오뱅크, 자사주 27만주 소각…보유분 절반 줄인다",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ucnZDMU1lRlFFQ2VKZDBxNkR3TWtJYWhacWtSckphWEJrTGs3dTl2UElLNW9Fay1LZllrZDVuUEl2WHJHdmx3ZlY4NlpvdjBLRE12ZDNGS1I3OVl6WTRhVjJ6aUZfRi1SdEswUmJJQdIBc0FVX3lxTFAyU081VDM1b1QteUVTNnJoOVpBNU5LS0NrV1VNRjNYZzZfbHp1ZWRVakhFMFM4RmNJejYzWFE0NkhTZVlNWDZOTVdnN2NLTlJxb0hxNnYxdFplbHU2VWRxLXZIYlRsQ29uM0t6MkJCU0NEX2s?oc=5",
-    "source": "뉴스웍스",
-    "pub_iso": "2026-08-17T04:58:07+00:00",
-    "summary_raw": "카카오뱅크, 자사주 27만주 소각…보유분 절반 줄인다 뉴스웍스",
-    "matched_by": [
-      "카카오"
-    ],
-    "categories": [],
-    "companies": [
-      "카카오"
-    ]
-  },
-  {
-    "title": "삼성전자 노태문·전영현, 국제올림피아드 수상자에 장학금 수여⋯ “이공계 인재 육성”",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ZTHE0OWJLbzhPbFJkNlJQMnZtX2NxczVvTVYxUjFnWnBRRkZadEdkak5wVDQ5WTlVS1NGTnF1QjdWSy1naENTVF91NmFhT0Itajh1aVhORjVGQQ?oc=5",
-    "source": "브릿지경제",
-    "pub_iso": "2026-08-17T04:58:00+00:00",
-    "summary_raw": "삼성전자 노태문·전영현, 국제올림피아드 수상자에 장학금 수여⋯ “이공계 인재 육성” 브릿지경제",
-    "matched_by": [
-      "삼성전자"
-    ],
-    "categories": [],
-    "companies": [
-      "삼성전자"
-    ]
-  },
-  {
     "title": "빚내서 그룹사 건물 산다…아틀라스링크, 손바뀜 직후 390억 '베팅' : 네이버 블로그",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZUlqRjFQdlN1a29pSzAzdXVuUk1sNFRXcmttXy1ZNkZOaFdHRFJ5OGZJSDRHN09XYXNuMnpwZzF5eURuTlJ5ZnVnZVN2YnBTeDdDWVZQYTBwRTMyMmtmVThHd0pzNE50eE5VUG9SYVZGeEVCZmtzczlvNERKQWRSY2dGS2VOVk5lRjlBOG80SQ?oc=5",
     "source": "Naver Blog",
@@ -4668,20 +5130,6 @@
     "categories": [],
     "companies": [
       "네이버"
-    ]
-  },
-  {
-    "title": "매디슨 황, LG전자 로보틱스 거점 방문…비공개 파트너십 논의",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4wQjNCMHBEMEd6QTJ6YmtJcWdqRUh2bGM2WldvM0lMRWRGbExqekxjcEVuM01rV21mZnNITVdnR0lsOW51NzlndVQzQTNZeGN0alVGeHB2X2lLb1I4TlRyRVZkalBTNldiOWNkZ1hUa3ZnSWo4?oc=5",
-    "source": "대한경제",
-    "pub_iso": "2026-08-17T04:39:28+00:00",
-    "summary_raw": "매디슨 황, LG전자 로보틱스 거점 방문…비공개 파트너십 논의 대한경제",
-    "matched_by": [
-      "LG전자"
-    ],
-    "categories": [],
-    "companies": [
-      "LG전자"
     ]
   },
   {
@@ -4699,17 +5147,17 @@
     "companies": []
   },
   {
-    "title": "카카오뱅크, 자사주 27만주 소각…주주가치 제고",
-    "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNZ1g1OXRwRkx2U2UyNGh4OGxBTFZCTFFNV0JsU0pTaWxVc0M4UnBVTFZvNS1nUm5EU2dOaGdqNGExZXVYWjJVUlBzY2tES2YxOHN0bXhEVThEai1HWjB0dXYxUDRIRUN4MFNRUnRNWmZZVEt5X1B2cksyYjYtOG5hQ2NUZDFxb0JlWHozWEx1aWN6b0R1T016bHEweXo1U2NEVFl6cURtN1BlOUotTUNvZGtoOUhIek5yMUtOdENYcWlhSEtOTnM5Q3hrRVRRS01zcURPYTVHc1RiRUEzQjFZNTVIdHE3cmltV2Y3NGU3dEZOdG14eFdnVUFnaG5hMEI1aEZ4SUJzYy1hWl9YcG9WU3ZmSFg2blRo?oc=5",
-    "source": "dailian.co.kr",
-    "pub_iso": "2026-08-17T04:28:00+00:00",
-    "summary_raw": "카카오뱅크, 자사주 27만주 소각…주주가치 제고 dailian.co.kr",
+    "title": "젠슨 황 장녀, LG전자 양재 센터 찾는다…LG-엔비디아 '피지컬 AI' 협력 논의",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBCSXVGZ0tSN2RXUlgzb05ORjc2bW4zZldoYXltRHQ2ZENBNXVBSzlYcXhDcm9ISTFSWnFBOUZlcE8yV2JfdDdLdEE1cHZYNmZJT25BaDlLZkpNcmdCbG1mVNIBeEFVX3lxTFBDOG9hU21laV8wT0VZbFdMdFpsLWd2aml6cUd5Y0Q4WW4tM0xvV1IxZ2d3LTRKRG5XdVRRQ0V3WDBNdTB4ZEJ5c01HUGdNSEUzcWg3T2Ztek54QWhHR2k1Q2lLaDRMQjlJZEtuRzNKREdEQ0FFQ0ppNQ?oc=5",
+    "source": "뉴시스",
+    "pub_iso": "2026-08-17T04:26:45+00:00",
+    "summary_raw": "젠슨 황 장녀, LG전자 양재 센터 찾는다…LG-엔비디아 '피지컬 AI' 협력 논의 뉴시스",
     "matched_by": [
-      "카카오"
+      "LG전자"
     ],
     "categories": [],
     "companies": [
-      "카카오"
+      "LG전자"
     ]
   },
   {
@@ -4799,9 +5247,9 @@
   {
     "title": "추석선물도 ‘취향 소비’…세븐일레븐, 헬로키티·호텔 디저트 띄운다",
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4yYjNCUm9rRklkVlJBNWJWNm0wWjYwLUltTy1Gc0RWMDdCb1ZBZHE5VUh4NUJvVkxObzgtdzMzV081ZHdFWXl2a2kwVGlKVXFHZWtIWFhCejNfZm5yMXh5aFhqaVQ?oc=5",
-    "source": "디지털데일리",
+    "source": "ddaily.co.kr",
     "pub_iso": "2026-08-17T04:11:18+00:00",
-    "summary_raw": "추석선물도 ‘취향 소비’…세븐일레븐, 헬로키티·호텔 디저트 띄운다 디지털데일리",
+    "summary_raw": "추석선물도 ‘취향 소비’…세븐일레븐, 헬로키티·호텔 디저트 띄운다 ddaily.co.kr",
     "matched_by": [
       "소비 트렌드"
     ],
@@ -4821,30 +5269,15 @@
     ],
     "categories": [],
     "companies": [
-      "네이버",
-      "카카오"
-    ]
-  },
-  {
-    "title": "카카오뱅크, 자사주 절반 소각…2차 파업 사흘 만",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0wbjV0ODhRYXBKQ0lwb0hnYk1uUXp3WUVaNTUzb1NlUW1xNjV2ek05c1U2YjJ6UVNzVmZMUU8xMkdIcDA4SjZqS1hNQmRxTU1wSkJ5NDVuQkpQcDdBSHIwNElOM05DTWc3UkZ1cl9B?oc=5",
-    "source": "알파경제",
-    "pub_iso": "2026-08-17T03:59:17+00:00",
-    "summary_raw": "카카오뱅크, 자사주 절반 소각…2차 파업 사흘 만 알파경제",
-    "matched_by": [
-      "카카오"
-    ],
-    "categories": [],
-    "companies": [
-      "카카오"
+      "네이버"
     ]
   },
   {
     "title": "삼성, 국제올림피아드 수상자에게 장학금… 이공계 인재 육성에 기여",
     "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPN2RiOFpyM1Q0VHZubDR6MVdBR05tWFduMndldENiekloOVU0Yk5ROEdUWk51ZURtc0x3a3prRVRWY1R5UzVfZ3U2Q0M5LVRseDFCWU9zRlVNZHVYaWNhTGR4cHVDU244OHZ6R3c3Ny1scXJrNTBRMXFDQ2oxYzNXaXV1UGs0d0dVdksxWWtLNnA5cWFnemFxcjlfdG9RalI4YmRvTnJkX1ZVYTZaWFNOLWo4X0RaNEVFMEVGZWxScHlZb25TV1RPWndSZ0FjMHVQQnZ0Njl5Wllha3AtUDd0b0o0WHJOY1ozd3lXOVpna2lITGFBVm5lQlpfNkhQSjRvZ3hCX0F2RXh0cVBFbWNZanJjR3RrbHpIRFA0blFRdXlJUWpXeVpuYjBmSS01ZlBKaDR2NDN0dw?oc=5",
-    "source": "news.samsung.com",
+    "source": "samsung.com",
     "pub_iso": "2026-08-17T03:57:53+00:00",
-    "summary_raw": "삼성, 국제올림피아드 수상자에게 장학금… 이공계 인재 육성에 기여 news.samsung.com",
+    "summary_raw": "삼성, 국제올림피아드 수상자에게 장학금… 이공계 인재 육성에 기여 samsung.com",
     "matched_by": [
       "삼성전자"
     ],
@@ -4859,20 +5292,6 @@
     "source": "인더스트리뉴스",
     "pub_iso": "2026-08-17T03:51:55+00:00",
     "summary_raw": "카카오뱅크, 자사주 27만주 소각…주주가치 제고 인더스트리뉴스",
-    "matched_by": [
-      "카카오"
-    ],
-    "categories": [],
-    "companies": [
-      "카카오"
-    ]
-  },
-  {
-    "title": "카카오뱅크, 자사주 27만주 소각 추진…보유 물량 절반 없앤다",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ReTFHQlpFSEtxblNDbXotbUtmOF9XWHNrYWxBT3doV01HVENOMTVoSVhPZmNWUkItWWh2eGE2YXhxTEwzaURQR1JVZUZVT09DOEZ4SkYyQVI5dDBlbDJfRXFsUTIxMUVm?oc=5",
-    "source": "fetv.co.kr",
-    "pub_iso": "2026-08-17T03:48:39+00:00",
-    "summary_raw": "카카오뱅크, 자사주 27만주 소각 추진…보유 물량 절반 없앤다 fetv.co.kr",
     "matched_by": [
       "카카오"
     ],
@@ -4898,9 +5317,9 @@
   {
     "title": "카카오뱅크, 3년 묵힌 자사주 절반 소각…주주환원 강화",
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA1M2U4UWZISlh6V01BbnNiVTAzMFRoRTNjYlhKNU9fc29uMTR1ZUktUlpBSnFWWFBiX2lkdVVybzc1My1BTHJMTC11UDFUbDZlYkNIdGJjczdKWGtMZjFfVno0MlFFX1dR0gFsQVVfeXFMT0pDNWFVLUhsWmVvdThqUDVGckt5ZzlHM01zYTlxWGl5bWx4dmczaWtjdFBWVHhoT1BwOHlkaW9TaEJUQkhJQkRMcjdpb2hZLUZEanBFcDZhSFVvTkdJLVJtSEFyR0xpWjlRZzJm?oc=5",
-    "source": "블로터",
+    "source": "bloter.net",
     "pub_iso": "2026-08-17T03:30:00+00:00",
-    "summary_raw": "카카오뱅크, 3년 묵힌 자사주 절반 소각…주주환원 강화 블로터",
+    "summary_raw": "카카오뱅크, 3년 묵힌 자사주 절반 소각…주주환원 강화 bloter.net",
     "matched_by": [
       "카카오"
     ],
@@ -4921,20 +5340,6 @@
     "categories": [],
     "companies": [
       "LG전자"
-    ]
-  },
-  {
-    "title": "카카오뱅크, 자사주 27만 주 소각…잔여분은 임직원 보상",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9lVWMycFJMQ1ZDejRIUFUtUWMzZ0VZODJZelMzeFZzdE9Fd1BWZnNrQzg2blNxQ01yUlNvUk9uRlpMUHBJOC1lOXRUcDRWdzR1NERUckVBSm9yNndSakQ5ajBaNHRJbUZpemxwTEJYTGI5aG9u?oc=5",
-    "source": "부산일보",
-    "pub_iso": "2026-08-17T03:23:31+00:00",
-    "summary_raw": "카카오뱅크, 자사주 27만 주 소각…잔여분은 임직원 보상 부산일보",
-    "matched_by": [
-      "카카오"
-    ],
-    "categories": [],
-    "companies": [
-      "카카오"
     ]
   },
   {
@@ -4998,7 +5403,7 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTHdmUmczU0cxQUw5OGtkUlpDNzNhajFDY2syOHAzaUxSSVVxUFBVbzk3UERzT2tFVXBNU3Q1bHJfV3ZySkxRWHRxRlpsZUswa0F6X1YtNkpQdzJuOTFVWTNzQVBHTjhKSERkc1YwV1N1anNmR0ZFWV9zNkJLZUt1OXR1d1lIYXlLZC1tWjV3?oc=5",
     "source": "조선일보",
     "pub_iso": "2026-08-17T02:59:19+00:00",
-    "summary_raw": "카카오뱅크, 자사주 27만주 소각 추진…잔여분은 임직원 보상 조선일보 카카오뱅크, 자사주 절반 소각 방침…60억원에 그쳐 한겨레 카카오뱅크, 내년 9월까지 27만 자사주 소각한다 - 머니투데이 머니투데이",
+    "summary_raw": "카카오뱅크, 자사주 27만주 소각 추진…잔여분은 임직원 보상 조선일보 카카오뱅크, 자사주 절반 소각 방침…60억원에 그쳐 한겨레 카카오뱅크, 내년 9월까지 27만 자사주 소각한다 - 머니투데이 mt.co.kr",
     "matched_by": [
       "카카오"
     ],
@@ -5008,39 +5413,11 @@
     ]
   },
   {
-    "title": "삼성전자·SK하이닉스 레버리지 ETF, 두 달 새 수수료 1172억원",
-    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1iekRmUTE5Wi1iVzMyMkk4aVRkVDRoZnRrT01CUjZqT0xSQ2d1OFpBd3VyN2pXWEl0Z1RNODRQVzVvUmpiQVE?oc=5",
-    "source": "v.daum.net",
-    "pub_iso": "2026-08-17T02:54:49+00:00",
-    "summary_raw": "삼성전자·SK하이닉스 레버리지 ETF, 두 달 새 수수료 1172억원 v.daum.net [특징주] 삼성전자·SK하이닉스, 메모리 수요 확대 기대…동반 강세 에너지경제신문 삼성전자(005930) 매일경제 마켓",
-    "matched_by": [
-      "삼성전자"
-    ],
-    "categories": [],
-    "companies": [
-      "삼성전자"
-    ]
-  },
-  {
-    "title": "카카오뱅크, 자사주 27만주 소각…주주가치 제고 목적",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA4bkhiOVpYbmQ0U3ZiTExkOTFXazdaOVpVN1R3dGozQllTdzdkaVpDZ0NtME1pbkNhbG9vaWM3RU1CbFk0MFBlSDQ0XzFwV1FoQWRVUXpjX0FOb1Fi?oc=5",
-    "source": "뉴스핌",
-    "pub_iso": "2026-08-17T02:53:00+00:00",
-    "summary_raw": "카카오뱅크, 자사주 27만주 소각…주주가치 제고 목적 뉴스핌",
-    "matched_by": [
-      "카카오"
-    ],
-    "categories": [],
-    "companies": [
-      "카카오"
-    ]
-  },
-  {
-    "title": "엔비디아 매디슨황, LG전자 로보틱스 거점 찾는다…휴머노이드 동맹 속도",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE02eXVPckh6My1qMXhUUzRtcW9JV0tHNHo5RmtTTHEyLVNZcWFTT2FXX2RyUW9qTk5Ta2RpQlZzbW1VV0dJdW56aW01bWhfQlJoSUJ30gFYQVVfeXFMTTBtRTdiUmdtZVlITmZPMnpRNXpqekQ1czVWbG1GQ2c0QVh4dzdYQkN3YWRidEVGNXdkS05nbzlFaEhoZmJLb3FoeUpweldrUFg2T3VTT0piNg?oc=5",
-    "source": "SBS Biz",
-    "pub_iso": "2026-08-17T02:51:00+00:00",
-    "summary_raw": "엔비디아 매디슨황, LG전자 로보틱스 거점 찾는다…휴머노이드 동맹 속도 SBS Biz",
+    "title": "[오늘Who] LG전자 양재 캠퍼스에 엔비디아 젠슨 황의 장녀 방문 예정, 로보틱스 협력 속도",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9QMXpWNUhURkVWcUVzVEdTWEo3VDlNRThMUzVBU21hTUxvdHB5NjRDMWNNUm45LS1rOGRnSWItZDU5dEZGbTBXUXJVYmRkMWczcnZsRHdBbEFocHBJYW9YNS12MGVEeTlhM1RreWJPN0h4bTA?oc=5",
+    "source": "비즈니스포스트",
+    "pub_iso": "2026-08-17T02:51:21+00:00",
+    "summary_raw": "[오늘Who] LG전자 양재 캠퍼스에 엔비디아 젠슨 황의 장녀 방문 예정, 로보틱스 협력 속도 비즈니스포스트",
     "matched_by": [
       "LG전자"
     ],
@@ -5078,11 +5455,11 @@
     "companies": []
   },
   {
-    "title": "카카오뱅크, 자사주 27만주 소각 추진…\"주주가치 제고\"",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAyWVdmaURCenJlZ202enFaZEhCZzdLY29iYk9jeVhEZnY5YVdZaWRvazQzbDF5bWFYRk9KNmJkd0k3eHhka043ejBBMXROeXM?oc=5",
-    "source": "v.daum.net",
-    "pub_iso": "2026-08-17T02:42:50+00:00",
-    "summary_raw": "카카오뱅크, 자사주 27만주 소각 추진…\"주주가치 제고\" v.daum.net",
+    "title": "JDC, 제주 현안 해결할 17개 단체 지원…'카카오 JIC' 연계 신설",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB3ZUtiVENnZDY0eWNvM1dIRHRHUFc0RXVCalQwSXoyYWhDWWNxeDJMcXNkLVlTNDhTSnRwdEtJMUZybUhscW5wTDRObWJXMzVwOTladTVsS0FhX3BkNGRtMV82cDduUllsNk9zalRn?oc=5",
+    "source": "gukjenews.com",
+    "pub_iso": "2026-08-17T02:35:16+00:00",
+    "summary_raw": "JDC, 제주 현안 해결할 17개 단체 지원…'카카오 JIC' 연계 신설 gukjenews.com",
     "matched_by": [
       "카카오"
     ],
@@ -5094,9 +5471,9 @@
   {
     "title": "카카오뱅크, 자사주 27만주 소각 추진…\"주주가치 제고\"",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YdHVDeFdTTlRUejJwNWpZVGpoU0NXYUx1OUFGTWc2LWhHZzF5dEpYSzFYdTBJcEZ5U2ZCdFNUbTdFc05jUkFaTm5SOVpfbnFIS0RMUk5pQVIxTW_SAWBBVV95cUxOMzN5YjJjaXUyNjdYUTI0Vlh6RmFaZ0hSZ2ZQV0NvZlhUSFZxQWJkUTczeFVfTkJ0cGpyc3E3RFVndVdNUTVSR2xrbVVvcnNnT1J1RU9mWkI5ZjBZbVRobnA?oc=5",
-    "source": "연합뉴스",
+    "source": "yna.co.kr",
     "pub_iso": "2026-08-17T02:34:31+00:00",
-    "summary_raw": "카카오뱅크, 자사주 27만주 소각 추진…\"주주가치 제고\" 연합뉴스",
+    "summary_raw": "카카오뱅크, 자사주 27만주 소각 추진…\"주주가치 제고\" yna.co.kr",
     "matched_by": [
       "카카오"
     ],
@@ -5178,9 +5555,9 @@
   {
     "title": "세븐일레븐, MZ세대 취향소비 반영한 추석 선물 선보여",
     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9BdmxEVVN0VkFsOF9iZVVXMExBd1hET3BnUFkzX2lMRHhQc1VqUlF0ZmFFS2d6YUZzbXNqMXdpZ19oSXl6cS1ZUUM3dVpMUk1naG1RMGh2LVc0TTgzdDM5QdIBYEFVX3lxTE9BdmxEVVN0VkFsOF9iZVVXMExBd1hET3BnUFkzX2lMRHhQc1VqUlF0ZmFFS2d6YUZzbXNqMXdpZ19oSXl6cS1ZUUM3dVpMUk1naG1RMGh2LVc0TTgzdDM5QQ?oc=5",
-    "source": "연합뉴스",
+    "source": "yna.co.kr",
     "pub_iso": "2026-08-17T02:04:40+00:00",
-    "summary_raw": "세븐일레븐, MZ세대 취향소비 반영한 추석 선물 선보여 연합뉴스",
+    "summary_raw": "세븐일레븐, MZ세대 취향소비 반영한 추석 선물 선보여 yna.co.kr",
     "matched_by": [
       "MZ세대 트렌드"
     ],
@@ -5190,45 +5567,17 @@
     "companies": []
   },
   {
-    "title": "젠슨 황 장녀, LG전자 로보틱스 거점 방문…휴머노이드 파트너십",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB1dnlFdjJxYmtSdUhOWURkRHk3X2V3MmgzZm90NllnUFpJNkwyNWtDa2RwRjRwUjdabXpSV1FtZXVKUG1ra0tkSHo2RElQM0tpT2c?oc=5",
-    "source": "서울경제",
-    "pub_iso": "2026-08-17T02:03:25+00:00",
-    "summary_raw": "젠슨 황 장녀, LG전자 로보틱스 거점 방문…휴머노이드 파트너십 서울경제",
-    "matched_by": [
-      "LG전자"
-    ],
-    "categories": [],
-    "companies": [
-      "LG전자"
-    ]
-  },
-  {
     "title": "\"하루에 비비고 만두 86만개 빚어요\" CJ제일제당 미국 공장 가보니[MTN 픽]",
     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1DbE1zZmFWdHJhSUpzUldGWVhIYU1VdWhiMmpyQ0VzTlIwRVRlaVdPUFd0Q3lpT1E0dkRpc0N2aWdnVU40eTdzRnhnTllJTkk?oc=5",
     "source": "v.daum.net",
     "pub_iso": "2026-08-17T02:02:59+00:00",
-    "summary_raw": "\"하루에 비비고 만두 86만개 빚어요\" CJ제일제당 미국 공장 가보니[MTN 픽] v.daum.net \"시식 메뉴 순식간에 동났다\"…美 LA서 1만명 홀린 CJ 비비고 - 머니투데이 머니투데이 CJ제일제당 비비고, 글로벌 대표 K-푸드로 美 K-팝 팬심 공략 CJ 뉴스룸 CJ \"식품·콘텐츠·뷰티 시너지로 2028년 美 매출 12조원 확대\" 지디넷코리아 이재현 회장 직접 챙긴 CJ제일제당 비비고, KCON LA에 1만명 몰렸다 뉴스핌 만두 하루 907t 생산…CJ, 美 최대 아시아 식품공장서 K푸드 영토 확장 문화일보 CJ, 美서 K-푸드 영토 확장…비비고·뚜레쥬르 앞세워 승부수 매일경제 마켓 [현장] '1등 K만두' 매일 160톤씩 생산, CJ제일제당 보몬트공장 '미국판 비비고 신화' 쓴다 비즈니스포스트 CJ \"2년후 북미 매출 12조\"… 美에 K라이프스타일 심는다 파이낸셜뉴스",
+    "summary_raw": "\"하루에 비비고 만두 86만개 빚어요\" CJ제일제당 미국 공장 가보니[MTN 픽] v.daum.net \"시식 메뉴 순식간에 동났다\"…美 LA서 1만명 홀린 CJ 비비고 - 머니투데이 mt.co.kr CJ제일제당 비비고, 글로벌 대표 K-푸드로 美 K-팝 팬심 공략 CJ 뉴스룸 CJ \"식품·콘텐츠·뷰티 시너지로 2028년 美 매출 12조원 확대\" 지디넷코리아 이재현 회장 직접 챙긴 CJ제일제당 비비고, KCON LA에 1만명 몰렸다 뉴스핌 만두 하루 907t 생산…CJ, 美 최대 아시아 식품공장서 K푸드 영토 확장 문화일보 CJ, 美서 K-푸드 영토 확장…비비고·뚜레쥬르 앞세워 승부수 매일경제 마켓 [현장] '1등 K만두' 매일 160톤씩 생산, CJ제일제당 보몬트공장 '미국판 비비고 신화' 쓴다 비즈니스포스트 CJ \"2년후 북미 매출 12조\"… 美에 K라이프스타일 심는다 파이낸셜뉴스",
     "matched_by": [
       "CJ제일제당"
     ],
     "categories": [],
     "companies": [
       "CJ제일제당"
-    ]
-  },
-  {
-    "title": "카카오뱅크, 자사주 27만 주 소각 추진한다",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB4eG1xaFBxZ2t3V2VZcTEwbXMyVndjM21UNGdIVWtzdW9rdnNkdHFPcExYQmw2VHF1TXVKaXlMY0JzTllOOWRHQ2NsOHBhSWc5YU04QzI5TWtJdw?oc=5",
-    "source": "브릿지경제",
-    "pub_iso": "2026-08-17T02:01:00+00:00",
-    "summary_raw": "카카오뱅크, 자사주 27만 주 소각 추진한다 브릿지경제",
-    "matched_by": [
-      "카카오"
-    ],
-    "categories": [],
-    "companies": [
-      "카카오"
     ]
   },
   {
@@ -5290,23 +5639,9 @@
   {
     "title": "젠슨 황 장녀, 한국 방문…LG전자와 '로보틱스' 협력 논의 - 머니투데이",
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5PM1pzbnd3TEFvempJMDZVV3pVYmMybXh6dWRSVExTTllKaXBuYmFseFl4dV9IbVkxLUFjQVl1STJsUEMtSnI5Nm1nOENUM1ZVQ2tPXzBjYzdiZ0lDSk1hVkt4RGcxX2lIRGdHY9IBckFVX3lxTFBseFptWmJtd29wNVRzQ2NNU2xKazJWY18wMEMwYTlTc3g2azB5SnlqR1V0cy1aQVZrUml0ZWh4aHByT1JfTnNQM3gwOUtOenZiYzUyOHlVZ0YxU1g4QTZJS3lZaWFUcWdrenhuN19EWF9VUQ?oc=5",
-    "source": "머니투데이",
+    "source": "mt.co.kr",
     "pub_iso": "2026-08-17T01:30:45+00:00",
-    "summary_raw": "젠슨 황 장녀, 한국 방문…LG전자와 '로보틱스' 협력 논의 - 머니투데이 머니투데이",
-    "matched_by": [
-      "LG전자"
-    ],
-    "categories": [],
-    "companies": [
-      "LG전자"
-    ]
-  },
-  {
-    "title": "[이슈] LG전자, 브라질에 두 번째 승부수…냉장고 연 60만 대 생산",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5OWmVJbnl2RU9QTm5jS0hrOEtmVHVaV2NBdlBJQldILUNBWlVjNVpSbzFwZ19VZ09WbEkwcGJXc2E4UkFTM2hPQ29pdmlvelVtY1czdno0UFdPNEl0cGpQQVNaeXVUdU5TbGFfaHRENmhjVmc?oc=5",
-    "source": "오늘경제",
-    "pub_iso": "2026-08-17T01:30:00+00:00",
-    "summary_raw": "[이슈] LG전자, 브라질에 두 번째 승부수…냉장고 연 60만 대 생산 오늘경제",
+    "summary_raw": "젠슨 황 장녀, 한국 방문…LG전자와 '로보틱스' 협력 논의 - 머니투데이 mt.co.kr",
     "matched_by": [
       "LG전자"
     ],
@@ -5407,90 +5742,6 @@
     "source": "Naver Blog",
     "pub_iso": "2026-08-17T00:57:55+00:00",
     "summary_raw": "적임자 찾는 모태펀드…문화·관광 3번째 공고 : 네이버 블로그 Naver Blog",
-    "matched_by": [
-      "네이버"
-    ],
-    "categories": [],
-    "companies": [
-      "네이버"
-    ]
-  },
-  {
-    "title": "엔비디아 매디슨 황, LG전자 ‘로봇 훈련소’ 찾는다… 휴머노이드 협력 가속 - 조선비즈",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPakNHbUNON2NVaFYzVzd6eUh1ZjVyb21ONjQ1RHk3cTRPbURYRENUaDdHX0JxbTVMVTdRSDZ5blVyUVlYM21WYkRFeHlFNWZhLW9kQkpwQ3hhM0ZhcHUydlpmMHhUWTJCMTlRUkkxSl9JZ2xFRml0QjJqaTBTc0U2eWdB0gGWAUFVX3lxTE9PX09SU25nYUFpc0ZPUTNYR1A5Sl9teEVtcEdIWUw4eV9xTEpmWGNQNGtIZWVrVmozLW9ndnFBaVE1Q09SLV9IdkRGYUdERnNncHpzdjdPRkt4U1U0RmdmdjR0Y09WTy11dDVIejhZSG40TFZZUUtFajZtdmlGdzd2bXpMdEszRms1NFMyZl9ZQUhrbXVqQQ?oc=5",
-    "source": "Chosunbiz",
-    "pub_iso": "2026-08-17T00:52:00+00:00",
-    "summary_raw": "엔비디아 매디슨 황, LG전자 ‘로봇 훈련소’ 찾는다… 휴머노이드 협력 가속 - 조선비즈 Chosunbiz",
-    "matched_by": [
-      "LG전자"
-    ],
-    "categories": [],
-    "companies": [
-      "LG전자"
-    ]
-  },
-  {
-    "title": "LG전자, 브라질 파라나 新공장 가동…냉장고 연 60만대 생산",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tdTZ2S1lHc1NHOW54d3RXd1htWURsTnNoakZvUUJsZFNONC1mVUM5dGEtYV9ZRHB5d2NfMWd6bTFMUEtrUzBMbEdOSzlkc3c?oc=5",
-    "source": "v.daum.net",
-    "pub_iso": "2026-08-17T00:42:01+00:00",
-    "summary_raw": "LG전자, 브라질 파라나 新공장 가동…냉장고 연 60만대 생산 v.daum.net",
-    "matched_by": [
-      "LG전자"
-    ],
-    "categories": [],
-    "companies": [
-      "LG전자"
-    ]
-  },
-  {
-    "title": "엔비디아가 '콕' 찝었다...LG에 '시선 집중'",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTUXRINlJ3UnJtNkpLSVJjd25kVXRyZmRXQUxNaF8wYlBIWUtVYUxqRjNmaWJjRG1JX18zaU5SdWQwdUJRWDVtemlhM3NIUHJqU2lmZzFqM2VDb3Y4WENRR3B2dzJzNWt6RzVqMQ?oc=5",
-    "source": "한경매거진&북",
-    "pub_iso": "2026-08-17T00:37:00+00:00",
-    "summary_raw": "엔비디아가 '콕' 찝었다...LG에 '시선 집중' 한경매거진&북",
-    "matched_by": [
-      "LG전자"
-    ],
-    "categories": [],
-    "companies": [
-      "LG전자"
-    ]
-  },
-  {
-    "title": "카카오뱅크, 자사주 소각으로 주주·임직원 달랜다",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ydlg2bm5ZYnM0d0ctYkpxT3lqb1JxMXNFQ2gzOEwwUFBZNkZNZWJzTHRPR21VUGlLdnJLNWlmUnZpb1JDVjR2WkZ5bnlxRXJ0Q0Z0NEtjZjJqNjVzOGtVRGdrMGJsVkRfUEM1M0R0MVFVNlXSAXdBVV95cUxPVTZ5VmhZUG1RZDNjUlVkWUFQR3RsOWdlRjNZT29xQ0J0Q2gxWDk0dlN3amwtRXJ1Y0dEMGlUeVpjTzdEd3VvUGM3bG5iT2oyX0liRHFiek5GajBhenY3clRmaHJTYmtaMVVXZ0d2MUVxTDNXT2VmQQ?oc=5",
-    "source": "스트레이트뉴스",
-    "pub_iso": "2026-08-17T00:35:52+00:00",
-    "summary_raw": "카카오뱅크, 자사주 소각으로 주주·임직원 달랜다 스트레이트뉴스",
-    "matched_by": [
-      "카카오"
-    ],
-    "categories": [],
-    "companies": [
-      "카카오"
-    ]
-  },
-  {
-    "title": "[LG애드솔루션 딜레마]②몸값 뛰자 이해관계 충돌…LG전자, 美 법정에",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBuSzVrRG9FZnctelZMMWtQR0VnYmpxNUViajlpQmJONGNtSE5MV0VkNGRuSWVRTEtzajRzRkIyblVudlRjY1VpcDUwZ2FQbGRrOVpoWDFkUnE3eE1ZUENzTTBzYTFCeUJi0gFsQVVfeXFMTUx6U2dlOW80N1MxVmZvMXJ0eFlnaFdlcWozaTBSUkVBQjhITElmZDJLc05mWnRUa0FWOTBibnBDUENnMERxZzl2bWhBMU5INkRCaG1uSFBxQzZZYk5jTWd0S2N4QXFJT3ItWDc2?oc=5",
-    "source": "블로터",
-    "pub_iso": "2026-08-17T00:30:00+00:00",
-    "summary_raw": "[LG애드솔루션 딜레마]②몸값 뛰자 이해관계 충돌…LG전자, 美 법정에 블로터",
-    "matched_by": [
-      "LG전자"
-    ],
-    "categories": [],
-    "companies": [
-      "LG전자"
-    ]
-  },
-  {
-    "title": "아시아나항공, 2Q 고환율·고유가 여파에 적자 전환 : 네이버 블로그",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNX0FocGFhaGwzX01INVNhSlZDQkJfaUZNYVVtalIzRkhyeVYxZFI1elJaWnBzaWpIREpGUjlNQ09sWkhGTzdfcEx2WktfUXN4anJHSFktbmZrNFhoZ25lMzJISHhlcDUwQkUtQXVvMU52ak05dGRaM3AycDZRdW8wSWJ6ZVZlaG1GRlZvTGo5NA?oc=5",
-    "source": "Naver Blog",
-    "pub_iso": "2026-08-17T00:29:59+00:00",
-    "summary_raw": "아시아나항공, 2Q 고환율·고유가 여파에 적자 전환 : 네이버 블로그 Naver Blog",
     "matched_by": [
       "네이버"
     ],
