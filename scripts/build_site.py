@@ -14,7 +14,7 @@ from datetime import datetime, timedelta
 from jinja2 import Environment, FileSystemLoader
 from common import (
     BASE_DIR, DATA_DIR, DOCS_DIR, KST,
-    load_categories, load_json, save_json, today_str, rank_articles,
+    load_categories, load_json, save_json, today_str, rank_articles, dedupe_by_title, normalize_title,
 )
 
 TEMPLATES_DIR = os.path.join(BASE_DIR, "templates")
@@ -58,9 +58,9 @@ def pick_company_articles(articles, max_total):
         by_company.setdefault(primary, []).append(a)
 
     for company in by_company:
-        by_company[company] = rank_articles(by_company[company])
+        by_company[company] = dedupe_by_title(rank_articles(by_company[company]))
 
-    picked, seen_links = [], set()
+    picked, seen_links, seen_titles = [], set(), set()
     idx = 0
     companies_order = list(by_company.keys())
     while len(picked) < max_total and companies_order:
@@ -69,9 +69,12 @@ def pick_company_articles(articles, max_total):
             bucket = by_company[company]
             if idx < len(bucket):
                 art = bucket[idx]
-                if art["link"] not in seen_links:
+                tkey = normalize_title(art.get("title", ""))
+                if art["link"] not in seen_links and tkey not in seen_titles:
                     picked.append(art)
                     seen_links.add(art["link"])
+                    if tkey:
+                        seen_titles.add(tkey)
                     progressed = True
                 if len(picked) >= max_total:
                     break
@@ -98,7 +101,7 @@ def main():
             if cat in grouped:
                 grouped[cat].append(a)
     for cat in grouped:
-        grouped[cat] = rank_articles(grouped[cat])[:MAX_PER_CATEGORY]
+        grouped[cat] = dedupe_by_title(rank_articles(grouped[cat]))[:MAX_PER_CATEGORY]
 
     # ---- docs 폴더 준비 ----
     os.makedirs(os.path.join(DOCS_DIR, "briefing"), exist_ok=True)
