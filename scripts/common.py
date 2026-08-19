@@ -10,8 +10,8 @@ CONFIG_DIR = os.path.join(BASE_DIR, "config")
 DATA_DIR = os.path.join(BASE_DIR, "data")
 DOCS_DIR = os.path.join(BASE_DIR, "docs")
 
-# 최근 몇 시간 이내 기사만 사용할지 (기본 24시간, 실행 스케줄 오차 감안해 여유 30분 정도만 buffer)
-WINDOW_HOURS = int(os.environ.get("BRIEFING_WINDOW_HOURS", "24"))
+# 최근 몇 시간 이내 기사만 사용할지 (기본 48시간, 실행 스케줄 오차 감안해 여유 1시간 정도만 buffer)
+WINDOW_HOURS = int(os.environ.get("BRIEFING_WINDOW_HOURS", "48"))
 
 KST = timezone(timedelta(hours=9))
 
@@ -56,7 +56,7 @@ def rank_articles(articles, major_outlets=None):
 
 
 MAX_PER_CATEGORY = 3    # 카테고리별 최대 노출 건수
-MAX_COMPANY_TOTAL = 3   # 관심기업 섹션 전체 최대 노출 건수
+MAX_COMPANY_TOTAL = 6   # 관심기업 섹션 전체 최대 노출 건수 (기업 6개, 기업당 1건씩 골고루)
 
 
 def pick_company_articles(articles, max_total=MAX_COMPANY_TOTAL):
