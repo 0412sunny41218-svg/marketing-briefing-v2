@@ -23,7 +23,9 @@ from common import DATA_DIR, load_json, save_json
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                   "(KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
     "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Referer": "https://news.google.com/",
 }
 TIMEOUT = 8
 MAX_WORKERS = 4
@@ -68,24 +70,38 @@ def extract_body_text(html: str) -> str:
     for tag in soup(["script", "style", "nav", "header", "footer", "aside", "noscript", "form"]):
         tag.decompose()
 
-    # 문단을 '같은 부모 태그'별로 묶는다 (기사 본문은 보통 한 컨테이너 안에 몰려있음)
-    groups = defaultdict(list)
+    paras = []
     for p in soup.find_all("p"):
         text = p.get_text(" ", strip=True)
         if len(text) < MIN_PARAGRAPH_LEN:
             continue
         if is_boilerplate(text):
             continue
-        parent = p.parent
-        if parent is None:
-            continue
-        groups[id(parent)].append(text)
+        paras.append((p, text))
 
-    if not groups:
+    if not paras:
         return ""
 
-    # 글자수 합이 가장 큰 그룹 = 실제 기사 본문일 가능성이 가장 높음
-    best_group = max(groups.values(), key=lambda paras: sum(len(t) for t in paras))
+    # 사이트마다 기사 본문을 감싸는 태그 구조가 달라서(문단마다 부모가 다르게 감싸진 경우 등),
+    # '바로 위 부모' 기준과 '한 단계 더 위(조부모)' 기준을 모두 시도해 더 큰 덩어리를 고른다.
+    best_group, best_len = None, 0
+    for level_up in (1, 2):
+        groups = defaultdict(list)
+        for p, text in paras:
+            anchor = p
+            for _ in range(level_up):
+                if anchor.parent is None:
+                    break
+                anchor = anchor.parent
+            groups[id(anchor)].append(text)
+        for group_texts in groups.values():
+            total = sum(len(t) for t in group_texts)
+            if total > best_len:
+                best_len = total
+                best_group = group_texts
+
+    if not best_group:
+        best_group = [t for _, t in paras]  # 최후 수단: 걸러진 문단 전부 사용
 
     result, total = [], 0
     for t in best_group:
