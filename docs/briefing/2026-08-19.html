@@ -15,61 +15,62 @@
   <div class="briefing-header">
     <div class="date-eyebrow" style="color:var(--ink-soft);font-size:13px;">TODAY BRIEFING</div>
     <div class="briefing-date">2026년 8월 19일 (수)</div>
-    <div class="window-note">최근 24시간 이내 발행된 기사만 모았어요</div>
+    <div class="window-note">최근 48시간 이내 발행된 기사만 모았어요</div>
   </div>
 
-  <div class="pill-row">
-    <a class="pill" href="#company" style="background:#12172B;">🎯 관심기업</a>
+  <div class="pill-row" id="tab-row">
+    
+    <button type="button" class="pill tab-btn is-active" data-target="panel-company" style="background:#12172B;">🎯 관심기업</button>
+    
     
       
-      <a class="pill" href="#%EB%B8%8C%EB%9E%9C%EB%93%9C%C2%B7%EC%BA%A0%ED%8E%98%EC%9D%B8" style="background:#EC4899;">🎯 브랜드·캠페인</a>
-      
-    
-      
-      <a class="pill" href="#%EC%BD%98%ED%85%90%EC%B8%A0%C2%B7%EB%AF%B8%EB%94%94%EC%96%B4" style="background:#8B5CF6;">🎬 콘텐츠·미디어</a>
-      
-    
-      
-      <a class="pill" href="#%EC%86%8C%EB%B9%84%EC%9E%90%C2%B7%ED%8A%B8%EB%A0%8C%EB%93%9C" style="background:#F59E0B;">🔥 소비자·트렌드</a>
+      <button type="button" class="pill tab-btn"
+              data-target="panel-cat-0" style="background:#EC4899;">🎯 브랜드·캠페인</button>
       
     
       
-      <a class="pill" href="#%EC%97%85%EA%B3%84%C2%B7%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4" style="background:#14B8A6;">📊 업계·비즈니스</a>
+      <button type="button" class="pill tab-btn"
+              data-target="panel-cat-1" style="background:#F59E0B;">🔥 소비자·트렌드</button>
+      
+    
+      
+      <button type="button" class="pill tab-btn"
+              data-target="panel-cat-2" style="background:#14B8A6;">📊 업계·비즈니스</button>
       
     
   </div>
 
   
-  <section class="company-section" id="company">
+  <section class="company-section tab-panel" id="panel-company">
     <div class="section-title">🎯 관심기업 뉴스</div>
     <div class="section-desc">등록해둔 관심기업이 언급된 오늘의 기사예요</div>
     
     <div class="article-card">
   <div class="article-source">
     <span class="source-dot"></span>
-    <span>매일경제</span>
-    <span>· 삼성전자</span>
+    <span>연합뉴스</span>
+    <span>· HD현대</span>
   </div>
-  <div class="article-title">거제 수해 현장 달려간 삼성전자서비스…‘복구 특별 서비스’ 나서</div>
+  <div class="article-title">HD현대중공업, 페루 신형 상륙지원함 1번함 '침보테함' 진수</div>
   <div class="info-box">
     <div class="label">무슨 내용인가요?</div>
-    <div class="body">삼성전자서비스가 거제시 수해 피해지역에 특별 서비스팀을 파견해 침수된 가전제품 세척·점검 서비스와 휴대폰 수리 서비스를 무상으로 제공하고 있어요.</div>
+    <div class="body">HD현대중공업이 페루 시마조선소에서 공동 건조한 상륙지원함 1번함 '침보테함'을 진수했어요. HD현대중공업이 설계와 기술지원을 제공하고 현지 조선소가 생산에 참여하는 방식으로 진행됐으며, K-함정의 경쟁력을 높여 수출 시장을 다변화할 계획이에요.</div>
   </div>
-  <a class="original-link" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTFBDaXBpZDIyaVhuNEJ2T2tJQ012cTVzbkFvUjN0ZTk3alZ3a0pNZzhIbjZ6RmlBM2ViMFYtb2xHa1RRbjhtNUt6TUF2cnBZZ2cyOWJGaWhB?oc=5" target="_blank" rel="noopener">원문에서 확인 ↗</a>
+  <a class="original-link" href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hYjZJSGtZQVVTZG16LTBqVHpXMFVKajNGblBrakhjeDAweDQzQUpXem1fS1VKUlVFWl9TSkNoWVVUT3ZkV3d3YUZYRGlpNFhBVUh2RVVHVEFHN3fSAWBBVV95cUxQSHdhZmJsbTZWbUdqOFZzYWpDTkRIY0h6Zjl0NDNpQ0RiaG9sNVJsYzZQaDhIY2RtaHhWNTgxcnpMZEppVGp5TnMyRWFxTTVVV1ZTQVRzSDdmcWNKR3RBLTM?oc=5" target="_blank" rel="noopener">원문에서 확인 ↗</a>
 </div>
     
     <div class="article-card">
   <div class="article-source">
     <span class="source-dot"></span>
-    <span>머니투데이</span>
-    <span>· HD현대</span>
+    <span>서울경제</span>
+    <span>· 삼성전자</span>
   </div>
-  <div class="article-title">쏟아지는 AI 데이터센터용 엔진 수요에 HD현대 벌써 1.5조 수주 - 머니투데이</div>
+  <div class="article-title">장관까지 나서 합의했는데…“12조 더 달라” 또 거리 나서는 삼성 노조</div>
   <div class="info-box">
     <div class="label">무슨 내용인가요?</div>
-    <div class="body">HD현대중공업의 선박용 엔진이 AI 데이터센터의 전력 공급 수요를 만들어내고 있어요. 올해 상반기에만 약 1조5800억원 규모의 데이터센터용 중속엔진 계약을 따냈으며, 2030년까지 생산 능력을 대부분 소진할 것으로 예상돼 생산 증설이 필요한 상황이에요.</div>
+    <div class="body">삼성전자 동행노조가 지난 5월 임금협약 후 3개월 만에 다시 거리로 나섰어요. DX 부문 직원들에게 1인당 자사주 1000주를 지급해달라는 요구로, 이는 약 12조 원대 규모며, 21일 서초사옥 앞에서 근무시간대 대규모 집회를 예정 중이에요.</div>
   </div>
-  <a class="original-link" href="https://news.google.com/rss/articles/CBMibEFVX3lxTFBJNHBzb0RZd0JkamlPVDUzaFN3SHJIRDJzUG5HZC0zWjZUeTZDb1dlUVJNZlZCQnpzVUVVd1hLRkpfSHVmVmRtZGE5SU5mWDFTWVZObTY1dzZPM3RjRklmM2RZUHo5Y1pkX2pCSNIBckFVX3lxTE04WXZISFhBT1pRQ3dreXdDaTRINDV5cjFqZ2NWNV9rSndDWFZpWkRNZG9xQUVRVEliTTVTY1dsb3dwaURVYlVuMFVGLVZiSzY1TEwwUHFJQkpIdmZyVVFKUnJBczVES096N0VXUXBCQzA1Zw?oc=5" target="_blank" rel="noopener">원문에서 확인 ↗</a>
+  <a class="original-link" href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Ycm9wandyLWFieTFrakhMWk5qWHcyd3BnWW5xcmR4WEV6SHNZWk41ZTVuazN3YW5ZanU1MmJrZkZJbXpacWQ2Q0R0MUZEOHNpdEE?oc=5" target="_blank" rel="noopener">원문에서 확인 ↗</a>
 </div>
     
     <div class="article-card">
@@ -81,22 +82,64 @@
   <div class="article-title">‘하드웨어 설계 AI’ 세카, LG전자·블루포인트 시드투자 유치</div>
   <div class="info-box">
     <div class="label">무슨 내용인가요?</div>
-    <div class="body">하드웨어 설계 자동화 스타트업 세카가 LG전자와 블루포인트파트너스로부터 시드투자를 유치했어요. AI 기반 전자설계자동화 플랫폼을 개발해 설계 데이터 정합성 검증부터 회로 설계까지 전 과정을 자동화하며, LG전자, DB글로벌칩, 에어버스 등과 실증 프로젝트를 진행 중이에요.</div>
+    <div class="body">하드웨어 설계 자동화 스타트업 세카가 LG전자와 블루포인트파트너스로부터 시드투자를 유치했어요. 파편화된 설계 데이터를 자동으로 연결하고 설계 변경사항을 검증하는 AI 기반 전자설계자동화 플랫폼을 개발 중이며, LG전자 등과 실증 프로젝트를 진행하고 있어요.</div>
   </div>
   <a class="original-link" href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE16WG1KV0ZKRnlHS1VkR3czYS12YUx6Q3cybTlROEpXTXhlemtIYzlHYUJjNGgyUXVZWmQzSXIwX01IQ0hOMnZrNGowZ1RQQQ?oc=5" target="_blank" rel="noopener">원문에서 확인 ↗</a>
+</div>
+    
+    <div class="article-card">
+  <div class="article-source">
+    <span class="source-dot"></span>
+    <span>파이낸셜뉴스</span>
+    <span>· 삼성중공업, 한화오션</span>
+  </div>
+  <div class="article-title">한화오션 "거제조선소, 긴급 복구...가용 장비 총동원"</div>
+  <div class="info-box">
+    <div class="label">무슨 내용인가요?</div>
+    <div class="body">한화오션이 경남 거제 지역 기록적 폭우로 인한 조선소 피해에 긴급 복구에 나섰어요. 생산설비와 변전설비, 도로 등이 침수됐지만 인명 피해는 없으며, 가용 장비를 총동원해 최대한 신속한 복구를 진행 중이에요.</div>
+  </div>
+  <a class="original-link" href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZX3ZwVzhiYUdfNDFZcDd3WExsZUFUMXZfMEdJWDRTLVdLVU9zeHM5NGkySTUwVmNvMzNxSFVWUVd2TDB0UWxuUm4tdmRtX0VJWU9nbUN2N1B0QQ?oc=5" target="_blank" rel="noopener">원문에서 확인 ↗</a>
+</div>
+    
+    <div class="article-card">
+  <div class="article-source">
+    <span class="source-dot"></span>
+    <span>연합뉴스</span>
+    <span>· 한화오션</span>
+  </div>
+  <div class="article-title">기록적 폭우에 거제 양대 조선소도 침수 피해…긴급 복구 총력</div>
+  <div class="info-box">
+    <div class="label">무슨 내용인가요?</div>
+    <div class="body">거제 지역 양대 조선소인 한화오션과 삼성중공업이 기록적 폭우로 일부 침수 피해를 입고 복구 작업에 나섰어요. 한화오션은 생산설비와 변전설비 침수, 삼성중공업은 후생시설과 도크 침수를 확인했으며, 두 조선소 모두 순차적으로 정상 조업에 들어갈 예정이에요.</div>
+  </div>
+  <a class="original-link" href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFBiUjVlUUFGVzBDNzJLaGs1S01XQlVKYVdjck1ib3NpazNMRDlIZklDSW5WRGdTLWlTTDg0RUhMVG5lSEZ6MHJMNHRlLWNYWkFXeFhfRzJtU1VaM2fSAWBBVV95cUxNX05QeUc4Z2dLWjhGZjBTNldxLW4xOFlBcUVIMDQ5eFBvbE5XNHNXWjFLLUxFY2s4cVFRWnpEeFNnNldra1NKVTMxMnEyWkpPN2lKRy1Rc05VanJFcnNNZVY?oc=5" target="_blank" rel="noopener">원문에서 확인 ↗</a>
+</div>
+    
+    <div class="article-card">
+  <div class="article-source">
+    <span class="source-dot"></span>
+    <span>한국경제</span>
+    <span>· 삼성물산, 삼성전자</span>
+  </div>
+  <div class="article-title">엑사이엔씨, 삼성전자 평택캠퍼스 P5서 잇단 수주…1000억원대 수주고 확보</div>
+  <div class="info-box">
+    <div class="label">무슨 내용인가요?</div>
+    <div class="body">엑사이엔씨, 삼성전자 평택캠퍼스 P5서 잇단 수주…1000억원대 수주고 확보</div>
+  </div>
+  <a class="original-link" href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjQzBsTmtSb0gwUk5lbXBfbUcwT2p4TV9rbTQxU0RLMF8yQnFKX2hMdDVVSVptQTlTVzNld3NhZFFfQ3V5TW9IbXlZbzdocktvWDl3VHpDSHcxdw?oc=5" target="_blank" rel="noopener">원문에서 확인 ↗</a>
 </div>
     
   </section>
   
 
   
-  <section class="category-block" id="%EB%B8%8C%EB%9E%9C%EB%93%9C%C2%B7%EC%BA%A0%ED%8E%98%EC%9D%B8">
-    <div class="category-heading">
-      <span class="dot" style="background:#EC4899;"></span>
-      <h2>🎯 브랜드·캠페인</h2>
-      <span class="count">3건</span>
-    </div>
     
+    <section class="category-block tab-panel" id="panel-cat-0">
+      <div class="category-heading">
+        <span class="dot" style="background:#EC4899;"></span>
+        <h2>🎯 브랜드·캠페인</h2>
+        <span class="count">3건</span>
+      </div>
       
       <div class="article-card">
   <div class="article-source">
@@ -107,7 +150,7 @@
   <div class="article-title">"코인원에서 '주식투자' 바로가기"…'2026 브랜드 캠페인' 메인 영상 공개</div>
   <div class="info-box">
     <div class="label">무슨 내용인가요?</div>
-    <div class="body">코인원이 새로운 브랜드 캠페인을 공개했어요. 한국투자증권과의 협업으로 앱 내에서 주식투자로 바로 이동할 수 있는 '주식투자 바로가기' 서비스를 홍보하는 영상 2편을 선보였으며, 다음 달부터는 AI 그리드와 커뮤니티 서비스 등을 주제로 한 추가 영상들을 순차 공개할 예정이에요.</div>
+    <div class="body">코인원이 2026년 브랜드 캠페인의 메인 영상 시리즈를 공개했어요. 한국투자증권과의 협업으로 앱 내에서 주식투자 바로가기 기능을 제공하는 '주식 연결' 편을 시작으로, 9월부터 AI 그리드와 커뮤니티 서비스를 주제로 한 후속 영상들을 순차 공개할 예정이며, 신규 가입자에게 3만원 상당의 비트코인을 지급하는 캠페인 이벤트도 진행 중이에요.</div>
   </div>
   <a class="original-link" href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE43S1JYUFNLQTN0UHhMQnpOX3FJNzR0VkZFb0JnSlczSWppX3FJVFlQT0R2V3RERnR6Tmt2VGEyZ3NEN1lqdFdLV1JtVGtKYWFIV2ZQSEJMdFZYUQ?oc=5" target="_blank" rel="noopener">원문에서 확인 ↗</a>
 </div>
@@ -115,94 +158,41 @@
       <div class="article-card">
   <div class="article-source">
     <span class="source-dot"></span>
-    <span>펜앤마이크</span>
+    <span>전자신문</span>
     
   </div>
-  <div class="article-title">IVE 레이, AGE20'S 글로벌 앰버서더로...하반기 리브랜딩 캠페인 본격화</div>
+  <div class="article-title">코인원, '주식 연결' 전면에…2026 브랜드 캠페인 시작</div>
   <div class="info-box">
     <div class="label">무슨 내용인가요?</div>
-    <div class="body">AGE20'S가 아이브의 레이를 글로벌 앰버서더로 영입하고 하반기부터 리브랜딩을 본격화했어요. 높은 국제적 인지도를 활용해 '스킨 퍼스트 메이크업' 브랜드 세계관을 구축하고, 서울 주요 상권과 지하철 옥외광고, 팝업스토어, 온·오프라인 글로벌 마케팅까지 확대할 계획이에요.</div>
+    <div class="body">코인원이 2026 브랜드 캠페인을 시작하며 핵심 서비스 알리기에 나섰어요. 한국투자증권과의 협업으로 앱에서 웹트레이딩서비스로 바로 이동하는 '주식투자 바로가기' 기능을 소개하고, 9월부터 AI 그리드와 커뮤니티 서비스 등을 주제로 한 후속 영상을 순차 공개할 계획이에요.</div>
   </div>
-  <a class="original-link" href="https://news.google.com/rss/articles/CBMia0FVX3lxTFBVNFVPN1BiM2xHYlhDcXduaXlJVnhUcE11WGRwNDJ0SGFMREt4N1dubTgxNFdGVlNpMnRfenBVSmloTnA0T1QyNTBQbGE4TkZOZi16YlR6TUpEbVlPVkh5MXFuTkE3Uk1HVmRR0gFvQVVfeXFMTzdpMTFhNlZac0pmQk5XdzZPaDZzTDJXOXJhU2lQRVBjT3dqaV9xM0RyeGc1Qy1tTkUtZ2xTTEpKSVdEd3daeTFnbWNZZXNycEhfbmNSb3ktMnZCNXBkd2lDWjQyS3VRdmZETm5Zemt3?oc=5" target="_blank" rel="noopener">원문에서 확인 ↗</a>
+  <a class="original-link" href="https://news.google.com/rss/articles/CBMiTkFVX3lxTE1ndWJhWGFJcHdmV1hpZjdxdjk5b1BLY1RGRng5LS1qQnI4SEZyQVozd3lub3BtT3dJb1dyUGVOZGpGc2lGblVpSENtckRWUQ?oc=5" target="_blank" rel="noopener">원문에서 확인 ↗</a>
 </div>
       
       <div class="article-card">
   <div class="article-source">
     <span class="source-dot"></span>
-    <span>디자인 나침반</span>
+    <span>연합뉴스</span>
     
   </div>
-  <div class="article-title">세일즈포스, ‘클라우드’를 ‘에이전트포스’로 리브랜딩</div>
+  <div class="article-title">[게시판] 코인원, 브랜드 캠페인 영상 시리즈 공개</div>
   <div class="info-box">
     <div class="label">무슨 내용인가요?</div>
-    <div class="body">세일즈포스가 뉴욕 디자인 스튜디오와 함께 새로운 브랜드 아이덴티티를 공개했어요. 기존 클라우드 로고의 원을 중심으로 색상, 타이포그래피, 일러스트레이션을 확장해 다양한 브랜드 접점에 적용할 수 있는 유연한 시각 시스템으로 전환했어요.</div>
+    <div class="body">코인원이 2026 브랜드 캠페인 메인 영상 시리즈를 공개했어요. 주식투자 바로가기 서비스를 다룬 '주식 연결' 편을 시작으로 AI 그리드와 커뮤니티 등 후속편을 순차 공개할 예정이며, 31일까지 신규 가입 고객에게 3만원 상당의 비트코인을 지급하고 있어요.</div>
   </div>
-  <a class="original-link" href="https://news.google.com/rss/articles/CBMijgFBVV95cUxPeml3TlFsQUVWcXV5UnZ3NVg1ZVp3Q3BzX3ZxUTZmUG1JdG03TURILVJTQWRZMl9PcmNlVVlmNHhJS3JIVC1CZkM0bC1SdTVXV0ppQWdIM1ptQkJoalFOU0hmV2RKUFpyMVlpeWJyMk9xS2cxUmdfUm9fV3JsNWVZY2l1dlpEakZwVFRoVTJn?oc=5" target="_blank" rel="noopener">원문에서 확인 ↗</a>
+  <a class="original-link" href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFBCdlJ3XzdWeUdEX0V4ZzBoN3NZdS1TUjFKV0FQelgwNmRsVk1pZnhYWExfVU1XWHNKNWdEV1NDOElLbHE5VXd2clVZbHdoaWdxWVNXRzlUTVFWZnfSAWBBVV95cUxQOVRsRHpHZm9zUTlVRWNHdnRtSnJCQUZINjdqdU9Jbi01ZGZwYmhqYnZ6WEZYOTNKU2E3QVhzZWxfck9JNXFlbExRN2JjdVpkNUliQXZ6S3BmcElRa05wclQ?oc=5" target="_blank" rel="noopener">원문에서 확인 ↗</a>
 </div>
       
+    </section>
     
-  </section>
   
-  <section class="category-block" id="%EC%BD%98%ED%85%90%EC%B8%A0%C2%B7%EB%AF%B8%EB%94%94%EC%96%B4">
-    <div class="category-heading">
-      <span class="dot" style="background:#8B5CF6;"></span>
-      <h2>🎬 콘텐츠·미디어</h2>
-      <span class="count">3건</span>
-    </div>
     
-      
-      <div class="article-card">
-  <div class="article-source">
-    <span class="source-dot"></span>
-    <span>브런치</span>
-    
-  </div>
-  <div class="article-title">동국대학교 영상대학원 영화만 배우는 곳일까요?</div>
-  <div class="info-box">
-    <div class="label">무슨 내용인가요?</div>
-    <div class="body">동국대학교 영상대학원 소개 기사예요.</div>
-  </div>
-  <a class="original-link" href="https://news.google.com/rss/articles/CBMiSkFVX3lxTE92UjR1bllaNHliM1lEOE5UTjRSMGE5LUhKdHN3eDVlSFIwdEpHMlkzbjY4T3hMYXZ4T3d5d2hGb3RTRFR2VUNHZlBn?oc=5" target="_blank" rel="noopener">원문에서 확인 ↗</a>
-</div>
-      
-      <div class="article-card">
-  <div class="article-source">
-    <span class="source-dot"></span>
-    <span>딜라이트닷넷</span>
-    
-  </div>
-  <div class="article-title">KB증권, 'ICT 어워드 코리아 2026' 디지털 콘텐츠·마케팅 분야 금상 수상</div>
-  <div class="info-box">
-    <div class="label">무슨 내용인가요?</div>
-    <div class="body">KB증권이 AI 기반 영상 콘텐츠로 'ICT 어워드 코리아 2026'의 디지털 콘텐츠·마케팅 분야에서 금상을 수상했어요. 스크립트부터 편집까지 제작 과정 전반에 AI를 활용해 '연금패키지로 빵빵하게', '국내주식 웰컴팩', '중개형 ISA' 등 3개의 광고를 제작했고, 이를 통해 콘텐츠 제작 시간을 단축하고 시장 변화에 빠르게 대응할 수 있는 체계를 구축했어요.</div>
-  </div>
-  <a class="original-link" href="https://news.google.com/rss/articles/CBMickFVX3lxTFBjdTkwRjlfZktSRG1QeTNRcTBOUnl6ZlI1M0hYSldyeW82M081cUQ5RDFYdGxtMUl3ZV9hSDBma3QtMW9XX3ZCcEotR2w2STZFVWFnVzJ5Z3hUTDZLTjhhN05kM1Zfck54MjZZbU1kYWktZ9IBckFVX3lxTFBjdTkwRjlfZktSRG1QeTNRcTBOUnl6ZlI1M0hYSldyeW82M081cUQ5RDFYdGxtMUl3ZV9hSDBma3QtMW9XX3ZCcEotR2w2STZFVWFnVzJ5Z3hUTDZLTjhhN05kM1Zfck54MjZZbU1kYWktZw?oc=5" target="_blank" rel="noopener">원문에서 확인 ↗</a>
-</div>
-      
-      <div class="article-card">
-  <div class="article-source">
-    <span class="source-dot"></span>
-    <span>충남일보</span>
-    
-  </div>
-  <div class="article-title">상명대, 독립기념관 김구 탄생 150주년 특별기획전 AI 콘텐츠 제작</div>
-  <div class="info-box">
-    <div class="label">무슨 내용인가요?</div>
-    <div class="body">상명대학교 예술학부와 AI융합문화산업연구소가 독립기념관의 김구 탄생 150주년 특별기획전을 위해 AI 기반 전시콘텐츠를 제작했어요. '파란'이라는 몰입형 영상과 '소원의 숲'이라는 체험형 인터랙티브 미디어아트로 김구 선생의 정신을 시각화했으며, 학생들이 기획부터 제작까지 실제 콘텐츠 제작 과정을 경험했어요.</div>
-  </div>
-  <a class="original-link" href="https://news.google.com/rss/articles/CBMic0FVX3lxTE1KWHIweFIxSWNRbUh5MGowOTR5MjMxVTl6Y0V5NlRpRGFIdXNmMFFPT2dUaVdNR3FjVVRWS1lSTU05T0syYUV3SmZSeVU1clZTMTZRbmhkRDJSWjlYX0JrRmJCNVNYaGtfWW9zNzQ0SGlQQTQ?oc=5" target="_blank" rel="noopener">원문에서 확인 ↗</a>
-</div>
-      
-    
-  </section>
-  
-  <section class="category-block" id="%EC%86%8C%EB%B9%84%EC%9E%90%C2%B7%ED%8A%B8%EB%A0%8C%EB%93%9C">
-    <div class="category-heading">
-      <span class="dot" style="background:#F59E0B;"></span>
-      <h2>🔥 소비자·트렌드</h2>
-      <span class="count">3건</span>
-    </div>
-    
+    <section class="category-block tab-panel" id="panel-cat-1">
+      <div class="category-heading">
+        <span class="dot" style="background:#F59E0B;"></span>
+        <h2>🔥 소비자·트렌드</h2>
+        <span class="count">3건</span>
+      </div>
       
       <div class="article-card">
   <div class="article-source">
@@ -227,7 +217,7 @@
   <div class="article-title">달라진 문화 소비·K-컬처 열풍 속 박물관은…27일 학술대회</div>
   <div class="info-box">
     <div class="label">무슨 내용인가요?</div>
-    <div class="body">국립민속박물관이 27일 박물관학·교육학·문화인류학 전문가들이 참여하는 학술대회를 개최해요. K-컬처 열풍 속 박물관 전시의 대중 취향 강조 경향을 비판적으로 분석하고, 7개 박물관의 특색있는 교구재를 선보일 예정이에요.</div>
+    <div class="body">국립민속박물관이 27일 제15회 어린이박물관 학술대회를 개최해요. 박물관학, 교육학, 문화인류학 등 전문가들이 K-컬처 열풍 속 박물관 전시와 교육의 미래 방향을 논의하고, 국립민속박물관 등 7곳이 특색있는 교구재를 선보일 예정이에요.</div>
   </div>
   <a class="original-link" href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkZmpEcXQzXzVuTmRVSDIyZnJoZXJTdnowcmsyN2pjZmhLaUVtcTV2MUlqanZLRnFXaW5iU2Z4OTBPREQyMGZuQlFCVkZnb3d5eFJBZmdieFNIaknSAWBBVV95cUxQY0RtMllzM1lMbGRCakRQWmlwQWxuTnFSTDl1SUtjV1NIR3c3bFdPajFsNFRfV2VyOTZ3Wjk0MTFnb1VpUS1DVHhLQmtUY09UZzhESEdmUl91X3V4bUhjNUo?oc=5" target="_blank" rel="noopener">원문에서 확인 ↗</a>
 </div>
@@ -246,16 +236,16 @@
   <a class="original-link" href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1hM2NvOGEwdkNlejU0MjUwM21mWW5aSHpJZUVvSV9kX1Y1SUg2bWlycVZLQURSeVhCMk9OZW03WDRTUU1Kb0hnQ2taX21sR0FaWm5kbnlmQXJVUQ?oc=5" target="_blank" rel="noopener">원문에서 확인 ↗</a>
 </div>
       
+    </section>
     
-  </section>
   
-  <section class="category-block" id="%EC%97%85%EA%B3%84%C2%B7%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4">
-    <div class="category-heading">
-      <span class="dot" style="background:#14B8A6;"></span>
-      <h2>📊 업계·비즈니스</h2>
-      <span class="count">3건</span>
-    </div>
     
+    <section class="category-block tab-panel" id="panel-cat-2">
+      <div class="category-heading">
+        <span class="dot" style="background:#14B8A6;"></span>
+        <h2>📊 업계·비즈니스</h2>
+        <span class="count">3건</span>
+      </div>
       
       <div class="article-card">
   <div class="article-source">
@@ -266,7 +256,7 @@
   <div class="article-title">전주정보문화산업진흥원, 소상공인 온라인판로·마케팅 지원 나서</div>
   <div class="info-box">
     <div class="label">무슨 내용인가요?</div>
-    <div class="body">전주정보문화산업진흥원이 소상공인 135개사를 모집해 온라인 판로 확대와 마케팅을 지원해요. 스마트폰으로 상품 사진 촬영하는 법부터 숏폼 콘텐츠 제작, 이커머스 플랫폼 입점, 라이브커머스까지 단계별로 지원하며, 9월 한가위를 겨냥한 우체국쇼핑 특별 할인쿠폰과 기획전도 준비 중이에요.</div>
+    <div class="body">전주정보문화산업진흥원이 지역 소상공인 135개사를 모집해 온라인 판로 확대와 디지털 마케팅을 지원해요. 스마트폰 촬영 교육, 숏폼 콘텐츠 제작, G마켓·우체국쇼핑 등 이커머스 플랫폼 입점, 라이브커머스 방송 제작 등 단계별 맞춤형 지원을 제공합니다.</div>
   </div>
   <a class="original-link" href="https://news.google.com/rss/articles/CBMiTkFVX3lxTFB5VGpKZEplZ2dLbEpmdzVfRU5JSTlIandJTlVGcV9qOWN0QjlWMUpmNU5uWnZDblA4bmJuWDZJNV9OaEJxVFR2SWZtcVZZZw?oc=5" target="_blank" rel="noopener">원문에서 확인 ↗</a>
 </div>
@@ -280,7 +270,7 @@
   <div class="article-title">디렉터스컴퍼니, 이주환 대표 선임…AI 마케팅 솔루션 기업 전환</div>
   <div class="info-box">
     <div class="label">무슨 내용인가요?</div>
-    <div class="body">광고대행사 디렉터스컴퍼니가 이주환 신임 대표를 선임했어요. 신임 대표는 TBWA에서 크리에이티브 디렉터로 일한 경력이 있으며, 회사는 AI 기술·전략·크리에이티브를 결합해 기존 광고 회사와 차별화된 브랜딩과 세일즈 마케팅 솔루션을 제공하는 방향으로 전환할 계획이에요.</div>
+    <div class="body">광고대행사 디렉터스컴퍼니가 이주환 신임 대표를 선임했어요. LG전자, 대한항공 등 대형 캠페인을 총괄한 그는 AI 기술, 전략기획, 크리에이티브를 결합한 마케팅 솔루션으로 기업을 전환할 계획이며, AI 기술이 평준화되는 시대에 인간의 기획력과 창의성의 가치가 더욱 중요해질 것으로 강조했어요.</div>
   </div>
   <a class="original-link" href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ORFBpV3hMUERJV2xHczkyTlFCaDJINlFYaFFEZkVBOEUtN2dha0t6MjVCTjZkcjdTVmhmelJrdW1LLTNVWHFzRWhxZVYtd3dBOWc?oc=5" target="_blank" rel="noopener">원문에서 확인 ↗</a>
 </div>
@@ -288,25 +278,43 @@
       <div class="article-card">
   <div class="article-source">
     <span class="source-dot"></span>
-    <span>오픈애즈</span>
+    <span>조선일보</span>
     
   </div>
-  <div class="article-title">Criteo GO란? AI 기반 퍼포먼스 마케팅과 Conversion Events 활용 방법</div>
+  <div class="article-title">“100만뷰 가치 달라진다”… 유튜브 조회수 기준 완화에 광고 업계 ‘셈법 복잡’</div>
   <div class="info-box">
     <div class="label">무슨 내용인가요?</div>
-    <div class="body">마케팅 솔루션 기업 크리테오가 AI 기반 자동화 솔루션 'Criteo GO'를 제시했어요. 머신러닝·딥러닝·생성형 AI를 결합해 캠페인 세팅부터 최적화까지 전 과정을 자동화하며, 변화하는 소비자 행동을 예측해 최적의 타이밍에 맞춤형 광고를 제공하는 방식이에요.</div>
+    <div class="body">“100만뷰 가치 달라진다”… 유튜브 조회수 기준 완화에 광고 업계 ‘셈법 복잡’</div>
   </div>
-  <a class="original-link" href="https://news.google.com/rss/articles/CBMibkFVX3lxTFBZRlB0NGpKQUk5UmkteVNwMWgxUUJfeEc5aDZtTDRtTEhma2ZuTTNYZjl1UVVwMlduMzE0cUlCOVpROUNGa2YzOHVkcEJBMEpqVXVya2hrdmQzQnM0aEdhRVAwdks0UjlQMUgwWG5R?oc=5" target="_blank" rel="noopener">원문에서 확인 ↗</a>
+  <a class="original-link" href="https://news.google.com/rss/articles/CBMigwFBVV95cUxOLWFjRnJlOFA0a1k4UjdTQnB3Z2VSYzRFQVhNQmw5ajlsRmhURXlOUk9mLTNiclRmRExyczlWRlVWb2JxMTZtYXlIczBnektHdzlqX21DRnJXQnl5S1UwNHRUREc4RUVQQVlsT1lYMFhzc21sNnNJTC1lTDA5enZSRVdrMA?oc=5" target="_blank" rel="noopener">원문에서 확인 ↗</a>
 </div>
       
+    </section>
     
-  </section>
   
 
   <footer class="site-footer">
     마케팅·브랜드·관심기업 뉴스 자동 브리핑 · 매일 자동 생성<br>
-    규칙 기반 요약 (AI 사용 안 함) · 최근 24시간 이내 발행 기사만 수록
+    규칙 기반 요약 (AI 사용 안 함) · 최근 48시간 이내 발행 기사만 수록
   </footer>
 </div>
+
+<script>
+(function () {
+  var buttons = document.querySelectorAll('.tab-btn');
+  var panels = document.querySelectorAll('.tab-panel');
+
+  function activate(targetId) {
+    panels.forEach(function (p) { p.style.display = (p.id === targetId) ? '' : 'none'; });
+    buttons.forEach(function (b) { b.classList.toggle('is-active', b.dataset.target === targetId); });
+  }
+
+  buttons.forEach(function (btn) {
+    btn.addEventListener('click', function () { activate(btn.dataset.target); });
+  });
+
+  if (buttons.length) { activate(buttons[0].dataset.target); }
+})();
+</script>
 </body>
 </html>
