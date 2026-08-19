@@ -15,20 +15,23 @@
   <div class="briefing-header">
     <div class="date-eyebrow" style="color:var(--ink-soft);font-size:13px;">TODAY BRIEFING</div>
     <div class="briefing-date">{{ label }}</div>
-    <div class="window-note">최근 24시간 이내 발행된 기사만 모았어요</div>
+    <div class="window-note">최근 48시간 이내 발행된 기사만 모았어요</div>
   </div>
 
-  <div class="pill-row">
-    {% if company_articles %}<a class="pill" href="#company" style="background:#12172B;">🎯 관심기업</a>{% endif %}
+  <div class="pill-row" id="tab-row">
+    {% if company_articles %}
+    <button type="button" class="pill tab-btn is-active" data-target="panel-company" style="background:#12172B;">🎯 관심기업</button>
+    {% endif %}
     {% for cat, conf in categories.items() %}
       {% if grouped[cat] %}
-      <a class="pill" href="#{{ cat|urlencode }}" style="background:{{ conf.color }};">{{ conf.emoji }} {{ cat }}</a>
+      <button type="button" class="pill tab-btn{% if not company_articles and loop.first %} is-active{% endif %}"
+              data-target="panel-cat-{{ loop.index0 }}" style="background:{{ conf.color }};">{{ conf.emoji }} {{ cat }}</button>
       {% endif %}
     {% endfor %}
   </div>
 
   {% if company_articles %}
-  <section class="company-section" id="company">
+  <section class="company-section tab-panel" id="panel-company">
     <div class="section-title">🎯 관심기업 뉴스</div>
     <div class="section-desc">등록해둔 관심기업이 언급된 오늘의 기사예요</div>
     {% for a in company_articles %}
@@ -38,26 +41,42 @@
   {% endif %}
 
   {% for cat, conf in categories.items() %}
-  <section class="category-block" id="{{ cat|urlencode }}">
-    <div class="category-heading">
-      <span class="dot" style="background:{{ conf.color }};"></span>
-      <h2>{{ conf.emoji }} {{ cat }}</h2>
-      <span class="count">{{ grouped[cat]|length }}건</span>
-    </div>
     {% if grouped[cat] %}
+    <section class="category-block tab-panel" id="panel-cat-{{ loop.index0 }}">
+      <div class="category-heading">
+        <span class="dot" style="background:{{ conf.color }};"></span>
+        <h2>{{ conf.emoji }} {{ cat }}</h2>
+        <span class="count">{{ grouped[cat]|length }}건</span>
+      </div>
       {% for a in grouped[cat] %}
       {% include "_article_card.html" %}
       {% endfor %}
-    {% else %}
-      <div class="empty-note">최근 24시간 동안 새 소식이 없어요</div>
+    </section>
     {% endif %}
-  </section>
   {% endfor %}
 
   <footer class="site-footer">
     마케팅·브랜드·관심기업 뉴스 자동 브리핑 · 매일 자동 생성<br>
-    규칙 기반 요약 (AI 사용 안 함) · 최근 24시간 이내 발행 기사만 수록
+    규칙 기반 요약 (AI 사용 안 함) · 최근 48시간 이내 발행 기사만 수록
   </footer>
 </div>
+
+<script>
+(function () {
+  var buttons = document.querySelectorAll('.tab-btn');
+  var panels = document.querySelectorAll('.tab-panel');
+
+  function activate(targetId) {
+    panels.forEach(function (p) { p.style.display = (p.id === targetId) ? '' : 'none'; });
+    buttons.forEach(function (b) { b.classList.toggle('is-active', b.dataset.target === targetId); });
+  }
+
+  buttons.forEach(function (btn) {
+    btn.addEventListener('click', function () { activate(btn.dataset.target); });
+  });
+
+  if (buttons.length) { activate(buttons[0].dataset.target); }
+})();
+</script>
 </body>
 </html>
