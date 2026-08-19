@@ -14,16 +14,15 @@ from datetime import datetime, timedelta
 from jinja2 import Environment, FileSystemLoader
 from common import (
     BASE_DIR, DATA_DIR, DOCS_DIR, KST,
-    load_categories, load_json, save_json, today_str, rank_articles, dedupe_by_title, normalize_title,
+    load_categories, load_json, save_json, today_str,
+    rank_articles, dedupe_by_title, normalize_title,
+    pick_company_articles, MAX_PER_CATEGORY, MAX_COMPANY_TOTAL,
 )
 
 TEMPLATES_DIR = os.path.join(BASE_DIR, "templates")
 STATIC_DIR = os.path.join(BASE_DIR, "static")
 
 WEEKDAY_KO = ["월", "화", "수", "목", "금", "토", "일"]
-
-MAX_PER_CATEGORY = 3    # 카테고리별 최대 노출 건수
-MAX_COMPANY_TOTAL = 3   # 관심기업 섹션 전체 최대 노출 건수
 
 
 def label_for(date_str: str) -> str:
@@ -45,43 +44,6 @@ def build_highlight(company_count, cat_counts):
         if cnt:
             parts.append(f"{cat} {cnt}건")
     return " · ".join(parts) if parts else "오늘은 새 소식이 없어요"
-
-
-def pick_company_articles(articles, max_total):
-    """관심기업별로 골고루 섞어서 상위 max_total건만 뽑는다 (특정 기업 뉴스 쏠림 방지)."""
-    by_company = {}
-    for a in articles:
-        companies = a.get("companies") or []
-        if not companies:
-            continue
-        primary = companies[0]  # 여러 기업에 걸치면 첫 번째 기업 소속으로만 카운트
-        by_company.setdefault(primary, []).append(a)
-
-    for company in by_company:
-        by_company[company] = dedupe_by_title(rank_articles(by_company[company]))
-
-    picked, seen_links, seen_titles = [], set(), set()
-    idx = 0
-    companies_order = list(by_company.keys())
-    while len(picked) < max_total and companies_order:
-        progressed = False
-        for company in companies_order:
-            bucket = by_company[company]
-            if idx < len(bucket):
-                art = bucket[idx]
-                tkey = normalize_title(art.get("title", ""))
-                if art["link"] not in seen_links and tkey not in seen_titles:
-                    picked.append(art)
-                    seen_links.add(art["link"])
-                    if tkey:
-                        seen_titles.add(tkey)
-                    progressed = True
-                if len(picked) >= max_total:
-                    break
-        idx += 1
-        if not progressed:
-            break
-    return picked
 
 
 def main():
