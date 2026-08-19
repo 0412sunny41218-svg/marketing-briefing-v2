@@ -64,14 +64,18 @@ def ai_summarize_batch(items):
 
     lines = []
     for idx, title, text in items:
-        snippet = (text or title)[:500]
+        snippet = (text or title)[:900]
         lines.append(f"[{idx}] 제목: {title}\n본문 일부: {snippet}")
     joined = "\n\n".join(lines)
 
     prompt = (
         "다음은 여러 마케팅/브랜드 뉴스 기사의 제목과 본문 일부야.\n"
-        "각 기사를 한국어 1문장으로, 친근한 대화체(~했어요, ~해요체)로 자연스럽게 요약해줘.\n"
-        "군더더기 설명 없이 핵심 내용만 담고, 기사에 없는 내용은 지어내지 마.\n\n"
+        "각 기사를 한국어 2~3문장으로 요약해줘. 다음 흐름을 지켜줘:\n"
+        "1) 무슨 일이 있었는지(도입)\n"
+        "2) 구체적으로 어떤 내용인지(중간, 숫자·배경 등 핵심 디테일)\n"
+        "3) 그래서 어떻게 됐는지/무엇을 시사하는지(결론) - 본문에 결론성 정보가 없으면 이 문장은 생략해도 돼\n"
+        "친근한 대화체(~했어요, ~해요체)로 자연스럽게 써줘. "
+        "군더더기 표현 없이 정보 위주로 쓰고, 기사에 없는 내용은 지어내지 마.\n\n"
         f"{joined}\n\n"
         "반드시 아래 JSON 형식으로만 답해줘 (다른 설명 없이 JSON만):\n"
         '{"summaries": {"0": "요약문...", "1": "요약문...", ...}}'
@@ -87,7 +91,7 @@ def ai_summarize_batch(items):
             },
             json={
                 "model": MODEL,
-                "max_tokens": 1500,
+                "max_tokens": 3000,
                 "messages": [{"role": "user", "content": prompt}],
             },
             timeout=60,
@@ -150,16 +154,17 @@ def build_content_fallback(article) -> str:
     sentences = split_sentences(source_text)
     if not sentences:
         return to_conversational(source_text[:150])
-    picked = None
-    for s in sentences[:3]:
-        if s.strip() != article["title"].strip():
-            picked = s
-            break
-    if picked is None:
+
+    # 제목과 겹치는 문장은 건너뛰고, 최대 3문장(도입~중간~결론 느낌)까지 사용
+    picked = [s for s in sentences[:5] if s.strip() != article["title"].strip()][:3]
+    if not picked:
         return article["title"]
-    if len(picked) > 140:
-        picked = picked[:137].rstrip() + "..."
-    return to_conversational(picked)
+
+    converted = [to_conversational(s) for s in picked]
+    text = " ".join(converted)
+    if len(text) > 320:
+        text = text[:317].rstrip() + "..."
+    return text
 
 
 # ---------- 4) 실행 ----------
