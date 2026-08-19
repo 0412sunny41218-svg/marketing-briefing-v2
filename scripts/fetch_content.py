@@ -28,7 +28,7 @@ HEADERS = {
 TIMEOUT = 8
 MAX_WORKERS = 4
 MIN_PARAGRAPH_LEN = 30
-MAX_BODY_CHARS = 500
+MAX_BODY_CHARS = 900
 
 # 본문이 아닐 가능성이 높은 문단을 걸러내는 키워드 (기자명/저작권/구독안내/사이드바 목록 등)
 BOILERPLATE_PATTERNS = [
