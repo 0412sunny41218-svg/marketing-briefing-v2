@@ -32,8 +32,10 @@ jobs:
         working-directory: scripts
         run: python fetch_content.py
 
-      - name: 규칙 기반 요약 생성
+      - name: AI 요약 생성 (실패 시 규칙 기반으로 자동 대체)
         working-directory: scripts
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python summarize.py
 
       - name: 사이트 빌드
