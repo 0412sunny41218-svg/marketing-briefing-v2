@@ -97,6 +97,17 @@ def extract_body_text(html: str) -> str:
     return " ".join(result)
 
 
+def is_relevant_to_title(title: str, body: str, min_ratio: float = 0.3) -> bool:
+    """추출한 본문이 실제로 이 기사(제목)에 관한 내용인지 검증한다.
+    제목에서 의미 있는 단어(2글자 이상)를 뽑아, 그중 얼마나 본문에 등장하는지로 판단한다.
+    엉뚱한 기사 본문이 섞여 들어온 경우 여기서 걸러내는 게 목적."""
+    words = [w for w in re.split(r"[\s,·\-\(\)\[\]:…\"'“”‘’]+", title) if len(w) >= 2]
+    if not words:
+        return True  # 판단할 단어가 없으면 일단 통과시킴
+    hits = sum(1 for w in words if w in body)
+    return (hits / len(words)) >= min_ratio
+
+
 def fetch_one(article):
     try:
         real_url = resolve_real_url(article["link"])
@@ -105,8 +116,9 @@ def fetch_one(article):
         if resp.encoding is None or resp.encoding.lower() == "iso-8859-1":
             resp.encoding = resp.apparent_encoding
         body = extract_body_text(resp.text)
-        if len(body) >= 40:
+        if len(body) >= 40 and is_relevant_to_title(article["title"], body):
             article["body_text"] = body
+        # 관련성 낮으면 body_text를 아예 세팅하지 않음 -> summarize.py가 RSS 스니펫/제목으로 대체
     except Exception:
         pass
     return article
