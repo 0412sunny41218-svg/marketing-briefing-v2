@@ -5,6 +5,7 @@
 - 발행일이 최근 WINDOW_HOURS(기본 24시간) 이내인 기사만 남긴다
 - 링크 기준으로 중복 제거
 """
+import socket
 import feedparser
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
@@ -15,10 +16,20 @@ import os
 
 RSS_URL = "https://news.google.com/rss/search?q={query}&hl=ko&gl=KR&ceid=KR:ko"
 
+socket.setdefaulttimeout(10)  # 요청 하나가 무한정 멈춰있지 않도록 최대 대기시간 설정
+
 
 def fetch_query(query: str):
     url = RSS_URL.format(query=quote(query))
-    feed = feedparser.parse(url)
+    try:
+        feed = feedparser.parse(url)
+    except Exception as e:
+        print(f"  [실패] '{query}' 요청 중 예외 발생: {e}")
+        return []
+    status = getattr(feed, "status", None)
+    if getattr(feed, "bozo", 0):
+        print(f"  [경고] '{query}' 응답 파싱 이상 (status={status}): {getattr(feed, 'bozo_exception', '')}")
+    print(f"  '{query}' -> {len(feed.entries)}건 (status={status})")
     return feed.entries
 
 
