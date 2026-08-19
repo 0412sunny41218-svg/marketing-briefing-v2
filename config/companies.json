@@ -1,8 +1,8 @@
 {
-  "LG전자": ["LG전자", "LG Electronics", "엘지전자", "ThinQ", "씽큐"],
-  "삼성전자": ["삼성전자", "Samsung Electronics", "삼성", "갤럭시"],
-  "CJ제일제당": ["CJ제일제당", "CJ ENM", "CJ", "씨제이"],
-  "네이버": ["네이버", "NAVER", "네이버페이"],
-  "카카오": ["카카오", "Kakao", "카카오톡", "카카오페이"],
-  "삼성물산": ["삼성물산", "Samsung C&T", "래미안"]
+  "삼성물산": ["삼성물산", "Samsung C&T", "래미안"],
+  "삼성전자": ["삼성전자", "Samsung Electronics", "갤럭시"],
+  "삼성중공업": ["삼성중공업", "Samsung Heavy Industries"],
+  "한화오션": ["한화오션", "Hanwha Ocean", "대우조선해양"],
+  "HD현대": ["HD현대", "HD Hyundai", "현대중공업", "HD현대중공업"],
+  "LG전자": ["LG전자", "LG Electronics", "엘지전자", "ThinQ", "씽큐"]
 }
