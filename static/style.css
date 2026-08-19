@@ -191,6 +191,22 @@ body {
   white-space: nowrap;
   color: #fff;
 }
+.tab-btn {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  opacity: 0.45;
+  transition: opacity .15s ease;
+}
+.tab-btn.is-active {
+  opacity: 1;
+}
+.tab-btn:hover {
+  opacity: 0.75;
+}
+.tab-btn.is-active:hover {
+  opacity: 1;
+}
 
 .company-section {
   background: linear-gradient(160deg, #2B0F1F 0%, #4A1836 100%);
