@@ -55,6 +55,47 @@ def rank_articles(articles, major_outlets=None):
     return sorted_by_recency
 
 
+MAX_PER_CATEGORY = 3    # 카테고리별 최대 노출 건수
+MAX_COMPANY_TOTAL = 3   # 관심기업 섹션 전체 최대 노출 건수
+
+
+def pick_company_articles(articles, max_total=MAX_COMPANY_TOTAL):
+    """관심기업별로 골고루 섞어서 상위 max_total건만 뽑는다 (특정 기업 뉴스 쏠림 방지)."""
+    by_company = {}
+    for a in articles:
+        companies = a.get("companies") or []
+        if not companies:
+            continue
+        primary = companies[0]
+        by_company.setdefault(primary, []).append(a)
+
+    for company in by_company:
+        by_company[company] = dedupe_by_title(rank_articles(by_company[company]))
+
+    picked, seen_links, seen_titles = [], set(), set()
+    idx = 0
+    companies_order = list(by_company.keys())
+    while len(picked) < max_total and companies_order:
+        progressed = False
+        for company in companies_order:
+            bucket = by_company[company]
+            if idx < len(bucket):
+                art = bucket[idx]
+                tkey = normalize_title(art.get("title", ""))
+                if art["link"] not in seen_links and tkey not in seen_titles:
+                    picked.append(art)
+                    seen_links.add(art["link"])
+                    if tkey:
+                        seen_titles.add(tkey)
+                    progressed = True
+                if len(picked) >= max_total:
+                    break
+        idx += 1
+        if not progressed:
+            break
+    return picked
+
+
 def normalize_title(title: str) -> str:
     """제목 비교용 정규화: 공백/문장부호 제거"""
     if not title:
