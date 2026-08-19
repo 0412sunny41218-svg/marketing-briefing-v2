@@ -50,9 +50,13 @@ def select_candidates():
 
 
 def build_source_text(article) -> str:
+    """실제로 추출에 성공한 본문(body_text)만 신뢰할 수 있는 요약 재료로 취급한다.
+    RSS 설명(summary_raw)은 대부분 '제목+언론사 이름' 반복에 불과해 요약 재료로 부적합하므로 사용하지 않는다."""
     body = article.get("body_text", "")
-    raw = article.get("summary_raw", "")
-    return body if len(body) >= 40 else raw
+    return body if len(body) >= 40 else ""
+
+
+MIN_SOURCE_LEN_FOR_AI = 60  # 이보다 짧은 원문(제목+언론사 정도)은 AI한테 보내지 않고 바로 제목으로 대체
 
 
 # ---------- 2) AI 요약 (Claude Haiku, 여러 건을 한 번에 요청) ----------
@@ -76,6 +80,10 @@ def ai_summarize_batch(items):
         "3) 그래서 어떻게 됐는지/무엇을 시사하는지(결론) - 본문에 결론성 정보가 없으면 이 문장은 생략해도 돼\n"
         "친근한 대화체(~했어요, ~해요체)로 자연스럽게 써줘. "
         "군더더기 표현 없이 정보 위주로 쓰고, 기사에 없는 내용은 지어내지 마.\n\n"
+        "만약 '본문 일부'가 제목과 명백히 관련 없는 다른 기사 내용이라면(추출 과정에서 잘못 섞인 경우),\n"
+        "그 사실을 설명하는 문장을 쓰지 말고, 대신 제목만 바탕으로 아주 짧게 1문장 요약해줘.\n"
+        "(예: '~에 대한 소식이에요.' 처럼 담백하게) 절대 '요약이 불가능합니다', '관련 없는 내용입니다' 같은 "
+        "메타 설명 문장을 출력하지 마 - 항상 자연스러운 요약 문장 형태로만 답해.\n\n"
         f"{joined}\n\n"
         "반드시 아래 JSON 형식으로만 답해줘 (다른 설명 없이 JSON만):\n"
         '{"summaries": {"0": "요약문...", "1": "요약문...", ...}}'
@@ -149,7 +157,7 @@ def to_conversational(sentence: str) -> str:
 
 def build_content_fallback(article) -> str:
     source_text = build_source_text(article)
-    if not source_text or len(source_text) < 5:
+    if not source_text or len(source_text) < MIN_SOURCE_LEN_FOR_AI:
         return article["title"]
     sentences = split_sentences(source_text)
     if not sentences:
@@ -169,15 +177,47 @@ def build_content_fallback(article) -> str:
 
 # ---------- 4) 실행 ----------
 
+# AI가 실수로라도 이런 '메타 설명' 문장을 내놓으면, 사용자에게 보여주지 않고 대체 처리한다
+MISMATCH_MARKERS = [
+    "요약이 불가능", "관련 없는", "본문이 제목과", "제목과 관련 없", "일치하지 않",
+    "충분하지 않", "요약할 수 없", "요약이 어려", "제공되지 않", "확인할 수 없",
+    "정보가 부족", "내용이 부족",
+]
+
+
+def is_meta_explanation(summary: str) -> bool:
+    if not summary:
+        return False
+    if any(marker in summary for marker in MISMATCH_MARKERS):
+        return True
+    # 정상적인 뉴스 요약이라면 스스로를 '본문'/'요약'이라고 지칭할 일이 거의 없다
+    if "본문" in summary or ("요약" in summary and len(summary) < 60):
+        return True
+    return False
+
+
 def enrich():
     selected = select_candidates()
 
-    items = [(i, a["title"], build_source_text(a)) for i, a in enumerate(selected)]
-    ai_results = ai_summarize_batch(items)
+    # 본문이 충분히 확보된 기사만 AI 요약 대상으로 보낸다 (재료가 부족한 기사를 AI에게 보내면
+    # 표현만 다를 뿐 결국 '요약할 수 없다'는 취지의 문장이 나오게 되므로, 애초에 보내지 않는다)
+    ai_targets = []
+    for i, a in enumerate(selected):
+        source_text = build_source_text(a)
+        if len(source_text) >= MIN_SOURCE_LEN_FOR_AI:
+            ai_targets.append((i, a["title"], source_text))
+
+    ai_results = ai_summarize_batch(ai_targets)
 
     for i, a in enumerate(selected):
         summary = ai_results.get(i, "").strip() if ai_results else ""
-        a["content_summary"] = summary if summary else build_content_fallback(a)
+        if is_meta_explanation(summary):
+            # 혹시라도 AI가 이상한 설명을 내놓으면(예외적인 경우) 제목으로 조용히 대체
+            summary = a["title"]
+        elif not summary:
+            # AI 대상이 아니었거나(재료 부족) API 실패 -> 규칙 기반으로 대체
+            summary = build_content_fallback(a)
+        a["content_summary"] = summary
 
     out = os.path.join(DATA_DIR, "articles_enriched.json")
     save_json(out, selected)
