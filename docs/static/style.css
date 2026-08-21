@@ -317,3 +317,24 @@ footer.site-footer {
   .hero h1 { font-size: 22px; }
   .wrap { padding: 0 16px 48px; }
 }
+
+/* ---------- 저장 버튼 ---------- */
+.save-btn {
+  margin-left: auto;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  color: var(--ink-soft);
+  padding: 2px 4px;
+}
+.save-btn.saved {
+  color: var(--blue);
+}
+.company-section .save-btn {
+  color: #D9A6BE;
+}
+.company-section .save-btn.saved {
+  color: var(--company-accent);
+}
