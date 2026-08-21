@@ -10,14 +10,13 @@
 <div class="wrap">
   <div class="topbar">
     <a class="back-link" href="../index.html">← 홈으로</a>
+    <a class="back-link" href="../saved.html" style="margin-left:12px;">⭐ 저장한 기사</a>
   </div>
-
   <div class="briefing-header">
     <div class="date-eyebrow" style="color:var(--ink-soft);font-size:13px;">TODAY BRIEFING</div>
     <div class="briefing-date">{{ label }}</div>
     <div class="window-note">최근 48시간 이내 발행된 기사만 모았어요</div>
   </div>
-
   <div class="pill-row" id="tab-row">
     {% if company_articles %}
     <button type="button" class="pill tab-btn is-active" data-target="panel-company" style="background:#12172B;">🎯 관심기업</button>
@@ -29,7 +28,6 @@
       {% endif %}
     {% endfor %}
   </div>
-
   {% if company_articles %}
   <section class="company-section tab-panel" id="panel-company">
     <div class="section-title">🎯 관심기업 뉴스</div>
@@ -39,7 +37,6 @@
     {% endfor %}
   </section>
   {% endif %}
-
   {% for cat, conf in categories.items() %}
     {% if grouped[cat] %}
     <section class="category-block tab-panel" id="panel-cat-{{ loop.index0 }}">
@@ -54,29 +51,25 @@
     </section>
     {% endif %}
   {% endfor %}
-
   <footer class="site-footer">
     마케팅·브랜드·관심기업 뉴스 자동 브리핑 · 매일 자동 생성<br>
     규칙 기반 요약 (AI 사용 안 함) · 최근 48시간 이내 발행 기사만 수록
   </footer>
 </div>
-
 <script>
 (function () {
   var buttons = document.querySelectorAll('.tab-btn');
   var panels = document.querySelectorAll('.tab-panel');
-
   function activate(targetId) {
     panels.forEach(function (p) { p.style.display = (p.id === targetId) ? '' : 'none'; });
     buttons.forEach(function (b) { b.classList.toggle('is-active', b.dataset.target === targetId); });
   }
-
   buttons.forEach(function (btn) {
     btn.addEventListener('click', function () { activate(btn.dataset.target); });
   });
-
   if (buttons.length) { activate(buttons[0].dataset.target); }
 })();
 </script>
+<script src="../static/saved.js"></script>
 </body>
 </html>
