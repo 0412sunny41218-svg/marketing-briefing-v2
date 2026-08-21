@@ -5,6 +5,7 @@ docs/ 폴더에 정적 HTML 사이트를 생성한다 (GitHub Pages 배포용).
 - docs/index.html            : 홈 (오늘 브리핑 버튼 + 최근 업데이트)
 - docs/briefing/YYYY-MM-DD.html : 그날의 브리핑 상세
 - docs/archive/index.html    : 전체 브리핑 목록
+- docs/saved.html            : 저장한 기사 모아보기 (브라우저 localStorage 기반)
 - data/history.json          : 브리핑 발행 이력 (다음 실행에서도 유지되도록 커밋됨)
 """
 import os
@@ -107,6 +108,9 @@ def main():
     )
     with open(os.path.join(DOCS_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write(index_html)
+
+    # ---- 저장한 기사 페이지 (내용은 고정, 매번 그대로 복사) ----
+    shutil.copy(os.path.join(TEMPLATES_DIR, "saved.html"), os.path.join(DOCS_DIR, "saved.html"))
 
     # ---- 아카이브 페이지 ----
     archive_tpl = env.get_template("archive.html")
