@@ -1,8 +1,9 @@
-<div class="article-card">
+<div class="article-card" data-link="{{ a.link }}" data-title="{{ a.title }}" data-source="{{ a.source }}" data-summary="{{ a.content_summary }}">
   <div class="article-source">
     <span class="source-dot"></span>
     <span>{{ a.source }}</span>
     {% if a.companies %}<span>· {{ a.companies|join(', ') }}</span>{% endif %}
+    <button type="button" class="save-btn" onclick="toggleSave(this)" aria-label="저장">☆</button>
   </div>
   <div class="article-title">{{ a.title }}</div>
   <div class="info-box">
