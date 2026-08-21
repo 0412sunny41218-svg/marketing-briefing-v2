@@ -37,15 +37,32 @@
     return;
   }
 
+  function formatSavedDate(iso) {
+    try {
+      var d = new Date(iso);
+      var y = d.getFullYear();
+      var m = d.getMonth() + 1;
+      var day = d.getDate();
+      var hh = String(d.getHours()).padStart(2, "0");
+      var mm = String(d.getMinutes()).padStart(2, "0");
+      return y + "년 " + m + "월 " + day + "일 " + hh + ":" + mm + " 저장";
+    } catch (e) {
+      return "";
+    }
+  }
+
   list.slice().reverse().forEach(function (a) {
     var div = document.createElement("div");
     div.className = "article-card";
     div.dataset.link = a.link;
 
+    var savedLabel = formatSavedDate(a.savedAt);
+
     div.innerHTML =
       '<div class="article-source">' +
         '<span class="source-dot"></span>' +
         '<span>' + a.source + '</span>' +
+        (savedLabel ? '<span style="margin-left:6px;">· ' + savedLabel + '</span>' : '') +
         '<button type="button" class="save-btn saved" aria-label="저장 취소">★</button>' +
       '</div>' +
       '<div class="article-title">' + a.title + '</div>' +
