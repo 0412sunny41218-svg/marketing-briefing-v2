@@ -37,18 +37,11 @@
     return;
   }
 
-  function formatSavedDate(iso) {
-    try {
-      var d = new Date(iso);
-      var y = d.getFullYear();
-      var m = d.getMonth() + 1;
-      var day = d.getDate();
-      var hh = String(d.getHours()).padStart(2, "0");
-      var mm = String(d.getMinutes()).padStart(2, "0");
-      return y + "년 " + m + "월 " + day + "일 " + hh + ":" + mm + " 저장";
-    } catch (e) {
-      return "";
-    }
+  function formatPublishedDate(dateStr) {
+    if (!dateStr) return "";
+    var parts = dateStr.split("-");
+    if (parts.length !== 3) return "";
+    return parts[0] + "년 " + parseInt(parts[1], 10) + "월 " + parseInt(parts[2], 10) + "일 발행";
   }
 
   list.slice().reverse().forEach(function (a) {
@@ -56,13 +49,13 @@
     div.className = "article-card";
     div.dataset.link = a.link;
 
-    var savedLabel = formatSavedDate(a.savedAt);
+    var dateLabel = formatPublishedDate(a.date);
 
     div.innerHTML =
       '<div class="article-source">' +
         '<span class="source-dot"></span>' +
         '<span>' + a.source + '</span>' +
-        (savedLabel ? '<span style="margin-left:6px;">· ' + savedLabel + '</span>' : '') +
+        (dateLabel ? '<span style="margin-left:6px;">· ' + dateLabel + '</span>' : '') +
         '<button type="button" class="save-btn saved" aria-label="저장 취소">★</button>' +
       '</div>' +
       '<div class="article-title">' + a.title + '</div>' +
