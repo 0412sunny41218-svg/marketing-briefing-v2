@@ -31,7 +31,7 @@
         title: card.dataset.title,
         source: card.dataset.source,
         summary: card.dataset.summary,
-        savedAt: new Date().toISOString(),
+        date: card.dataset.date, // 기사가 실린 브리핑 발행일 (YYYY-MM-DD)
       });
       btn.textContent = "★";
       btn.classList.add("saved");
